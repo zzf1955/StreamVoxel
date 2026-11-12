@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "streamvoxel"
+version = "0.1.0"
+description = "StreamVoxel: real-time streaming generation of unbounded voxel worlds with masked diffusion"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+    "torch>=2.7",
+    "numpy",
+    "pyyaml",
+    "zstandard",
+]
+
+[project.optional-dependencies]
+# Fused entropy/selection kernels of the streaming backend (GPU, Linux).
+triton = ["triton"]
+# Evaluation: rank AUROC (state_probe), top-down render and LPIPS (stream_rollout).
+eval = ["scipy", "pillow", "lpips"]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+include = ["streamvoxel*", "viewer*"]
+
+[tool.setuptools.package-data]
+"streamvoxel.common" = ["*.json"]
+"viewer" = ["*.js", "*.java"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

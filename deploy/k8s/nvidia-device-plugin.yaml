@@ -1,0 +1,74 @@
+# NVIDIA k8s-device-plugin v0.17.0 DaemonSet for a kind node without the nvidia containerd runtime.
+# Uses CDI: the plugin generates a CDI spec under /var/run/cdi in the node and workload pods get their
+# GPU through CDI annotations returned by Allocate. The plugin itself is not privileged: it uses RuntimeClass
+# svgpu (deploy/k8s/runtimeclass-svgpu.yaml, handler defined by deploy/kind/gpu-setup.sh), which adds only the
+# allowed GPU's device nodes, and mounts the node root at /driver-root to reach NVML.
+# Image is loaded into the node (kind load docker-image); the node cannot pull from registries.
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: nvidia-device-plugin-daemonset
+  namespace: kube-system
+spec:
+  selector:
+    matchLabels:
+      name: nvidia-device-plugin-ds
+  updateStrategy:
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        name: nvidia-device-plugin-ds
+    spec:
+      tolerations:
+        - key: nvidia.com/gpu
+          operator: Exists
+          effect: NoSchedule
+        - key: node-role.kubernetes.io/control-plane
+          operator: Exists
+          effect: NoSchedule
+      priorityClassName: system-node-critical
+      runtimeClassName: svgpu
+      containers:
+        - name: nvidia-device-plugin-ctr
+          image: nvcr.io/nvidia/k8s-device-plugin:v0.17.0
+          imagePullPolicy: IfNotPresent
+          env:
+            - name: FAIL_ON_INIT_ERROR
+              value: "false"
+            - name: DEVICE_LIST_STRATEGY
+              value: cdi-annotations
+            - name: NVIDIA_CDI_HOOK_PATH
+              value: /usr/bin/nvidia-cdi-hook
+            - name: NVIDIA_DRIVER_ROOT
+              value: /
+            - name: CONTAINER_DRIVER_ROOT
+              value: /driver-root
+          securityContext:
+            allowPrivilegeEscalation: false
+          volumeMounts:
+            - name: device-plugin
+              mountPath: /var/lib/kubelet/device-plugins
+            - name: cdi
+              mountPath: /var/run/cdi
+            - name: driver-root
+              mountPath: /driver-root
+              readOnly: true
+            - name: nvml
+              mountPath: /usr/lib64/libnvidia-ml.so.1
+              readOnly: true
+      volumes:
+        - name: nvml
+          hostPath:
+            path: /usr/lib/x86_64-linux-gnu/libnvidia-ml.so.1
+            type: File
+        - name: driver-root
+          hostPath:
+            path: /
+        - name: device-plugin
+          hostPath:
+            path: /var/lib/kubelet/device-plugins
+        - name: cdi
+          hostPath:
+            path: /var/run/cdi
+            type: DirectoryOrCreate

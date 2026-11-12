@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+
+# Internal working notes
+.dev/
+
+# Weights, data, outputs
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npy
+*.npz
+*.zip
+*.zst
+data/
+runs/
+checkpoints/
+weights/
+outputs/
+
+# Minecraft artifacts (never redistributed)
+*.jar
+server.properties
+eula.txt
+world/
+server_hook/
+node_modules/
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/

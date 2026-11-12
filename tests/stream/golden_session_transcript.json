@@ -1,0 +1,2549 @@
+{
+ "dynamic": {
+  "applied": {
+   "batch": 5,
+   "epoch": 0,
+   "idle": 1,
+   "inflight": 3,
+   "mean_nfe": 0,
+   "mode": "dynamic",
+   "paused": false,
+   "slots": 8,
+   "steps": 32,
+   "windows": 0,
+   "world": 1
+  },
+  "sent": [
+   [
+    [
+     "pick",
+     0,
+     [
+      [
+       0,
+       [
+        -1,
+        0
+       ]
+      ],
+      [
+       1,
+       [
+        1,
+        -1
+       ]
+      ],
+      [
+       2,
+       [
+        -1,
+        2
+       ]
+      ]
+     ],
+     {
+      "batch": 5,
+      "cap": 32,
+      "mode": "dynamic",
+      "sleep": 0.02,
+      "world": 1
+     }
+    ],
+    [
+     "commit",
+     0,
+     [
+      -1,
+      0
+     ],
+     [
+      "nd",
+      [
+       4,
+       2,
+       2
+      ],
+      "int16",
+      48
+     ]
+    ],
+    [
+     "pick",
+     0,
+     [
+      [
+       0,
+       [
+        -1,
+        -1
+       ]
+      ]
+     ],
+     {
+      "batch": 5,
+      "cap": 32,
+      "mode": "dynamic",
+      "sleep": 0.02,
+      "world": 1
+     }
+    ]
+   ],
+   [
+    [
+     "pick",
+     0,
+     [
+      [
+       0,
+       [
+        3,
+        -1
+       ]
+      ],
+      [
+       1,
+       [
+        0,
+        4
+       ]
+      ]
+     ],
+     {
+      "batch": 5,
+      "cap": 32,
+      "mode": "dynamic",
+      "sleep": 0.02,
+      "world": 1
+     }
+    ],
+    [
+     "commit",
+     0,
+     [
+      -1,
+      0
+     ],
+     [
+      "nd",
+      [
+       4,
+       2,
+       2
+      ],
+      "int16",
+      48
+     ]
+    ],
+    [
+     "pick",
+     0,
+     [],
+     {
+      "batch": 5,
+      "cap": 32,
+      "mode": "dynamic",
+      "sleep": 0.02,
+      "world": 1
+     }
+    ]
+   ]
+  ],
+  "state": {
+   "batch_joined": [],
+   "batch_open": false,
+   "cells": [
+    [
+     -1,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     0
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     3
+    ]
+   ],
+   "commit_seqs": [
+    6
+   ],
+   "epoch": 0,
+   "errors": [],
+   "generated": 1,
+   "inflight": [
+    [
+     -1,
+     -1
+    ],
+    [
+     -1,
+     2
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     -1
+    ],
+    [
+     3,
+     -1
+    ]
+   ],
+   "stopping": false,
+   "world": 1
+  },
+  "wire": [
+   {
+    "gpu": 0,
+    "kind": "window_start",
+    "seq": 0,
+    "slot": 0,
+    "target": [
+     -1,
+     0
+    ]
+   },
+   {
+    "gpu": 0,
+    "kind": "window_start",
+    "seq": 1,
+    "slot": 1,
+    "target": [
+     1,
+     -1
+    ]
+   },
+   {
+    "gpu": 0,
+    "kind": "window_start",
+    "seq": 2,
+    "slot": 2,
+    "target": [
+     -1,
+     2
+    ]
+   },
+   {
+    "gpu": 1,
+    "kind": "window_start",
+    "seq": 3,
+    "slot": 0,
+    "target": [
+     3,
+     -1
+    ]
+   },
+   {
+    "gpu": 1,
+    "kind": "window_start",
+    "seq": 4,
+    "slot": 1,
+    "target": [
+     0,
+     4
+    ]
+   },
+   {
+    "cap": 8,
+    "committed": 1,
+    "forward": 1,
+    "frames": [
+     {
+      "row": 0
+     }
+    ],
+    "gpu": 0,
+    "inflight": 4,
+    "kind": "frame",
+    "seq": 5,
+    "slots": 8,
+    "world": 1
+   },
+   {
+    "kind": "window_commit",
+    "nfe": 6,
+    "seq": 6,
+    "target": [
+     -1,
+     0
+    ]
+   }
+  ]
+ },
+ "fixed": {
+  "applied": {
+   "batch": 4,
+   "epoch": 0,
+   "idle": 2,
+   "inflight": 2,
+   "mean_nfe": 0,
+   "mode": "fixed",
+   "paused": false,
+   "slots": 8,
+   "steps": 32,
+   "windows": 0,
+   "world": 1
+  },
+  "sent": [
+   [
+    [
+     "pick",
+     0,
+     [
+      [
+       0,
+       [
+        -1,
+        0
+       ]
+      ],
+      [
+       1,
+       [
+        1,
+        -1
+       ]
+      ]
+     ],
+     {
+      "batch": 4,
+      "cap": 32,
+      "mode": "fixed",
+      "sleep": 0.02,
+      "world": 1
+     }
+    ],
+    [
+     "pick",
+     0,
+     [],
+     {
+      "batch": 4,
+      "cap": 32,
+      "mode": "fixed",
+      "sleep": 0.02,
+      "world": 1
+     }
+    ],
+    [
+     "commit",
+     0,
+     [
+      -1,
+      0
+     ],
+     [
+      "nd",
+      [
+       4,
+       2,
+       2
+      ],
+      "int16",
+      48
+     ]
+    ],
+    [
+     "commit",
+     0,
+     [
+      1,
+      -1
+     ],
+     [
+      "nd",
+      [
+       4,
+       2,
+       2
+      ],
+      "int16",
+      48
+     ]
+    ],
+    [
+     "commit",
+     0,
+     [
+      -1,
+      2
+     ],
+     [
+      "nd",
+      [
+       4,
+       2,
+       2
+      ],
+      "int16",
+      48
+     ]
+    ],
+    [
+     "commit",
+     0,
+     [
+      3,
+      -1
+     ],
+     [
+      "nd",
+      [
+       4,
+       2,
+       2
+      ],
+      "int16",
+      48
+     ]
+    ],
+    [
+     "pick",
+     0,
+     [
+      [
+       0,
+       [
+        2,
+        -1
+       ]
+      ],
+      [
+       1,
+       [
+        -2,
+        -1
+       ]
+      ]
+     ],
+     {
+      "batch": 4,
+      "cap": 32,
+      "mode": "fixed",
+      "sleep": 0.02,
+      "world": 1
+     }
+    ]
+   ],
+   [
+    [
+     "pick",
+     0,
+     [
+      [
+       0,
+       [
+        -1,
+        2
+       ]
+      ],
+      [
+       1,
+       [
+        3,
+        -1
+       ]
+      ]
+     ],
+     {
+      "batch": 4,
+      "cap": 32,
+      "mode": "fixed",
+      "sleep": 0.02,
+      "world": 1
+     }
+    ],
+    [
+     "commit",
+     0,
+     [
+      -1,
+      0
+     ],
+     [
+      "nd",
+      [
+       4,
+       2,
+       2
+      ],
+      "int16",
+      48
+     ]
+    ],
+    [
+     "commit",
+     0,
+     [
+      1,
+      -1
+     ],
+     [
+      "nd",
+      [
+       4,
+       2,
+       2
+      ],
+      "int16",
+      48
+     ]
+    ],
+    [
+     "commit",
+     0,
+     [
+      -1,
+      2
+     ],
+     [
+      "nd",
+      [
+       4,
+       2,
+       2
+      ],
+      "int16",
+      48
+     ]
+    ],
+    [
+     "commit",
+     0,
+     [
+      3,
+      -1
+     ],
+     [
+      "nd",
+      [
+       4,
+       2,
+       2
+      ],
+      "int16",
+      48
+     ]
+    ],
+    [
+     "pick",
+     0,
+     [
+      [
+       0,
+       [
+        -1,
+        1
+       ]
+      ],
+      [
+       1,
+       [
+        0,
+        -1
+       ]
+      ]
+     ],
+     {
+      "batch": 4,
+      "cap": 32,
+      "mode": "fixed",
+      "sleep": 0.02,
+      "world": 1
+     }
+    ]
+   ]
+  ],
+  "state": {
+   "batch_joined": [
+    0,
+    1
+   ],
+   "batch_open": false,
+   "cells": [
+    [
+     -1,
+     0
+    ],
+    [
+     -1,
+     2
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     -1
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     -1
+    ],
+    [
+     3,
+     0
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     3
+    ]
+   ],
+   "commit_seqs": [],
+   "epoch": 0,
+   "errors": [],
+   "generated": 4,
+   "inflight": [
+    [
+     -2,
+     -1
+    ],
+    [
+     -1,
+     1
+    ],
+    [
+     0,
+     -1
+    ],
+    [
+     2,
+     -1
+    ]
+   ],
+   "stopping": false,
+   "world": 1
+  },
+  "wire": []
+ },
+ "headless": {
+  "applied": {
+   "batch": 4,
+   "epoch": 0,
+   "idle": 2,
+   "inflight": 2,
+   "mean_nfe": 0,
+   "mode": "dynamic",
+   "paused": false,
+   "slots": 8,
+   "steps": 32,
+   "windows": 0,
+   "world": 1
+  },
+  "sent": [
+   [
+    [
+     "pick",
+     0,
+     [
+      [
+       0,
+       [
+        -1,
+        0
+       ]
+      ],
+      [
+       1,
+       [
+        1,
+        -1
+       ]
+      ]
+     ],
+     {
+      "batch": 4,
+      "cap": 32,
+      "mode": "dynamic",
+      "sleep": 0.02,
+      "world": 1
+     }
+    ],
+    [
+     "commit",
+     0,
+     [
+      -1,
+      0
+     ],
+     [
+      "nd",
+      [
+       4,
+       2,
+       2
+      ],
+      "int16",
+      48
+     ]
+    ],
+    [
+     "commit",
+     0,
+     [
+      1,
+      -1
+     ],
+     [
+      "nd",
+      [
+       4,
+       2,
+       2
+      ],
+      "int16",
+      48
+     ]
+    ],
+    [
+     "stop"
+    ],
+    [
+     "pick",
+     0,
+     [],
+     {
+      "batch": 4,
+      "cap": 32,
+      "mode": "dynamic",
+      "sleep": 0.05,
+      "world": 1
+     }
+    ]
+   ],
+   [
+    [
+     "commit",
+     0,
+     [
+      -1,
+      0
+     ],
+     [
+      "nd",
+      [
+       4,
+       2,
+       2
+      ],
+      "int16",
+      48
+     ]
+    ],
+    [
+     "commit",
+     0,
+     [
+      1,
+      -1
+     ],
+     [
+      "nd",
+      [
+       4,
+       2,
+       2
+      ],
+      "int16",
+      48
+     ]
+    ],
+    [
+     "stop"
+    ]
+   ]
+  ],
+  "state": {
+   "batch_joined": [],
+   "batch_open": false,
+   "cells": [
+    [
+     -1,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     -1
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     0
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     3
+    ]
+   ],
+   "commit_seqs": [],
+   "epoch": 0,
+   "errors": [],
+   "generated": 2,
+   "inflight": [],
+   "stopping": true,
+   "world": 1
+  },
+  "wire": []
+ },
+ "paused_limits": {
+  "applied": {
+   "batch": 2,
+   "epoch": 0,
+   "idle": 4,
+   "inflight": 0,
+   "mean_nfe": 0,
+   "mode": "dynamic",
+   "paused": true,
+   "slots": 8,
+   "steps": 32,
+   "windows": 0,
+   "world": 1
+  },
+  "sent": [
+   [
+    [
+     "pick",
+     0,
+     [],
+     {
+      "batch": 2,
+      "cap": 32,
+      "mode": "dynamic",
+      "sleep": 0.02,
+      "world": 1
+     }
+    ],
+    [
+     "pick",
+     0,
+     [
+      [
+       0,
+       [
+        -1,
+        0
+       ]
+      ]
+     ],
+     {
+      "batch": 2,
+      "cap": 32,
+      "mode": "dynamic",
+      "sleep": 0.02,
+      "world": 1
+     }
+    ],
+    [
+     "stop"
+    ]
+   ],
+   [
+    [
+     "pick",
+     0,
+     [
+      [
+       0,
+       [
+        1,
+        -1
+       ]
+      ]
+     ],
+     {
+      "batch": 2,
+      "cap": 32,
+      "mode": "dynamic",
+      "sleep": 0.02,
+      "world": 1
+     }
+    ],
+    [
+     "stop"
+    ]
+   ]
+  ],
+  "state": {
+   "batch_joined": [],
+   "batch_open": false,
+   "cells": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     0
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     3
+    ]
+   ],
+   "commit_seqs": [],
+   "epoch": 0,
+   "errors": [
+    "x"
+   ],
+   "generated": 0,
+   "inflight": [
+    [
+     -1,
+     0
+    ],
+    [
+     1,
+     -1
+    ]
+   ],
+   "stopping": true,
+   "world": 1
+  },
+  "wire": []
+ },
+ "reset": {
+  "applied": {
+   "batch": 2,
+   "epoch": 0,
+   "idle": 3,
+   "inflight": 1,
+   "mean_nfe": 0,
+   "mode": "dynamic",
+   "paused": false,
+   "slots": 8,
+   "steps": 32,
+   "windows": 0,
+   "world": 1
+  },
+  "sent": [
+   [
+    [
+     "pick",
+     0,
+     [
+      [
+       0,
+       [
+        -1,
+        0
+       ]
+      ]
+     ],
+     {
+      "batch": 2,
+      "cap": 32,
+      "mode": "dynamic",
+      "sleep": 0.02,
+      "world": 1
+     }
+    ],
+    [
+     "commit",
+     0,
+     [
+      -1,
+      0
+     ],
+     [
+      "nd",
+      [
+       4,
+       2,
+       2
+      ],
+      "int16",
+      48
+     ]
+    ],
+    [
+     "reset",
+     1,
+     1,
+     {
+      "(0, 0)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(0, 1)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(0, 2)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(0, 3)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(1, 0)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(1, 1)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(1, 2)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(1, 3)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(2, 0)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(2, 1)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(2, 2)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(2, 3)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(3, 0)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(3, 1)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(3, 2)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(3, 3)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ]
+     },
+     [
+      "nd",
+      [
+       1,
+       2,
+       2
+      ],
+      "int16",
+      0
+     ]
+    ],
+    [
+     "reset",
+     2,
+     3,
+     {
+      "(0, 0)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(0, 1)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(0, 2)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(0, 3)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(1, 0)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(1, 1)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(1, 2)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(1, 3)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(2, 0)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(2, 1)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(2, 2)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(2, 3)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(3, 0)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(3, 1)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(3, 2)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(3, 3)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ]
+     },
+     [
+      "nd",
+      [
+       1,
+       2,
+       2
+      ],
+      "int16",
+      0
+     ]
+    ],
+    [
+     "pick",
+     2,
+     [
+      [
+       0,
+       [
+        -1,
+        0
+       ]
+      ]
+     ],
+     {
+      "batch": 2,
+      "cap": 32,
+      "mode": "dynamic",
+      "sleep": 0.02,
+      "world": 3
+     }
+    ]
+   ],
+   [
+    [
+     "commit",
+     0,
+     [
+      -1,
+      0
+     ],
+     [
+      "nd",
+      [
+       4,
+       2,
+       2
+      ],
+      "int16",
+      48
+     ]
+    ],
+    [
+     "reset",
+     1,
+     1,
+     {
+      "(0, 0)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(0, 1)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(0, 2)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(0, 3)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(1, 0)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(1, 1)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(1, 2)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(1, 3)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(2, 0)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(2, 1)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(2, 2)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(2, 3)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(3, 0)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(3, 1)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(3, 2)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ],
+      "(3, 3)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       16
+      ]
+     },
+     [
+      "nd",
+      [
+       1,
+       2,
+       2
+      ],
+      "int16",
+      0
+     ]
+    ],
+    [
+     "reset",
+     2,
+     3,
+     {
+      "(0, 0)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(0, 1)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(0, 2)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(0, 3)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(1, 0)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(1, 1)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(1, 2)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(1, 3)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(2, 0)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(2, 1)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(2, 2)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(2, 3)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(3, 0)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(3, 1)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(3, 2)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ],
+      "(3, 3)": [
+       "nd",
+       [
+        4,
+        2,
+        2
+       ],
+       "int16",
+       48
+      ]
+     },
+     [
+      "nd",
+      [
+       1,
+       2,
+       2
+      ],
+      "int16",
+      0
+     ]
+    ]
+   ]
+  ],
+  "state": {
+   "batch_joined": [],
+   "batch_open": false,
+   "cells": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     0
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     3
+    ]
+   ],
+   "commit_seqs": [],
+   "epoch": 2,
+   "errors": [],
+   "generated": 0,
+   "inflight": [
+    [
+     -1,
+     0
+    ]
+   ],
+   "stopping": false,
+   "world": 3
+  },
+  "wire": [
+   {
+    "clear": [
+     [
+      -1,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      0
+     ],
+     [
+      1,
+      1
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      2,
+      1
+     ],
+     [
+      2,
+      2
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      3,
+      0
+     ],
+     [
+      3,
+      1
+     ],
+     [
+      3,
+      2
+     ],
+     [
+      3,
+      3
+     ]
+    ],
+    "epoch": 1,
+    "frames": [
+     {
+      "committed": 16,
+      "row": 0,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAldAAAAAGqyNMZAAAAAAACI03M7+3VZ3gABJUBcJKm+H7bzfQEAAAAABFla",
+      "sparse_sha256": "682deed6da83cc19e94e3d6d660149dcf5a8a379dedd3ad3652352561dd0bac0",
+      "step": 0,
+      "target": [
+       0,
+       0
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 1,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAldAAAAAGqyNMZAAAAAAACI03M7+3VZ3gABJUBcJKm+H7bzfQEAAAAABFla",
+      "sparse_sha256": "682deed6da83cc19e94e3d6d660149dcf5a8a379dedd3ad3652352561dd0bac0",
+      "step": 0,
+      "target": [
+       0,
+       1
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 2,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAldAAAAAGqyNMZAAAAAAACI03M7+3VZ3gABJUBcJKm+H7bzfQEAAAAABFla",
+      "sparse_sha256": "682deed6da83cc19e94e3d6d660149dcf5a8a379dedd3ad3652352561dd0bac0",
+      "step": 0,
+      "target": [
+       0,
+       2
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 3,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAldAAAAAGqyNMZAAAAAAACI03M7+3VZ3gABJUBcJKm+H7bzfQEAAAAABFla",
+      "sparse_sha256": "682deed6da83cc19e94e3d6d660149dcf5a8a379dedd3ad3652352561dd0bac0",
+      "step": 0,
+      "target": [
+       0,
+       3
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 4,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAldAAAAAGqyNMZAAAAAAACI03M7+3VZ3gABJUBcJKm+H7bzfQEAAAAABFla",
+      "sparse_sha256": "682deed6da83cc19e94e3d6d660149dcf5a8a379dedd3ad3652352561dd0bac0",
+      "step": 0,
+      "target": [
+       1,
+       0
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 5,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAldAAAAAGqyNMZAAAAAAACI03M7+3VZ3gABJUBcJKm+H7bzfQEAAAAABFla",
+      "sparse_sha256": "682deed6da83cc19e94e3d6d660149dcf5a8a379dedd3ad3652352561dd0bac0",
+      "step": 0,
+      "target": [
+       1,
+       1
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 6,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAldAAAAAGqyNMZAAAAAAACI03M7+3VZ3gABJUBcJKm+H7bzfQEAAAAABFla",
+      "sparse_sha256": "682deed6da83cc19e94e3d6d660149dcf5a8a379dedd3ad3652352561dd0bac0",
+      "step": 0,
+      "target": [
+       1,
+       2
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 7,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAldAAAAAGqyNMZAAAAAAACI03M7+3VZ3gABJUBcJKm+H7bzfQEAAAAABFla",
+      "sparse_sha256": "682deed6da83cc19e94e3d6d660149dcf5a8a379dedd3ad3652352561dd0bac0",
+      "step": 0,
+      "target": [
+       1,
+       3
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 8,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAldAAAAAGqyNMZAAAAAAACI03M7+3VZ3gABJUBcJKm+H7bzfQEAAAAABFla",
+      "sparse_sha256": "682deed6da83cc19e94e3d6d660149dcf5a8a379dedd3ad3652352561dd0bac0",
+      "step": 0,
+      "target": [
+       2,
+       0
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 9,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAldAAAAAGqyNMZAAAAAAACI03M7+3VZ3gABJUBcJKm+H7bzfQEAAAAABFla",
+      "sparse_sha256": "682deed6da83cc19e94e3d6d660149dcf5a8a379dedd3ad3652352561dd0bac0",
+      "step": 0,
+      "target": [
+       2,
+       1
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 10,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAldAAAAAGqyNMZAAAAAAACI03M7+3VZ3gABJUBcJKm+H7bzfQEAAAAABFla",
+      "sparse_sha256": "682deed6da83cc19e94e3d6d660149dcf5a8a379dedd3ad3652352561dd0bac0",
+      "step": 0,
+      "target": [
+       2,
+       2
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 11,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAldAAAAAGqyNMZAAAAAAACI03M7+3VZ3gABJUBcJKm+H7bzfQEAAAAABFla",
+      "sparse_sha256": "682deed6da83cc19e94e3d6d660149dcf5a8a379dedd3ad3652352561dd0bac0",
+      "step": 0,
+      "target": [
+       2,
+       3
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 12,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAldAAAAAGqyNMZAAAAAAACI03M7+3VZ3gABJUBcJKm+H7bzfQEAAAAABFla",
+      "sparse_sha256": "682deed6da83cc19e94e3d6d660149dcf5a8a379dedd3ad3652352561dd0bac0",
+      "step": 0,
+      "target": [
+       3,
+       0
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 13,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAldAAAAAGqyNMZAAAAAAACI03M7+3VZ3gABJUBcJKm+H7bzfQEAAAAABFla",
+      "sparse_sha256": "682deed6da83cc19e94e3d6d660149dcf5a8a379dedd3ad3652352561dd0bac0",
+      "step": 0,
+      "target": [
+       3,
+       1
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 14,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAldAAAAAGqyNMZAAAAAAACI03M7+3VZ3gABJUBcJKm+H7bzfQEAAAAABFla",
+      "sparse_sha256": "682deed6da83cc19e94e3d6d660149dcf5a8a379dedd3ad3652352561dd0bac0",
+      "step": 0,
+      "target": [
+       3,
+       2
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 15,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAldAAAAAGqyNMZAAAAAAACI03M7+3VZ3gABJUBcJKm+H7bzfQEAAAAABFla",
+      "sparse_sha256": "682deed6da83cc19e94e3d6d660149dcf5a8a379dedd3ad3652352561dd0bac0",
+      "step": 0,
+      "target": [
+       3,
+       3
+      ],
+      "visible": 16
+     }
+    ],
+    "kind": "reset",
+    "seq": 0,
+    "world": 1
+   },
+   {
+    "clear": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      0
+     ],
+     [
+      1,
+      1
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      2,
+      1
+     ],
+     [
+      2,
+      2
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      3,
+      0
+     ],
+     [
+      3,
+      1
+     ],
+     [
+      3,
+      2
+     ],
+     [
+      3,
+      3
+     ]
+    ],
+    "epoch": 2,
+    "frames": [
+     {
+      "committed": 16,
+      "row": 0,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAxdAAAAAGo9iuJlfKiAAAAEUBQZj8iWaAABKEARWgcLH7bzfQEAAAAABFla",
+      "sparse_sha256": "fb104c81b02b1e57d34e2a30a0a1697fe5c9d26368e8a76e5919a20e0743edd9",
+      "step": 0,
+      "target": [
+       0,
+       0
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 1,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAxdAAAAAGo9iuJlfKiAAAAEUBQZj8iWaAABKEARWgcLH7bzfQEAAAAABFla",
+      "sparse_sha256": "fb104c81b02b1e57d34e2a30a0a1697fe5c9d26368e8a76e5919a20e0743edd9",
+      "step": 0,
+      "target": [
+       0,
+       1
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 2,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAxdAAAAAGo9iuJlfKiAAAAEUBQZj8iWaAABKEARWgcLH7bzfQEAAAAABFla",
+      "sparse_sha256": "fb104c81b02b1e57d34e2a30a0a1697fe5c9d26368e8a76e5919a20e0743edd9",
+      "step": 0,
+      "target": [
+       0,
+       2
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 3,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAxdAAAAAGo9iuJlfKiAAAAEUBQZj8iWaAABKEARWgcLH7bzfQEAAAAABFla",
+      "sparse_sha256": "fb104c81b02b1e57d34e2a30a0a1697fe5c9d26368e8a76e5919a20e0743edd9",
+      "step": 0,
+      "target": [
+       0,
+       3
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 4,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAxdAAAAAGo9iuJlfKiAAAAEUBQZj8iWaAABKEARWgcLH7bzfQEAAAAABFla",
+      "sparse_sha256": "fb104c81b02b1e57d34e2a30a0a1697fe5c9d26368e8a76e5919a20e0743edd9",
+      "step": 0,
+      "target": [
+       1,
+       0
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 5,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAxdAAAAAGo9iuJlfKiAAAAEUBQZj8iWaAABKEARWgcLH7bzfQEAAAAABFla",
+      "sparse_sha256": "fb104c81b02b1e57d34e2a30a0a1697fe5c9d26368e8a76e5919a20e0743edd9",
+      "step": 0,
+      "target": [
+       1,
+       1
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 6,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAxdAAAAAGo9iuJlfKiAAAAEUBQZj8iWaAABKEARWgcLH7bzfQEAAAAABFla",
+      "sparse_sha256": "fb104c81b02b1e57d34e2a30a0a1697fe5c9d26368e8a76e5919a20e0743edd9",
+      "step": 0,
+      "target": [
+       1,
+       2
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 7,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAxdAAAAAGo9iuJlfKiAAAAEUBQZj8iWaAABKEARWgcLH7bzfQEAAAAABFla",
+      "sparse_sha256": "fb104c81b02b1e57d34e2a30a0a1697fe5c9d26368e8a76e5919a20e0743edd9",
+      "step": 0,
+      "target": [
+       1,
+       3
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 8,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAxdAAAAAGo9iuJlfKiAAAAEUBQZj8iWaAABKEARWgcLH7bzfQEAAAAABFla",
+      "sparse_sha256": "fb104c81b02b1e57d34e2a30a0a1697fe5c9d26368e8a76e5919a20e0743edd9",
+      "step": 0,
+      "target": [
+       2,
+       0
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 9,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAxdAAAAAGo9iuJlfKiAAAAEUBQZj8iWaAABKEARWgcLH7bzfQEAAAAABFla",
+      "sparse_sha256": "fb104c81b02b1e57d34e2a30a0a1697fe5c9d26368e8a76e5919a20e0743edd9",
+      "step": 0,
+      "target": [
+       2,
+       1
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 10,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAxdAAAAAGo9iuJlfKiAAAAEUBQZj8iWaAABKEARWgcLH7bzfQEAAAAABFla",
+      "sparse_sha256": "fb104c81b02b1e57d34e2a30a0a1697fe5c9d26368e8a76e5919a20e0743edd9",
+      "step": 0,
+      "target": [
+       2,
+       2
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 11,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAxdAAAAAGo9iuJlfKiAAAAEUBQZj8iWaAABKEARWgcLH7bzfQEAAAAABFla",
+      "sparse_sha256": "fb104c81b02b1e57d34e2a30a0a1697fe5c9d26368e8a76e5919a20e0743edd9",
+      "step": 0,
+      "target": [
+       2,
+       3
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 12,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAxdAAAAAGo9iuJlfKiAAAAEUBQZj8iWaAABKEARWgcLH7bzfQEAAAAABFla",
+      "sparse_sha256": "fb104c81b02b1e57d34e2a30a0a1697fe5c9d26368e8a76e5919a20e0743edd9",
+      "step": 0,
+      "target": [
+       3,
+       0
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 13,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAxdAAAAAGo9iuJlfKiAAAAEUBQZj8iWaAABKEARWgcLH7bzfQEAAAAABFla",
+      "sparse_sha256": "fb104c81b02b1e57d34e2a30a0a1697fe5c9d26368e8a76e5919a20e0743edd9",
+      "step": 0,
+      "target": [
+       3,
+       1
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 14,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAxdAAAAAGo9iuJlfKiAAAAEUBQZj8iWaAABKEARWgcLH7bzfQEAAAAABFla",
+      "sparse_sha256": "fb104c81b02b1e57d34e2a30a0a1697fe5c9d26368e8a76e5919a20e0743edd9",
+      "step": 0,
+      "target": [
+       3,
+       2
+      ],
+      "visible": 16
+     },
+     {
+      "committed": 16,
+      "row": 15,
+      "sparse": "/Td6WFoAAATm1rRGAgAhARIAAAAjuIcs4AA/AAxdAAAAAGo9iuJlfKiAAAAEUBQZj8iWaAABKEARWgcLH7bzfQEAAAAABFla",
+      "sparse_sha256": "fb104c81b02b1e57d34e2a30a0a1697fe5c9d26368e8a76e5919a20e0743edd9",
+      "step": 0,
+      "target": [
+       3,
+       3
+      ],
+      "visible": 16
+     }
+    ],
+    "kind": "reset",
+    "seq": 1,
+    "world": 3
+   }
+  ]
+ }
+}

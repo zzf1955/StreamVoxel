@@ -1,0 +1,31 @@
+# ControlNet: L1 + L2 + biome conditions, 13 control layers, hidden 384, side 8; frozen stage-2 base (step 11000),
+# half random / half strata masks. Defaults for `python -m streamvoxel.train.train_controlnet`.
+# Source: the original 4-GPU run config.
+dataset: <controlnet_dataset_dir>
+base: <stage2_base_step011000_model.pt>
+steps: 0              # 0: run until stop_request.json
+skip_dataset_validation: true
+serial_model_load: true
+prefetch_depth: 2
+global_batch: 512
+side: 8
+microbatch: 8
+cell_chunk: 2
+seed: 20261022
+lr: 1.0e-4
+warmup_steps: 200
+lr_schedule: constant
+eval_every: 1000
+save_every: 1000
+sample_steps: 1024
+target_checkpoint: none
+attention_backend: concat
+async_reduce: true
+compile_blocks: true
+persistent_autocast: true
+compile_loss: true
+biome_patch: 2
+biome_halo: 4
+control_depth: 13
+control_hidden_dim: 384
+half_mask: true

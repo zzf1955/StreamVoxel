@@ -1,0 +1,46 @@
+# Single-GPU headless streaming run. Render with envsubst:
+#   envsubst '${SV_RUN_NAME} ${SV_IMAGE} ${SV_DATA_DIR} ${SV_UID} ${SV_GID}' < stream-headless.yaml | kubectl apply -f -
+# The rendered config must already be at /mnt/sv-out/<SV_RUN_NAME>.json (host SV_OUT_DIR), see stream_1gpu.template.json.
+# Run outputs go to /mnt/sv-out/runs/<SV_RUN_NAME> (must not exist yet). Needs the GPU node setup and the device plugin.
+# No runtimeClassName: the GPU comes through CDI from the device plugin (the svgpu class would add every allowed card).
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: sv-stream-${SV_RUN_NAME}
+spec:
+  backoffLimit: 0
+  template:
+    spec:
+      restartPolicy: Never
+      securityContext:
+        runAsUser: ${SV_UID}
+        runAsGroup: ${SV_GID}
+      containers:
+        - name: stream
+          image: ${SV_IMAGE}
+          imagePullPolicy: IfNotPresent
+          workingDir: /workspace
+          env:
+            - {name: HOME, value: /tmp}
+            - {name: TRITON_CACHE_DIR, value: /tmp/triton}
+            - {name: TORCHINDUCTOR_CACHE_DIR, value: /tmp/inductor}
+          command: ["bash", "-c"]
+          args:
+            - |
+              nvidia-smi -L
+              echo "START_EPOCH $(date +%s.%N)"
+              mkdir -p /mnt/sv-out/runs
+              scripts/run_stream.sh /mnt/sv-out/${SV_RUN_NAME}.json /mnt/sv-out/runs/${SV_RUN_NAME} && rc=0 || rc=$?
+              echo "END_EPOCH $(date +%s.%N) rc=$rc"
+              exit $rc
+          resources:
+            limits:
+              nvidia.com/gpu: 1
+          volumeMounts:
+            - {name: data, mountPath: ${SV_DATA_DIR}, readOnly: true}
+            - {name: out, mountPath: /mnt/sv-out}
+      volumes:
+        - name: data
+          hostPath: {path: ${SV_DATA_DIR}}
+        - name: out
+          hostPath: {path: /mnt/sv-out}

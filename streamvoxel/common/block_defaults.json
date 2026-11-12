@@ -1,0 +1,4794 @@
+{
+  "format": "minecraft_java_block_defaults_v1",
+  "gameVersion": "26.2",
+  "dataVersion": 4903,
+  "registryStateCount": 32366,
+  "registryStatesSha256": "d914b56e4c8ae8eb3bbaccfb07023b84b83a232a806ae003e62b2320a9c784e5",
+  "source": "Official Java 26.2 server Block.defaultBlockState()",
+  "blocks": {
+    "minecraft:acacia_button": {
+      "rawStateId": 10780,
+      "state": "minecraft:acacia_button[face=wall,facing=north,powered=false]"
+    },
+    "minecraft:acacia_door": {
+      "rawStateId": 14263,
+      "state": "minecraft:acacia_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    "minecraft:acacia_fence": {
+      "rawStateId": 13899,
+      "state": "minecraft:acacia_fence[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:acacia_fence_gate": {
+      "rawStateId": 13587,
+      "state": "minecraft:acacia_fence_gate[facing=north,in_wall=false,open=false,powered=false]"
+    },
+    "minecraft:acacia_hanging_sign": {
+      "rawStateId": 6148,
+      "state": "minecraft:acacia_hanging_sign[attached=false,rotation=8,waterlogged=false]"
+    },
+    "minecraft:acacia_leaves": {
+      "rawStateId": 391,
+      "state": "minecraft:acacia_leaves[distance=7,persistent=false,waterlogged=false]"
+    },
+    "minecraft:acacia_log": {
+      "rawStateId": 149,
+      "state": "minecraft:acacia_log[axis=y]"
+    },
+    "minecraft:acacia_planks": {
+      "rawStateId": 19,
+      "state": "minecraft:acacia_planks"
+    },
+    "minecraft:acacia_pressure_plate": {
+      "rawStateId": 6870,
+      "state": "minecraft:acacia_pressure_plate[powered=false]"
+    },
+    "minecraft:acacia_sapling": {
+      "rawStateId": 37,
+      "state": "minecraft:acacia_sapling[stage=0]"
+    },
+    "minecraft:acacia_shelf": {
+      "rawStateId": 2609,
+      "state": "minecraft:acacia_shelf[facing=north,powered=false,side_chain=unconnected,waterlogged=false]"
+    },
+    "minecraft:acacia_sign": {
+      "rawStateId": 5448,
+      "state": "minecraft:acacia_sign[rotation=8,waterlogged=false]"
+    },
+    "minecraft:acacia_slab": {
+      "rawStateId": 13357,
+      "state": "minecraft:acacia_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:acacia_stairs": {
+      "rawStateId": 11983,
+      "state": "minecraft:acacia_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:acacia_trapdoor": {
+      "rawStateId": 7385,
+      "state": "minecraft:acacia_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    "minecraft:acacia_wall_hanging_sign": {
+      "rawStateId": 6700,
+      "state": "minecraft:acacia_wall_hanging_sign[facing=north,waterlogged=false]"
+    },
+    "minecraft:acacia_wall_sign": {
+      "rawStateId": 5852,
+      "state": "minecraft:acacia_wall_sign[facing=north,waterlogged=false]"
+    },
+    "minecraft:acacia_wood": {
+      "rawStateId": 214,
+      "state": "minecraft:acacia_wood[axis=y]"
+    },
+    "minecraft:activator_rail": {
+      "rawStateId": 11421,
+      "state": "minecraft:activator_rail[powered=false,shape=north_south,waterlogged=false]"
+    },
+    "minecraft:air": {
+      "rawStateId": 0,
+      "state": "minecraft:air"
+    },
+    "minecraft:allium": {
+      "rawStateId": 2326,
+      "state": "minecraft:allium"
+    },
+    "minecraft:amethyst_block": {
+      "rawStateId": 23402,
+      "state": "minecraft:amethyst_block"
+    },
+    "minecraft:amethyst_cluster": {
+      "rawStateId": 23413,
+      "state": "minecraft:amethyst_cluster[facing=up,waterlogged=false]"
+    },
+    "minecraft:ancient_debris": {
+      "rawStateId": 21819,
+      "state": "minecraft:ancient_debris"
+    },
+    "minecraft:andesite": {
+      "rawStateId": 6,
+      "state": "minecraft:andesite"
+    },
+    "minecraft:andesite_slab": {
+      "rawStateId": 16473,
+      "state": "minecraft:andesite_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:andesite_stairs": {
+      "rawStateId": 16107,
+      "state": "minecraft:andesite_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:andesite_wall": {
+      "rawStateId": 19089,
+      "state": "minecraft:andesite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:anvil": {
+      "rawStateId": 11195,
+      "state": "minecraft:anvil[facing=north]"
+    },
+    "minecraft:attached_melon_stem": {
+      "rawStateId": 8338,
+      "state": "minecraft:attached_melon_stem[facing=north]"
+    },
+    "minecraft:attached_pumpkin_stem": {
+      "rawStateId": 8334,
+      "state": "minecraft:attached_pumpkin_stem[facing=north]"
+    },
+    "minecraft:azalea": {
+      "rawStateId": 30304,
+      "state": "minecraft:azalea"
+    },
+    "minecraft:azalea_leaves": {
+      "rawStateId": 531,
+      "state": "minecraft:azalea_leaves[distance=7,persistent=false,waterlogged=false]"
+    },
+    "minecraft:azure_bluet": {
+      "rawStateId": 2327,
+      "state": "minecraft:azure_bluet"
+    },
+    "minecraft:bamboo": {
+      "rawStateId": 15279,
+      "state": "minecraft:bamboo[age=0,leaves=none,stage=0]"
+    },
+    "minecraft:bamboo_block": {
+      "rawStateId": 169,
+      "state": "minecraft:bamboo_block[axis=y]"
+    },
+    "minecraft:bamboo_button": {
+      "rawStateId": 10900,
+      "state": "minecraft:bamboo_button[face=wall,facing=north,powered=false]"
+    },
+    "minecraft:bamboo_door": {
+      "rawStateId": 14583,
+      "state": "minecraft:bamboo_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    "minecraft:bamboo_fence": {
+      "rawStateId": 14059,
+      "state": "minecraft:bamboo_fence[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:bamboo_fence_gate": {
+      "rawStateId": 13747,
+      "state": "minecraft:bamboo_fence_gate[facing=north,in_wall=false,open=false,powered=false]"
+    },
+    "minecraft:bamboo_hanging_sign": {
+      "rawStateId": 6660,
+      "state": "minecraft:bamboo_hanging_sign[attached=false,rotation=8,waterlogged=false]"
+    },
+    "minecraft:bamboo_mosaic": {
+      "rawStateId": 28,
+      "state": "minecraft:bamboo_mosaic"
+    },
+    "minecraft:bamboo_mosaic_slab": {
+      "rawStateId": 13393,
+      "state": "minecraft:bamboo_mosaic_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:bamboo_mosaic_stairs": {
+      "rawStateId": 12463,
+      "state": "minecraft:bamboo_mosaic_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:bamboo_planks": {
+      "rawStateId": 27,
+      "state": "minecraft:bamboo_planks"
+    },
+    "minecraft:bamboo_pressure_plate": {
+      "rawStateId": 6880,
+      "state": "minecraft:bamboo_pressure_plate[powered=false]"
+    },
+    "minecraft:bamboo_sapling": {
+      "rawStateId": 15278,
+      "state": "minecraft:bamboo_sapling"
+    },
+    "minecraft:bamboo_shelf": {
+      "rawStateId": 2673,
+      "state": "minecraft:bamboo_shelf[facing=north,powered=false,side_chain=unconnected,waterlogged=false]"
+    },
+    "minecraft:bamboo_sign": {
+      "rawStateId": 5640,
+      "state": "minecraft:bamboo_sign[rotation=8,waterlogged=false]"
+    },
+    "minecraft:bamboo_slab": {
+      "rawStateId": 13387,
+      "state": "minecraft:bamboo_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:bamboo_stairs": {
+      "rawStateId": 12383,
+      "state": "minecraft:bamboo_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:bamboo_trapdoor": {
+      "rawStateId": 7705,
+      "state": "minecraft:bamboo_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    "minecraft:bamboo_wall_hanging_sign": {
+      "rawStateId": 6764,
+      "state": "minecraft:bamboo_wall_hanging_sign[facing=north,waterlogged=false]"
+    },
+    "minecraft:bamboo_wall_sign": {
+      "rawStateId": 5900,
+      "state": "minecraft:bamboo_wall_sign[facing=north,waterlogged=false]"
+    },
+    "minecraft:barrel": {
+      "rawStateId": 20743,
+      "state": "minecraft:barrel[facing=north,open=false]"
+    },
+    "minecraft:barrier": {
+      "rawStateId": 12534,
+      "state": "minecraft:barrier[waterlogged=false]"
+    },
+    "minecraft:basalt": {
+      "rawStateId": 7001,
+      "state": "minecraft:basalt[axis=y]"
+    },
+    "minecraft:beacon": {
+      "rawStateId": 9980,
+      "state": "minecraft:beacon"
+    },
+    "minecraft:bedrock": {
+      "rawStateId": 85,
+      "state": "minecraft:bedrock"
+    },
+    "minecraft:bee_nest": {
+      "rawStateId": 21768,
+      "state": "minecraft:bee_nest[facing=north,honey_level=0]"
+    },
+    "minecraft:beehive": {
+      "rawStateId": 21792,
+      "state": "minecraft:beehive[facing=north,honey_level=0]"
+    },
+    "minecraft:beetroots": {
+      "rawStateId": 14811,
+      "state": "minecraft:beetroots[age=0]"
+    },
+    "minecraft:bell": {
+      "rawStateId": 20806,
+      "state": "minecraft:bell[attachment=floor,facing=north,powered=false]"
+    },
+    "minecraft:big_dripleaf": {
+      "rawStateId": 30357,
+      "state": "minecraft:big_dripleaf[facing=north,tilt=none,waterlogged=false]"
+    },
+    "minecraft:big_dripleaf_stem": {
+      "rawStateId": 30389,
+      "state": "minecraft:big_dripleaf_stem[facing=north,waterlogged=false]"
+    },
+    "minecraft:birch_button": {
+      "rawStateId": 10732,
+      "state": "minecraft:birch_button[face=wall,facing=north,powered=false]"
+    },
+    "minecraft:birch_door": {
+      "rawStateId": 14135,
+      "state": "minecraft:birch_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    "minecraft:birch_fence": {
+      "rawStateId": 13835,
+      "state": "minecraft:birch_fence[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:birch_fence_gate": {
+      "rawStateId": 13523,
+      "state": "minecraft:birch_fence_gate[facing=north,in_wall=false,open=false,powered=false]"
+    },
+    "minecraft:birch_hanging_sign": {
+      "rawStateId": 6084,
+      "state": "minecraft:birch_hanging_sign[attached=false,rotation=8,waterlogged=false]"
+    },
+    "minecraft:birch_leaves": {
+      "rawStateId": 335,
+      "state": "minecraft:birch_leaves[distance=7,persistent=false,waterlogged=false]"
+    },
+    "minecraft:birch_log": {
+      "rawStateId": 143,
+      "state": "minecraft:birch_log[axis=y]"
+    },
+    "minecraft:birch_planks": {
+      "rawStateId": 17,
+      "state": "minecraft:birch_planks"
+    },
+    "minecraft:birch_pressure_plate": {
+      "rawStateId": 6866,
+      "state": "minecraft:birch_pressure_plate[powered=false]"
+    },
+    "minecraft:birch_sapling": {
+      "rawStateId": 33,
+      "state": "minecraft:birch_sapling[stage=0]"
+    },
+    "minecraft:birch_shelf": {
+      "rawStateId": 2737,
+      "state": "minecraft:birch_shelf[facing=north,powered=false,side_chain=unconnected,waterlogged=false]"
+    },
+    "minecraft:birch_sign": {
+      "rawStateId": 5416,
+      "state": "minecraft:birch_sign[rotation=8,waterlogged=false]"
+    },
+    "minecraft:birch_slab": {
+      "rawStateId": 13345,
+      "state": "minecraft:birch_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:birch_stairs": {
+      "rawStateId": 9819,
+      "state": "minecraft:birch_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:birch_trapdoor": {
+      "rawStateId": 7257,
+      "state": "minecraft:birch_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    "minecraft:birch_wall_hanging_sign": {
+      "rawStateId": 6692,
+      "state": "minecraft:birch_wall_hanging_sign[facing=north,waterlogged=false]"
+    },
+    "minecraft:birch_wall_sign": {
+      "rawStateId": 5844,
+      "state": "minecraft:birch_wall_sign[facing=north,waterlogged=false]"
+    },
+    "minecraft:birch_wood": {
+      "rawStateId": 208,
+      "state": "minecraft:birch_wood[axis=y]"
+    },
+    "minecraft:black_banner": {
+      "rawStateId": 13175,
+      "state": "minecraft:black_banner[rotation=8]"
+    },
+    "minecraft:black_bed": {
+      "rawStateId": 2174,
+      "state": "minecraft:black_bed[facing=north,occupied=false,part=foot]"
+    },
+    "minecraft:black_candle": {
+      "rawStateId": 23355,
+      "state": "minecraft:black_candle[candles=1,lit=false,waterlogged=false]"
+    },
+    "minecraft:black_candle_cake": {
+      "rawStateId": 23401,
+      "state": "minecraft:black_candle_cake[lit=false]"
+    },
+    "minecraft:black_carpet": {
+      "rawStateId": 12911,
+      "state": "minecraft:black_carpet"
+    },
+    "minecraft:black_concrete": {
+      "rawStateId": 15045,
+      "state": "minecraft:black_concrete"
+    },
+    "minecraft:black_concrete_powder": {
+      "rawStateId": 15061,
+      "state": "minecraft:black_concrete_powder"
+    },
+    "minecraft:black_glazed_terracotta": {
+      "rawStateId": 15026,
+      "state": "minecraft:black_glazed_terracotta[facing=north]"
+    },
+    "minecraft:black_shulker_box": {
+      "rawStateId": 14964,
+      "state": "minecraft:black_shulker_box[facing=up]"
+    },
+    "minecraft:black_stained_glass": {
+      "rawStateId": 7113,
+      "state": "minecraft:black_stained_glass"
+    },
+    "minecraft:black_stained_glass_pane": {
+      "rawStateId": 11971,
+      "state": "minecraft:black_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:black_terracotta": {
+      "rawStateId": 11459,
+      "state": "minecraft:black_terracotta"
+    },
+    "minecraft:black_wall_banner": {
+      "rawStateId": 13243,
+      "state": "minecraft:black_wall_banner[facing=north]"
+    },
+    "minecraft:black_wool": {
+      "rawStateId": 2308,
+      "state": "minecraft:black_wool"
+    },
+    "minecraft:blackstone": {
+      "rawStateId": 21831,
+      "state": "minecraft:blackstone"
+    },
+    "minecraft:blackstone_slab": {
+      "rawStateId": 22239,
+      "state": "minecraft:blackstone_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:blackstone_stairs": {
+      "rawStateId": 21843,
+      "state": "minecraft:blackstone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:blackstone_wall": {
+      "rawStateId": 21915,
+      "state": "minecraft:blackstone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:blast_furnace": {
+      "rawStateId": 20763,
+      "state": "minecraft:blast_furnace[facing=north,lit=false]"
+    },
+    "minecraft:blue_banner": {
+      "rawStateId": 13111,
+      "state": "minecraft:blue_banner[rotation=8]"
+    },
+    "minecraft:blue_bed": {
+      "rawStateId": 2110,
+      "state": "minecraft:blue_bed[facing=north,occupied=false,part=foot]"
+    },
+    "minecraft:blue_candle": {
+      "rawStateId": 23291,
+      "state": "minecraft:blue_candle[candles=1,lit=false,waterlogged=false]"
+    },
+    "minecraft:blue_candle_cake": {
+      "rawStateId": 23393,
+      "state": "minecraft:blue_candle_cake[lit=false]"
+    },
+    "minecraft:blue_carpet": {
+      "rawStateId": 12907,
+      "state": "minecraft:blue_carpet"
+    },
+    "minecraft:blue_concrete": {
+      "rawStateId": 15041,
+      "state": "minecraft:blue_concrete"
+    },
+    "minecraft:blue_concrete_powder": {
+      "rawStateId": 15057,
+      "state": "minecraft:blue_concrete_powder"
+    },
+    "minecraft:blue_glazed_terracotta": {
+      "rawStateId": 15010,
+      "state": "minecraft:blue_glazed_terracotta[facing=north]"
+    },
+    "minecraft:blue_ice": {
+      "rawStateId": 15275,
+      "state": "minecraft:blue_ice"
+    },
+    "minecraft:blue_orchid": {
+      "rawStateId": 2325,
+      "state": "minecraft:blue_orchid"
+    },
+    "minecraft:blue_shulker_box": {
+      "rawStateId": 14940,
+      "state": "minecraft:blue_shulker_box[facing=up]"
+    },
+    "minecraft:blue_stained_glass": {
+      "rawStateId": 7109,
+      "state": "minecraft:blue_stained_glass"
+    },
+    "minecraft:blue_stained_glass_pane": {
+      "rawStateId": 11843,
+      "state": "minecraft:blue_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:blue_terracotta": {
+      "rawStateId": 11455,
+      "state": "minecraft:blue_terracotta"
+    },
+    "minecraft:blue_wall_banner": {
+      "rawStateId": 13227,
+      "state": "minecraft:blue_wall_banner[facing=north]"
+    },
+    "minecraft:blue_wool": {
+      "rawStateId": 2304,
+      "state": "minecraft:blue_wool"
+    },
+    "minecraft:bone_block": {
+      "rawStateId": 14849,
+      "state": "minecraft:bone_block[axis=y]"
+    },
+    "minecraft:bookshelf": {
+      "rawStateId": 2343,
+      "state": "minecraft:bookshelf"
+    },
+    "minecraft:brain_coral": {
+      "rawStateId": 15159,
+      "state": "minecraft:brain_coral[waterlogged=true]"
+    },
+    "minecraft:brain_coral_block": {
+      "rawStateId": 15143,
+      "state": "minecraft:brain_coral_block"
+    },
+    "minecraft:brain_coral_fan": {
+      "rawStateId": 15179,
+      "state": "minecraft:brain_coral_fan[waterlogged=true]"
+    },
+    "minecraft:brain_coral_wall_fan": {
+      "rawStateId": 15235,
+      "state": "minecraft:brain_coral_wall_fan[facing=north,waterlogged=true]"
+    },
+    "minecraft:brewing_stand": {
+      "rawStateId": 9459,
+      "state": "minecraft:brewing_stand[has_bottle_0=false,has_bottle_1=false,has_bottle_2=false]"
+    },
+    "minecraft:brick_slab": {
+      "rawStateId": 13435,
+      "state": "minecraft:brick_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:brick_stairs": {
+      "rawStateId": 8689,
+      "state": "minecraft:brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:brick_wall": {
+      "rawStateId": 16497,
+      "state": "minecraft:brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:bricks": {
+      "rawStateId": 2340,
+      "state": "minecraft:bricks"
+    },
+    "minecraft:brown_banner": {
+      "rawStateId": 13127,
+      "state": "minecraft:brown_banner[rotation=8]"
+    },
+    "minecraft:brown_bed": {
+      "rawStateId": 2126,
+      "state": "minecraft:brown_bed[facing=north,occupied=false,part=foot]"
+    },
+    "minecraft:brown_candle": {
+      "rawStateId": 23307,
+      "state": "minecraft:brown_candle[candles=1,lit=false,waterlogged=false]"
+    },
+    "minecraft:brown_candle_cake": {
+      "rawStateId": 23395,
+      "state": "minecraft:brown_candle_cake[lit=false]"
+    },
+    "minecraft:brown_carpet": {
+      "rawStateId": 12908,
+      "state": "minecraft:brown_carpet"
+    },
+    "minecraft:brown_concrete": {
+      "rawStateId": 15042,
+      "state": "minecraft:brown_concrete"
+    },
+    "minecraft:brown_concrete_powder": {
+      "rawStateId": 15058,
+      "state": "minecraft:brown_concrete_powder"
+    },
+    "minecraft:brown_glazed_terracotta": {
+      "rawStateId": 15014,
+      "state": "minecraft:brown_glazed_terracotta[facing=north]"
+    },
+    "minecraft:brown_mushroom": {
+      "rawStateId": 2336,
+      "state": "minecraft:brown_mushroom"
+    },
+    "minecraft:brown_mushroom_block": {
+      "rawStateId": 7766,
+      "state": "minecraft:brown_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=true]"
+    },
+    "minecraft:brown_shulker_box": {
+      "rawStateId": 14946,
+      "state": "minecraft:brown_shulker_box[facing=up]"
+    },
+    "minecraft:brown_stained_glass": {
+      "rawStateId": 7110,
+      "state": "minecraft:brown_stained_glass"
+    },
+    "minecraft:brown_stained_glass_pane": {
+      "rawStateId": 11875,
+      "state": "minecraft:brown_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:brown_terracotta": {
+      "rawStateId": 11456,
+      "state": "minecraft:brown_terracotta"
+    },
+    "minecraft:brown_wall_banner": {
+      "rawStateId": 13231,
+      "state": "minecraft:brown_wall_banner[facing=north]"
+    },
+    "minecraft:brown_wool": {
+      "rawStateId": 2305,
+      "state": "minecraft:brown_wool"
+    },
+    "minecraft:bubble_column": {
+      "rawStateId": 15294,
+      "state": "minecraft:bubble_column[drag=true]"
+    },
+    "minecraft:bubble_coral": {
+      "rawStateId": 15161,
+      "state": "minecraft:bubble_coral[waterlogged=true]"
+    },
+    "minecraft:bubble_coral_block": {
+      "rawStateId": 15144,
+      "state": "minecraft:bubble_coral_block"
+    },
+    "minecraft:bubble_coral_fan": {
+      "rawStateId": 15181,
+      "state": "minecraft:bubble_coral_fan[waterlogged=true]"
+    },
+    "minecraft:bubble_coral_wall_fan": {
+      "rawStateId": 15243,
+      "state": "minecraft:bubble_coral_wall_fan[facing=north,waterlogged=true]"
+    },
+    "minecraft:budding_amethyst": {
+      "rawStateId": 23403,
+      "state": "minecraft:budding_amethyst"
+    },
+    "minecraft:bush": {
+      "rawStateId": 2251,
+      "state": "minecraft:bush"
+    },
+    "minecraft:cactus": {
+      "rawStateId": 6929,
+      "state": "minecraft:cactus[age=0]"
+    },
+    "minecraft:cactus_flower": {
+      "rawStateId": 6945,
+      "state": "minecraft:cactus_flower"
+    },
+    "minecraft:cake": {
+      "rawStateId": 7027,
+      "state": "minecraft:cake[bites=0]"
+    },
+    "minecraft:calcite": {
+      "rawStateId": 27160,
+      "state": "minecraft:calcite"
+    },
+    "minecraft:calibrated_sculk_sensor": {
+      "rawStateId": 27260,
+      "state": "minecraft:calibrated_sculk_sensor[facing=north,power=0,sculk_sensor_phase=inactive,waterlogged=false]"
+    },
+    "minecraft:campfire": {
+      "rawStateId": 20880,
+      "state": "minecraft:campfire[facing=north,lit=true,signal_fire=false,waterlogged=false]"
+    },
+    "minecraft:candle": {
+      "rawStateId": 23099,
+      "state": "minecraft:candle[candles=1,lit=false,waterlogged=false]"
+    },
+    "minecraft:candle_cake": {
+      "rawStateId": 23369,
+      "state": "minecraft:candle_cake[lit=false]"
+    },
+    "minecraft:carrots": {
+      "rawStateId": 10659,
+      "state": "minecraft:carrots[age=0]"
+    },
+    "minecraft:cartography_table": {
+      "rawStateId": 20770,
+      "state": "minecraft:cartography_table"
+    },
+    "minecraft:carved_pumpkin": {
+      "rawStateId": 7019,
+      "state": "minecraft:carved_pumpkin[facing=north]"
+    },
+    "minecraft:cauldron": {
+      "rawStateId": 9460,
+      "state": "minecraft:cauldron"
+    },
+    "minecraft:cave_air": {
+      "rawStateId": 15293,
+      "state": "minecraft:cave_air"
+    },
+    "minecraft:cave_vines": {
+      "rawStateId": 30250,
+      "state": "minecraft:cave_vines[age=0,berries=false]"
+    },
+    "minecraft:cave_vines_plant": {
+      "rawStateId": 30302,
+      "state": "minecraft:cave_vines_plant[berries=false]"
+    },
+    "minecraft:chain_command_block": {
+      "rawStateId": 14835,
+      "state": "minecraft:chain_command_block[conditional=false,facing=north]"
+    },
+    "minecraft:cherry_button": {
+      "rawStateId": 10804,
+      "state": "minecraft:cherry_button[face=wall,facing=north,powered=false]"
+    },
+    "minecraft:cherry_door": {
+      "rawStateId": 14327,
+      "state": "minecraft:cherry_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    "minecraft:cherry_fence": {
+      "rawStateId": 13931,
+      "state": "minecraft:cherry_fence[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:cherry_fence_gate": {
+      "rawStateId": 13619,
+      "state": "minecraft:cherry_fence_gate[facing=north,in_wall=false,open=false,powered=false]"
+    },
+    "minecraft:cherry_hanging_sign": {
+      "rawStateId": 6212,
+      "state": "minecraft:cherry_hanging_sign[attached=false,rotation=8,waterlogged=false]"
+    },
+    "minecraft:cherry_leaves": {
+      "rawStateId": 419,
+      "state": "minecraft:cherry_leaves[distance=7,persistent=false,waterlogged=false]"
+    },
+    "minecraft:cherry_log": {
+      "rawStateId": 152,
+      "state": "minecraft:cherry_log[axis=y]"
+    },
+    "minecraft:cherry_planks": {
+      "rawStateId": 20,
+      "state": "minecraft:cherry_planks"
+    },
+    "minecraft:cherry_pressure_plate": {
+      "rawStateId": 6872,
+      "state": "minecraft:cherry_pressure_plate[powered=false]"
+    },
+    "minecraft:cherry_sapling": {
+      "rawStateId": 39,
+      "state": "minecraft:cherry_sapling[stage=0]"
+    },
+    "minecraft:cherry_shelf": {
+      "rawStateId": 2801,
+      "state": "minecraft:cherry_shelf[facing=north,powered=false,side_chain=unconnected,waterlogged=false]"
+    },
+    "minecraft:cherry_sign": {
+      "rawStateId": 5480,
+      "state": "minecraft:cherry_sign[rotation=8,waterlogged=false]"
+    },
+    "minecraft:cherry_slab": {
+      "rawStateId": 13363,
+      "state": "minecraft:cherry_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:cherry_stairs": {
+      "rawStateId": 12063,
+      "state": "minecraft:cherry_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:cherry_trapdoor": {
+      "rawStateId": 7449,
+      "state": "minecraft:cherry_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    "minecraft:cherry_wall_hanging_sign": {
+      "rawStateId": 6708,
+      "state": "minecraft:cherry_wall_hanging_sign[facing=north,waterlogged=false]"
+    },
+    "minecraft:cherry_wall_sign": {
+      "rawStateId": 5860,
+      "state": "minecraft:cherry_wall_sign[facing=north,waterlogged=false]"
+    },
+    "minecraft:cherry_wood": {
+      "rawStateId": 217,
+      "state": "minecraft:cherry_wood[axis=y]"
+    },
+    "minecraft:chest": {
+      "rawStateId": 3988,
+      "state": "minecraft:chest[facing=north,type=single,waterlogged=false]"
+    },
+    "minecraft:chipped_anvil": {
+      "rawStateId": 11199,
+      "state": "minecraft:chipped_anvil[facing=north]"
+    },
+    "minecraft:chiseled_bookshelf": {
+      "rawStateId": 2407,
+      "state": "minecraft:chiseled_bookshelf[facing=north,slot_0_occupied=false,slot_1_occupied=false,slot_2_occupied=false,slot_3_occupied=false,slot_4_occupied=false,slot_5_occupied=false]"
+    },
+    "minecraft:chiseled_cinnabar": {
+      "rawStateId": 27159,
+      "state": "minecraft:chiseled_cinnabar"
+    },
+    "minecraft:chiseled_copper": {
+      "rawStateId": 27800,
+      "state": "minecraft:chiseled_copper"
+    },
+    "minecraft:chiseled_deepslate": {
+      "rawStateId": 32063,
+      "state": "minecraft:chiseled_deepslate"
+    },
+    "minecraft:chiseled_nether_bricks": {
+      "rawStateId": 23093,
+      "state": "minecraft:chiseled_nether_bricks"
+    },
+    "minecraft:chiseled_polished_blackstone": {
+      "rawStateId": 22245,
+      "state": "minecraft:chiseled_polished_blackstone"
+    },
+    "minecraft:chiseled_quartz_block": {
+      "rawStateId": 11324,
+      "state": "minecraft:chiseled_quartz_block"
+    },
+    "minecraft:chiseled_red_sandstone": {
+      "rawStateId": 13248,
+      "state": "minecraft:chiseled_red_sandstone"
+    },
+    "minecraft:chiseled_resin_bricks": {
+      "rawStateId": 9333,
+      "state": "minecraft:chiseled_resin_bricks"
+    },
+    "minecraft:chiseled_sandstone": {
+      "rawStateId": 579,
+      "state": "minecraft:chiseled_sandstone"
+    },
+    "minecraft:chiseled_stone_bricks": {
+      "rawStateId": 7757,
+      "state": "minecraft:chiseled_stone_bricks"
+    },
+    "minecraft:chiseled_sulfur": {
+      "rawStateId": 25925,
+      "state": "minecraft:chiseled_sulfur"
+    },
+    "minecraft:chiseled_tuff": {
+      "rawStateId": 24274,
+      "state": "minecraft:chiseled_tuff"
+    },
+    "minecraft:chiseled_tuff_bricks": {
+      "rawStateId": 24686,
+      "state": "minecraft:chiseled_tuff_bricks"
+    },
+    "minecraft:chorus_flower": {
+      "rawStateId": 14706,
+      "state": "minecraft:chorus_flower[age=0]"
+    },
+    "minecraft:chorus_plant": {
+      "rawStateId": 14705,
+      "state": "minecraft:chorus_plant[down=false,east=false,north=false,south=false,up=false,west=false]"
+    },
+    "minecraft:cinnabar": {
+      "rawStateId": 25926,
+      "state": "minecraft:cinnabar"
+    },
+    "minecraft:cinnabar_brick_slab": {
+      "rawStateId": 26752,
+      "state": "minecraft:cinnabar_brick_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:cinnabar_brick_stairs": {
+      "rawStateId": 26766,
+      "state": "minecraft:cinnabar_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:cinnabar_brick_wall": {
+      "rawStateId": 26838,
+      "state": "minecraft:cinnabar_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:cinnabar_bricks": {
+      "rawStateId": 26748,
+      "state": "minecraft:cinnabar_bricks"
+    },
+    "minecraft:cinnabar_slab": {
+      "rawStateId": 25930,
+      "state": "minecraft:cinnabar_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:cinnabar_stairs": {
+      "rawStateId": 25944,
+      "state": "minecraft:cinnabar_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:cinnabar_wall": {
+      "rawStateId": 26016,
+      "state": "minecraft:cinnabar_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:clay": {
+      "rawStateId": 6946,
+      "state": "minecraft:clay"
+    },
+    "minecraft:closed_eyeblossom": {
+      "rawStateId": 32362,
+      "state": "minecraft:closed_eyeblossom"
+    },
+    "minecraft:coal_block": {
+      "rawStateId": 12913,
+      "state": "minecraft:coal_block"
+    },
+    "minecraft:coal_ore": {
+      "rawStateId": 133,
+      "state": "minecraft:coal_ore"
+    },
+    "minecraft:coarse_dirt": {
+      "rawStateId": 11,
+      "state": "minecraft:coarse_dirt"
+    },
+    "minecraft:cobbled_deepslate": {
+      "rawStateId": 30419,
+      "state": "minecraft:cobbled_deepslate"
+    },
+    "minecraft:cobbled_deepslate_slab": {
+      "rawStateId": 30503,
+      "state": "minecraft:cobbled_deepslate_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:cobbled_deepslate_stairs": {
+      "rawStateId": 30431,
+      "state": "minecraft:cobbled_deepslate_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:cobbled_deepslate_wall": {
+      "rawStateId": 30509,
+      "state": "minecraft:cobbled_deepslate_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:cobblestone": {
+      "rawStateId": 14,
+      "state": "minecraft:cobblestone"
+    },
+    "minecraft:cobblestone_slab": {
+      "rawStateId": 13429,
+      "state": "minecraft:cobblestone_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:cobblestone_stairs": {
+      "rawStateId": 5758,
+      "state": "minecraft:cobblestone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:cobblestone_wall": {
+      "rawStateId": 9984,
+      "state": "minecraft:cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:cobweb": {
+      "rawStateId": 2247,
+      "state": "minecraft:cobweb"
+    },
+    "minecraft:cocoa": {
+      "rawStateId": 9481,
+      "state": "minecraft:cocoa[age=0,facing=north]"
+    },
+    "minecraft:command_block": {
+      "rawStateId": 9974,
+      "state": "minecraft:command_block[conditional=false,facing=north]"
+    },
+    "minecraft:comparator": {
+      "rawStateId": 11264,
+      "state": "minecraft:comparator[facing=north,mode=compare,powered=false]"
+    },
+    "minecraft:composter": {
+      "rawStateId": 21743,
+      "state": "minecraft:composter[level=0]"
+    },
+    "minecraft:conduit": {
+      "rawStateId": 15276,
+      "state": "minecraft:conduit[waterlogged=true]"
+    },
+    "minecraft:copper_bars": {
+      "rawStateId": 8021,
+      "state": "minecraft:copper_bars[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:copper_block": {
+      "rawStateId": 27782,
+      "state": "minecraft:copper_block"
+    },
+    "minecraft:copper_bulb": {
+      "rawStateId": 29539,
+      "state": "minecraft:copper_bulb[lit=false,powered=false]"
+    },
+    "minecraft:copper_chain": {
+      "rawStateId": 8255,
+      "state": "minecraft:copper_chain[axis=y,waterlogged=false]"
+    },
+    "minecraft:copper_chest": {
+      "rawStateId": 29569,
+      "state": "minecraft:copper_chest[facing=north,type=single,waterlogged=false]"
+    },
+    "minecraft:copper_door": {
+      "rawStateId": 28507,
+      "state": "minecraft:copper_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    "minecraft:copper_golem_statue": {
+      "rawStateId": 29761,
+      "state": "minecraft:copper_golem_statue[copper_golem_pose=standing,facing=north,waterlogged=false]"
+    },
+    "minecraft:copper_grate": {
+      "rawStateId": 29521,
+      "state": "minecraft:copper_grate[waterlogged=false]"
+    },
+    "minecraft:copper_lantern": {
+      "rawStateId": 20848,
+      "state": "minecraft:copper_lantern[hanging=false,waterlogged=false]"
+    },
+    "minecraft:copper_ore": {
+      "rawStateId": 27790,
+      "state": "minecraft:copper_ore"
+    },
+    "minecraft:copper_torch": {
+      "rawStateId": 7011,
+      "state": "minecraft:copper_torch"
+    },
+    "minecraft:copper_trapdoor": {
+      "rawStateId": 29023,
+      "state": "minecraft:copper_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    "minecraft:copper_wall_torch": {
+      "rawStateId": 7012,
+      "state": "minecraft:copper_wall_torch[facing=north]"
+    },
+    "minecraft:cornflower": {
+      "rawStateId": 2333,
+      "state": "minecraft:cornflower"
+    },
+    "minecraft:cracked_deepslate_bricks": {
+      "rawStateId": 32064,
+      "state": "minecraft:cracked_deepslate_bricks"
+    },
+    "minecraft:cracked_deepslate_tiles": {
+      "rawStateId": 32065,
+      "state": "minecraft:cracked_deepslate_tiles"
+    },
+    "minecraft:cracked_nether_bricks": {
+      "rawStateId": 23094,
+      "state": "minecraft:cracked_nether_bricks"
+    },
+    "minecraft:cracked_polished_blackstone_bricks": {
+      "rawStateId": 22244,
+      "state": "minecraft:cracked_polished_blackstone_bricks"
+    },
+    "minecraft:cracked_stone_bricks": {
+      "rawStateId": 7756,
+      "state": "minecraft:cracked_stone_bricks"
+    },
+    "minecraft:crafter": {
+      "rawStateId": 32147,
+      "state": "minecraft:crafter[crafting=false,orientation=north_up,triggered=false]"
+    },
+    "minecraft:crafting_table": {
+      "rawStateId": 5310,
+      "state": "minecraft:crafting_table"
+    },
+    "minecraft:creaking_heart": {
+      "rawStateId": 3896,
+      "state": "minecraft:creaking_heart[axis=y,creaking_heart_state=uprooted,natural=false]"
+    },
+    "minecraft:creeper_head": {
+      "rawStateId": 11091,
+      "state": "minecraft:creeper_head[powered=false,rotation=0]"
+    },
+    "minecraft:creeper_wall_head": {
+      "rawStateId": 11108,
+      "state": "minecraft:creeper_wall_head[facing=north,powered=false]"
+    },
+    "minecraft:crimson_button": {
+      "rawStateId": 21475,
+      "state": "minecraft:crimson_button[face=wall,facing=north,powered=false]"
+    },
+    "minecraft:crimson_door": {
+      "rawStateId": 21525,
+      "state": "minecraft:crimson_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    "minecraft:crimson_fence": {
+      "rawStateId": 21081,
+      "state": "minecraft:crimson_fence[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:crimson_fence_gate": {
+      "rawStateId": 21249,
+      "state": "minecraft:crimson_fence_gate[facing=north,in_wall=false,open=false,powered=false]"
+    },
+    "minecraft:crimson_fungus": {
+      "rawStateId": 20975,
+      "state": "minecraft:crimson_fungus"
+    },
+    "minecraft:crimson_hanging_sign": {
+      "rawStateId": 6468,
+      "state": "minecraft:crimson_hanging_sign[attached=false,rotation=8,waterlogged=false]"
+    },
+    "minecraft:crimson_hyphae": {
+      "rawStateId": 20969,
+      "state": "minecraft:crimson_hyphae[axis=y]"
+    },
+    "minecraft:crimson_nylium": {
+      "rawStateId": 20974,
+      "state": "minecraft:crimson_nylium"
+    },
+    "minecraft:crimson_planks": {
+      "rawStateId": 21032,
+      "state": "minecraft:crimson_planks"
+    },
+    "minecraft:crimson_pressure_plate": {
+      "rawStateId": 21047,
+      "state": "minecraft:crimson_pressure_plate[powered=false]"
+    },
+    "minecraft:crimson_roots": {
+      "rawStateId": 21031,
+      "state": "minecraft:crimson_roots"
+    },
+    "minecraft:crimson_shelf": {
+      "rawStateId": 2865,
+      "state": "minecraft:crimson_shelf[facing=north,powered=false,side_chain=unconnected,waterlogged=false]"
+    },
+    "minecraft:crimson_sign": {
+      "rawStateId": 21659,
+      "state": "minecraft:crimson_sign[rotation=8,waterlogged=false]"
+    },
+    "minecraft:crimson_slab": {
+      "rawStateId": 21037,
+      "state": "minecraft:crimson_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:crimson_stairs": {
+      "rawStateId": 21317,
+      "state": "minecraft:crimson_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:crimson_stem": {
+      "rawStateId": 20963,
+      "state": "minecraft:crimson_stem[axis=y]"
+    },
+    "minecraft:crimson_trapdoor": {
+      "rawStateId": 21129,
+      "state": "minecraft:crimson_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    "minecraft:crimson_wall_hanging_sign": {
+      "rawStateId": 6748,
+      "state": "minecraft:crimson_wall_hanging_sign[facing=north,waterlogged=false]"
+    },
+    "minecraft:crimson_wall_sign": {
+      "rawStateId": 21707,
+      "state": "minecraft:crimson_wall_sign[facing=north,waterlogged=false]"
+    },
+    "minecraft:crying_obsidian": {
+      "rawStateId": 21820,
+      "state": "minecraft:crying_obsidian"
+    },
+    "minecraft:cut_copper": {
+      "rawStateId": 27792,
+      "state": "minecraft:cut_copper"
+    },
+    "minecraft:cut_copper_slab": {
+      "rawStateId": 28451,
+      "state": "minecraft:cut_copper_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:cut_copper_stairs": {
+      "rawStateId": 27819,
+      "state": "minecraft:cut_copper_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:cut_red_sandstone": {
+      "rawStateId": 13249,
+      "state": "minecraft:cut_red_sandstone"
+    },
+    "minecraft:cut_red_sandstone_slab": {
+      "rawStateId": 13471,
+      "state": "minecraft:cut_red_sandstone_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:cut_sandstone": {
+      "rawStateId": 580,
+      "state": "minecraft:cut_sandstone"
+    },
+    "minecraft:cut_sandstone_slab": {
+      "rawStateId": 13417,
+      "state": "minecraft:cut_sandstone_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:cyan_banner": {
+      "rawStateId": 13079,
+      "state": "minecraft:cyan_banner[rotation=8]"
+    },
+    "minecraft:cyan_bed": {
+      "rawStateId": 2078,
+      "state": "minecraft:cyan_bed[facing=north,occupied=false,part=foot]"
+    },
+    "minecraft:cyan_candle": {
+      "rawStateId": 23259,
+      "state": "minecraft:cyan_candle[candles=1,lit=false,waterlogged=false]"
+    },
+    "minecraft:cyan_candle_cake": {
+      "rawStateId": 23389,
+      "state": "minecraft:cyan_candle_cake[lit=false]"
+    },
+    "minecraft:cyan_carpet": {
+      "rawStateId": 12905,
+      "state": "minecraft:cyan_carpet"
+    },
+    "minecraft:cyan_concrete": {
+      "rawStateId": 15039,
+      "state": "minecraft:cyan_concrete"
+    },
+    "minecraft:cyan_concrete_powder": {
+      "rawStateId": 15055,
+      "state": "minecraft:cyan_concrete_powder"
+    },
+    "minecraft:cyan_glazed_terracotta": {
+      "rawStateId": 15002,
+      "state": "minecraft:cyan_glazed_terracotta[facing=north]"
+    },
+    "minecraft:cyan_shulker_box": {
+      "rawStateId": 14928,
+      "state": "minecraft:cyan_shulker_box[facing=up]"
+    },
+    "minecraft:cyan_stained_glass": {
+      "rawStateId": 7107,
+      "state": "minecraft:cyan_stained_glass"
+    },
+    "minecraft:cyan_stained_glass_pane": {
+      "rawStateId": 11779,
+      "state": "minecraft:cyan_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:cyan_terracotta": {
+      "rawStateId": 11453,
+      "state": "minecraft:cyan_terracotta"
+    },
+    "minecraft:cyan_wall_banner": {
+      "rawStateId": 13219,
+      "state": "minecraft:cyan_wall_banner[facing=north]"
+    },
+    "minecraft:cyan_wool": {
+      "rawStateId": 2302,
+      "state": "minecraft:cyan_wool"
+    },
+    "minecraft:damaged_anvil": {
+      "rawStateId": 11203,
+      "state": "minecraft:damaged_anvil[facing=north]"
+    },
+    "minecraft:dandelion": {
+      "rawStateId": 2321,
+      "state": "minecraft:dandelion"
+    },
+    "minecraft:dark_oak_button": {
+      "rawStateId": 10828,
+      "state": "minecraft:dark_oak_button[face=wall,facing=north,powered=false]"
+    },
+    "minecraft:dark_oak_door": {
+      "rawStateId": 14391,
+      "state": "minecraft:dark_oak_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    "minecraft:dark_oak_fence": {
+      "rawStateId": 13963,
+      "state": "minecraft:dark_oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:dark_oak_fence_gate": {
+      "rawStateId": 13651,
+      "state": "minecraft:dark_oak_fence_gate[facing=north,in_wall=false,open=false,powered=false]"
+    },
+    "minecraft:dark_oak_hanging_sign": {
+      "rawStateId": 6340,
+      "state": "minecraft:dark_oak_hanging_sign[attached=false,rotation=8,waterlogged=false]"
+    },
+    "minecraft:dark_oak_leaves": {
+      "rawStateId": 447,
+      "state": "minecraft:dark_oak_leaves[distance=7,persistent=false,waterlogged=false]"
+    },
+    "minecraft:dark_oak_log": {
+      "rawStateId": 155,
+      "state": "minecraft:dark_oak_log[axis=y]"
+    },
+    "minecraft:dark_oak_planks": {
+      "rawStateId": 21,
+      "state": "minecraft:dark_oak_planks"
+    },
+    "minecraft:dark_oak_pressure_plate": {
+      "rawStateId": 6874,
+      "state": "minecraft:dark_oak_pressure_plate[powered=false]"
+    },
+    "minecraft:dark_oak_sapling": {
+      "rawStateId": 41,
+      "state": "minecraft:dark_oak_sapling[stage=0]"
+    },
+    "minecraft:dark_oak_shelf": {
+      "rawStateId": 2929,
+      "state": "minecraft:dark_oak_shelf[facing=north,powered=false,side_chain=unconnected,waterlogged=false]"
+    },
+    "minecraft:dark_oak_sign": {
+      "rawStateId": 5544,
+      "state": "minecraft:dark_oak_sign[rotation=8,waterlogged=false]"
+    },
+    "minecraft:dark_oak_slab": {
+      "rawStateId": 13369,
+      "state": "minecraft:dark_oak_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:dark_oak_stairs": {
+      "rawStateId": 12143,
+      "state": "minecraft:dark_oak_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:dark_oak_trapdoor": {
+      "rawStateId": 7513,
+      "state": "minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    "minecraft:dark_oak_wall_hanging_sign": {
+      "rawStateId": 6724,
+      "state": "minecraft:dark_oak_wall_hanging_sign[facing=north,waterlogged=false]"
+    },
+    "minecraft:dark_oak_wall_sign": {
+      "rawStateId": 5876,
+      "state": "minecraft:dark_oak_wall_sign[facing=north,waterlogged=false]"
+    },
+    "minecraft:dark_oak_wood": {
+      "rawStateId": 220,
+      "state": "minecraft:dark_oak_wood[axis=y]"
+    },
+    "minecraft:dark_prismarine": {
+      "rawStateId": 12633,
+      "state": "minecraft:dark_prismarine"
+    },
+    "minecraft:dark_prismarine_slab": {
+      "rawStateId": 12889,
+      "state": "minecraft:dark_prismarine_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:dark_prismarine_stairs": {
+      "rawStateId": 12805,
+      "state": "minecraft:dark_prismarine_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:daylight_detector": {
+      "rawStateId": 11295,
+      "state": "minecraft:daylight_detector[inverted=false,power=0]"
+    },
+    "minecraft:dead_brain_coral": {
+      "rawStateId": 15149,
+      "state": "minecraft:dead_brain_coral[waterlogged=true]"
+    },
+    "minecraft:dead_brain_coral_block": {
+      "rawStateId": 15138,
+      "state": "minecraft:dead_brain_coral_block"
+    },
+    "minecraft:dead_brain_coral_fan": {
+      "rawStateId": 15169,
+      "state": "minecraft:dead_brain_coral_fan[waterlogged=true]"
+    },
+    "minecraft:dead_brain_coral_wall_fan": {
+      "rawStateId": 15195,
+      "state": "minecraft:dead_brain_coral_wall_fan[facing=north,waterlogged=true]"
+    },
+    "minecraft:dead_bubble_coral": {
+      "rawStateId": 15151,
+      "state": "minecraft:dead_bubble_coral[waterlogged=true]"
+    },
+    "minecraft:dead_bubble_coral_block": {
+      "rawStateId": 15139,
+      "state": "minecraft:dead_bubble_coral_block"
+    },
+    "minecraft:dead_bubble_coral_fan": {
+      "rawStateId": 15171,
+      "state": "minecraft:dead_bubble_coral_fan[waterlogged=true]"
+    },
+    "minecraft:dead_bubble_coral_wall_fan": {
+      "rawStateId": 15203,
+      "state": "minecraft:dead_bubble_coral_wall_fan[facing=north,waterlogged=true]"
+    },
+    "minecraft:dead_bush": {
+      "rawStateId": 2250,
+      "state": "minecraft:dead_bush"
+    },
+    "minecraft:dead_fire_coral": {
+      "rawStateId": 15153,
+      "state": "minecraft:dead_fire_coral[waterlogged=true]"
+    },
+    "minecraft:dead_fire_coral_block": {
+      "rawStateId": 15140,
+      "state": "minecraft:dead_fire_coral_block"
+    },
+    "minecraft:dead_fire_coral_fan": {
+      "rawStateId": 15173,
+      "state": "minecraft:dead_fire_coral_fan[waterlogged=true]"
+    },
+    "minecraft:dead_fire_coral_wall_fan": {
+      "rawStateId": 15211,
+      "state": "minecraft:dead_fire_coral_wall_fan[facing=north,waterlogged=true]"
+    },
+    "minecraft:dead_horn_coral": {
+      "rawStateId": 15155,
+      "state": "minecraft:dead_horn_coral[waterlogged=true]"
+    },
+    "minecraft:dead_horn_coral_block": {
+      "rawStateId": 15141,
+      "state": "minecraft:dead_horn_coral_block"
+    },
+    "minecraft:dead_horn_coral_fan": {
+      "rawStateId": 15175,
+      "state": "minecraft:dead_horn_coral_fan[waterlogged=true]"
+    },
+    "minecraft:dead_horn_coral_wall_fan": {
+      "rawStateId": 15219,
+      "state": "minecraft:dead_horn_coral_wall_fan[facing=north,waterlogged=true]"
+    },
+    "minecraft:dead_tube_coral": {
+      "rawStateId": 15147,
+      "state": "minecraft:dead_tube_coral[waterlogged=true]"
+    },
+    "minecraft:dead_tube_coral_block": {
+      "rawStateId": 15137,
+      "state": "minecraft:dead_tube_coral_block"
+    },
+    "minecraft:dead_tube_coral_fan": {
+      "rawStateId": 15167,
+      "state": "minecraft:dead_tube_coral_fan[waterlogged=true]"
+    },
+    "minecraft:dead_tube_coral_wall_fan": {
+      "rawStateId": 15187,
+      "state": "minecraft:dead_tube_coral_wall_fan[facing=north,waterlogged=true]"
+    },
+    "minecraft:decorated_pot": {
+      "rawStateId": 32095,
+      "state": "minecraft:decorated_pot[cracked=false,facing=north,waterlogged=false]"
+    },
+    "minecraft:deepslate": {
+      "rawStateId": 30417,
+      "state": "minecraft:deepslate[axis=y]"
+    },
+    "minecraft:deepslate_brick_slab": {
+      "rawStateId": 31736,
+      "state": "minecraft:deepslate_brick_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:deepslate_brick_stairs": {
+      "rawStateId": 31664,
+      "state": "minecraft:deepslate_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:deepslate_brick_wall": {
+      "rawStateId": 31742,
+      "state": "minecraft:deepslate_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:deepslate_bricks": {
+      "rawStateId": 31652,
+      "state": "minecraft:deepslate_bricks"
+    },
+    "minecraft:deepslate_coal_ore": {
+      "rawStateId": 134,
+      "state": "minecraft:deepslate_coal_ore"
+    },
+    "minecraft:deepslate_copper_ore": {
+      "rawStateId": 27791,
+      "state": "minecraft:deepslate_copper_ore"
+    },
+    "minecraft:deepslate_diamond_ore": {
+      "rawStateId": 5308,
+      "state": "minecraft:deepslate_diamond_ore"
+    },
+    "minecraft:deepslate_emerald_ore": {
+      "rawStateId": 9574,
+      "state": "minecraft:deepslate_emerald_ore"
+    },
+    "minecraft:deepslate_gold_ore": {
+      "rawStateId": 130,
+      "state": "minecraft:deepslate_gold_ore"
+    },
+    "minecraft:deepslate_iron_ore": {
+      "rawStateId": 132,
+      "state": "minecraft:deepslate_iron_ore"
+    },
+    "minecraft:deepslate_lapis_ore": {
+      "rawStateId": 564,
+      "state": "minecraft:deepslate_lapis_ore"
+    },
+    "minecraft:deepslate_redstone_ore": {
+      "rawStateId": 6884,
+      "state": "minecraft:deepslate_redstone_ore[lit=false]"
+    },
+    "minecraft:deepslate_tile_slab": {
+      "rawStateId": 31325,
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:deepslate_tile_stairs": {
+      "rawStateId": 31253,
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:deepslate_tile_wall": {
+      "rawStateId": 31331,
+      "state": "minecraft:deepslate_tile_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:deepslate_tiles": {
+      "rawStateId": 31241,
+      "state": "minecraft:deepslate_tiles"
+    },
+    "minecraft:detector_rail": {
+      "rawStateId": 2224,
+      "state": "minecraft:detector_rail[powered=false,shape=north_south,waterlogged=false]"
+    },
+    "minecraft:diamond_block": {
+      "rawStateId": 5309,
+      "state": "minecraft:diamond_block"
+    },
+    "minecraft:diamond_ore": {
+      "rawStateId": 5307,
+      "state": "minecraft:diamond_ore"
+    },
+    "minecraft:diorite": {
+      "rawStateId": 4,
+      "state": "minecraft:diorite"
+    },
+    "minecraft:diorite_slab": {
+      "rawStateId": 16491,
+      "state": "minecraft:diorite_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:diorite_stairs": {
+      "rawStateId": 16347,
+      "state": "minecraft:diorite_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:diorite_wall": {
+      "rawStateId": 20385,
+      "state": "minecraft:diorite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:dirt": {
+      "rawStateId": 10,
+      "state": "minecraft:dirt"
+    },
+    "minecraft:dirt_path": {
+      "rawStateId": 14815,
+      "state": "minecraft:dirt_path"
+    },
+    "minecraft:dispenser": {
+      "rawStateId": 567,
+      "state": "minecraft:dispenser[facing=north,triggered=false]"
+    },
+    "minecraft:dragon_egg": {
+      "rawStateId": 9478,
+      "state": "minecraft:dragon_egg"
+    },
+    "minecraft:dragon_head": {
+      "rawStateId": 11131,
+      "state": "minecraft:dragon_head[powered=false,rotation=0]"
+    },
+    "minecraft:dragon_wall_head": {
+      "rawStateId": 11148,
+      "state": "minecraft:dragon_wall_head[facing=north,powered=false]"
+    },
+    "minecraft:dried_ghast": {
+      "rawStateId": 15106,
+      "state": "minecraft:dried_ghast[facing=north,hydration=0,waterlogged=false]"
+    },
+    "minecraft:dried_kelp_block": {
+      "rawStateId": 15089,
+      "state": "minecraft:dried_kelp_block"
+    },
+    "minecraft:dripstone_block": {
+      "rawStateId": 30208,
+      "state": "minecraft:dripstone_block"
+    },
+    "minecraft:dropper": {
+      "rawStateId": 11433,
+      "state": "minecraft:dropper[facing=north,triggered=false]"
+    },
+    "minecraft:emerald_block": {
+      "rawStateId": 9727,
+      "state": "minecraft:emerald_block"
+    },
+    "minecraft:emerald_ore": {
+      "rawStateId": 9573,
+      "state": "minecraft:emerald_ore"
+    },
+    "minecraft:enchanting_table": {
+      "rawStateId": 9451,
+      "state": "minecraft:enchanting_table"
+    },
+    "minecraft:end_gateway": {
+      "rawStateId": 14816,
+      "state": "minecraft:end_gateway"
+    },
+    "minecraft:end_portal": {
+      "rawStateId": 9468,
+      "state": "minecraft:end_portal"
+    },
+    "minecraft:end_portal_frame": {
+      "rawStateId": 9473,
+      "state": "minecraft:end_portal_frame[eye=false,facing=north]"
+    },
+    "minecraft:end_rod": {
+      "rawStateId": 14640,
+      "state": "minecraft:end_rod[facing=up]"
+    },
+    "minecraft:end_stone": {
+      "rawStateId": 9477,
+      "state": "minecraft:end_stone"
+    },
+    "minecraft:end_stone_brick_slab": {
+      "rawStateId": 16449,
+      "state": "minecraft:end_stone_brick_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:end_stone_brick_stairs": {
+      "rawStateId": 15707,
+      "state": "minecraft:end_stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:end_stone_brick_wall": {
+      "rawStateId": 20061,
+      "state": "minecraft:end_stone_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:end_stone_bricks": {
+      "rawStateId": 14796,
+      "state": "minecraft:end_stone_bricks"
+    },
+    "minecraft:ender_chest": {
+      "rawStateId": 9576,
+      "state": "minecraft:ender_chest[facing=north,waterlogged=false]"
+    },
+    "minecraft:exposed_chiseled_copper": {
+      "rawStateId": 27801,
+      "state": "minecraft:exposed_chiseled_copper"
+    },
+    "minecraft:exposed_copper": {
+      "rawStateId": 27783,
+      "state": "minecraft:exposed_copper"
+    },
+    "minecraft:exposed_copper_bars": {
+      "rawStateId": 8053,
+      "state": "minecraft:exposed_copper_bars[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:exposed_copper_bulb": {
+      "rawStateId": 29543,
+      "state": "minecraft:exposed_copper_bulb[lit=false,powered=false]"
+    },
+    "minecraft:exposed_copper_chain": {
+      "rawStateId": 8261,
+      "state": "minecraft:exposed_copper_chain[axis=y,waterlogged=false]"
+    },
+    "minecraft:exposed_copper_chest": {
+      "rawStateId": 29593,
+      "state": "minecraft:exposed_copper_chest[facing=north,type=single,waterlogged=false]"
+    },
+    "minecraft:exposed_copper_door": {
+      "rawStateId": 28571,
+      "state": "minecraft:exposed_copper_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    "minecraft:exposed_copper_golem_statue": {
+      "rawStateId": 29793,
+      "state": "minecraft:exposed_copper_golem_statue[copper_golem_pose=standing,facing=north,waterlogged=false]"
+    },
+    "minecraft:exposed_copper_grate": {
+      "rawStateId": 29523,
+      "state": "minecraft:exposed_copper_grate[waterlogged=false]"
+    },
+    "minecraft:exposed_copper_lantern": {
+      "rawStateId": 20852,
+      "state": "minecraft:exposed_copper_lantern[hanging=false,waterlogged=false]"
+    },
+    "minecraft:exposed_copper_trapdoor": {
+      "rawStateId": 29087,
+      "state": "minecraft:exposed_copper_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    "minecraft:exposed_cut_copper": {
+      "rawStateId": 27793,
+      "state": "minecraft:exposed_cut_copper"
+    },
+    "minecraft:exposed_cut_copper_slab": {
+      "rawStateId": 28457,
+      "state": "minecraft:exposed_cut_copper_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:exposed_cut_copper_stairs": {
+      "rawStateId": 27899,
+      "state": "minecraft:exposed_cut_copper_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:exposed_lightning_rod": {
+      "rawStateId": 30059,
+      "state": "minecraft:exposed_lightning_rod[facing=up,powered=false,waterlogged=false]"
+    },
+    "minecraft:farmland": {
+      "rawStateId": 5319,
+      "state": "minecraft:farmland[moisture=0]"
+    },
+    "minecraft:fern": {
+      "rawStateId": 2249,
+      "state": "minecraft:fern"
+    },
+    "minecraft:fire": {
+      "rawStateId": 3406,
+      "state": "minecraft:fire[age=0,east=false,north=false,south=false,up=false,west=false]"
+    },
+    "minecraft:fire_coral": {
+      "rawStateId": 15163,
+      "state": "minecraft:fire_coral[waterlogged=true]"
+    },
+    "minecraft:fire_coral_block": {
+      "rawStateId": 15145,
+      "state": "minecraft:fire_coral_block"
+    },
+    "minecraft:fire_coral_fan": {
+      "rawStateId": 15183,
+      "state": "minecraft:fire_coral_fan[waterlogged=true]"
+    },
+    "minecraft:fire_coral_wall_fan": {
+      "rawStateId": 15251,
+      "state": "minecraft:fire_coral_wall_fan[facing=north,waterlogged=true]"
+    },
+    "minecraft:firefly_bush": {
+      "rawStateId": 32365,
+      "state": "minecraft:firefly_bush"
+    },
+    "minecraft:fletching_table": {
+      "rawStateId": 20771,
+      "state": "minecraft:fletching_table"
+    },
+    "minecraft:flower_pot": {
+      "rawStateId": 10629,
+      "state": "minecraft:flower_pot"
+    },
+    "minecraft:flowering_azalea": {
+      "rawStateId": 30305,
+      "state": "minecraft:flowering_azalea"
+    },
+    "minecraft:flowering_azalea_leaves": {
+      "rawStateId": 559,
+      "state": "minecraft:flowering_azalea_leaves[distance=7,persistent=false,waterlogged=false]"
+    },
+    "minecraft:frogspawn": {
+      "rawStateId": 32084,
+      "state": "minecraft:frogspawn"
+    },
+    "minecraft:frosted_ice": {
+      "rawStateId": 14841,
+      "state": "minecraft:frosted_ice[age=0]"
+    },
+    "minecraft:furnace": {
+      "rawStateId": 5328,
+      "state": "minecraft:furnace[facing=north,lit=false]"
+    },
+    "minecraft:gilded_blackstone": {
+      "rawStateId": 22656,
+      "state": "minecraft:gilded_blackstone"
+    },
+    "minecraft:glass": {
+      "rawStateId": 562,
+      "state": "minecraft:glass"
+    },
+    "minecraft:glass_pane": {
+      "rawStateId": 8331,
+      "state": "minecraft:glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:glow_lichen": {
+      "rawStateId": 8517,
+      "state": "minecraft:glow_lichen[down=false,east=false,north=false,south=false,up=false,waterlogged=false,west=false]"
+    },
+    "minecraft:glowstone": {
+      "rawStateId": 7016,
+      "state": "minecraft:glowstone"
+    },
+    "minecraft:gold_block": {
+      "rawStateId": 2338,
+      "state": "minecraft:gold_block"
+    },
+    "minecraft:gold_ore": {
+      "rawStateId": 129,
+      "state": "minecraft:gold_ore"
+    },
+    "minecraft:golden_dandelion": {
+      "rawStateId": 2322,
+      "state": "minecraft:golden_dandelion"
+    },
+    "minecraft:granite": {
+      "rawStateId": 2,
+      "state": "minecraft:granite"
+    },
+    "minecraft:granite_slab": {
+      "rawStateId": 16467,
+      "state": "minecraft:granite_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:granite_stairs": {
+      "rawStateId": 16027,
+      "state": "minecraft:granite_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:granite_wall": {
+      "rawStateId": 17793,
+      "state": "minecraft:granite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:grass_block": {
+      "rawStateId": 9,
+      "state": "minecraft:grass_block[snowy=false]"
+    },
+    "minecraft:gravel": {
+      "rawStateId": 124,
+      "state": "minecraft:gravel"
+    },
+    "minecraft:gray_banner": {
+      "rawStateId": 13047,
+      "state": "minecraft:gray_banner[rotation=8]"
+    },
+    "minecraft:gray_bed": {
+      "rawStateId": 2046,
+      "state": "minecraft:gray_bed[facing=north,occupied=false,part=foot]"
+    },
+    "minecraft:gray_candle": {
+      "rawStateId": 23227,
+      "state": "minecraft:gray_candle[candles=1,lit=false,waterlogged=false]"
+    },
+    "minecraft:gray_candle_cake": {
+      "rawStateId": 23385,
+      "state": "minecraft:gray_candle_cake[lit=false]"
+    },
+    "minecraft:gray_carpet": {
+      "rawStateId": 12903,
+      "state": "minecraft:gray_carpet"
+    },
+    "minecraft:gray_concrete": {
+      "rawStateId": 15037,
+      "state": "minecraft:gray_concrete"
+    },
+    "minecraft:gray_concrete_powder": {
+      "rawStateId": 15053,
+      "state": "minecraft:gray_concrete_powder"
+    },
+    "minecraft:gray_glazed_terracotta": {
+      "rawStateId": 14994,
+      "state": "minecraft:gray_glazed_terracotta[facing=north]"
+    },
+    "minecraft:gray_shulker_box": {
+      "rawStateId": 14916,
+      "state": "minecraft:gray_shulker_box[facing=up]"
+    },
+    "minecraft:gray_stained_glass": {
+      "rawStateId": 7105,
+      "state": "minecraft:gray_stained_glass"
+    },
+    "minecraft:gray_stained_glass_pane": {
+      "rawStateId": 11715,
+      "state": "minecraft:gray_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:gray_terracotta": {
+      "rawStateId": 11451,
+      "state": "minecraft:gray_terracotta"
+    },
+    "minecraft:gray_wall_banner": {
+      "rawStateId": 13211,
+      "state": "minecraft:gray_wall_banner[facing=north]"
+    },
+    "minecraft:gray_wool": {
+      "rawStateId": 2300,
+      "state": "minecraft:gray_wool"
+    },
+    "minecraft:green_banner": {
+      "rawStateId": 13143,
+      "state": "minecraft:green_banner[rotation=8]"
+    },
+    "minecraft:green_bed": {
+      "rawStateId": 2142,
+      "state": "minecraft:green_bed[facing=north,occupied=false,part=foot]"
+    },
+    "minecraft:green_candle": {
+      "rawStateId": 23323,
+      "state": "minecraft:green_candle[candles=1,lit=false,waterlogged=false]"
+    },
+    "minecraft:green_candle_cake": {
+      "rawStateId": 23397,
+      "state": "minecraft:green_candle_cake[lit=false]"
+    },
+    "minecraft:green_carpet": {
+      "rawStateId": 12909,
+      "state": "minecraft:green_carpet"
+    },
+    "minecraft:green_concrete": {
+      "rawStateId": 15043,
+      "state": "minecraft:green_concrete"
+    },
+    "minecraft:green_concrete_powder": {
+      "rawStateId": 15059,
+      "state": "minecraft:green_concrete_powder"
+    },
+    "minecraft:green_glazed_terracotta": {
+      "rawStateId": 15018,
+      "state": "minecraft:green_glazed_terracotta[facing=north]"
+    },
+    "minecraft:green_shulker_box": {
+      "rawStateId": 14952,
+      "state": "minecraft:green_shulker_box[facing=up]"
+    },
+    "minecraft:green_stained_glass": {
+      "rawStateId": 7111,
+      "state": "minecraft:green_stained_glass"
+    },
+    "minecraft:green_stained_glass_pane": {
+      "rawStateId": 11907,
+      "state": "minecraft:green_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:green_terracotta": {
+      "rawStateId": 11457,
+      "state": "minecraft:green_terracotta"
+    },
+    "minecraft:green_wall_banner": {
+      "rawStateId": 13235,
+      "state": "minecraft:green_wall_banner[facing=north]"
+    },
+    "minecraft:green_wool": {
+      "rawStateId": 2306,
+      "state": "minecraft:green_wool"
+    },
+    "minecraft:grindstone": {
+      "rawStateId": 20776,
+      "state": "minecraft:grindstone[face=wall,facing=north]"
+    },
+    "minecraft:hanging_roots": {
+      "rawStateId": 30413,
+      "state": "minecraft:hanging_roots[waterlogged=false]"
+    },
+    "minecraft:hay_block": {
+      "rawStateId": 12894,
+      "state": "minecraft:hay_block[axis=y]"
+    },
+    "minecraft:heavy_core": {
+      "rawStateId": 32195,
+      "state": "minecraft:heavy_core[waterlogged=false]"
+    },
+    "minecraft:heavy_weighted_pressure_plate": {
+      "rawStateId": 11247,
+      "state": "minecraft:heavy_weighted_pressure_plate[power=0]"
+    },
+    "minecraft:honey_block": {
+      "rawStateId": 21816,
+      "state": "minecraft:honey_block"
+    },
+    "minecraft:honeycomb_block": {
+      "rawStateId": 21817,
+      "state": "minecraft:honeycomb_block"
+    },
+    "minecraft:hopper": {
+      "rawStateId": 11313,
+      "state": "minecraft:hopper[enabled=true,facing=down]"
+    },
+    "minecraft:horn_coral": {
+      "rawStateId": 15165,
+      "state": "minecraft:horn_coral[waterlogged=true]"
+    },
+    "minecraft:horn_coral_block": {
+      "rawStateId": 15146,
+      "state": "minecraft:horn_coral_block"
+    },
+    "minecraft:horn_coral_fan": {
+      "rawStateId": 15185,
+      "state": "minecraft:horn_coral_fan[waterlogged=true]"
+    },
+    "minecraft:horn_coral_wall_fan": {
+      "rawStateId": 15259,
+      "state": "minecraft:horn_coral_wall_fan[facing=north,waterlogged=true]"
+    },
+    "minecraft:ice": {
+      "rawStateId": 6927,
+      "state": "minecraft:ice"
+    },
+    "minecraft:infested_chiseled_stone_bricks": {
+      "rawStateId": 7765,
+      "state": "minecraft:infested_chiseled_stone_bricks"
+    },
+    "minecraft:infested_cobblestone": {
+      "rawStateId": 7761,
+      "state": "minecraft:infested_cobblestone"
+    },
+    "minecraft:infested_cracked_stone_bricks": {
+      "rawStateId": 7764,
+      "state": "minecraft:infested_cracked_stone_bricks"
+    },
+    "minecraft:infested_deepslate": {
+      "rawStateId": 32067,
+      "state": "minecraft:infested_deepslate[axis=y]"
+    },
+    "minecraft:infested_mossy_stone_bricks": {
+      "rawStateId": 7763,
+      "state": "minecraft:infested_mossy_stone_bricks"
+    },
+    "minecraft:infested_stone": {
+      "rawStateId": 7760,
+      "state": "minecraft:infested_stone"
+    },
+    "minecraft:infested_stone_bricks": {
+      "rawStateId": 7762,
+      "state": "minecraft:infested_stone_bricks"
+    },
+    "minecraft:iron_bars": {
+      "rawStateId": 7989,
+      "state": "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:iron_block": {
+      "rawStateId": 2339,
+      "state": "minecraft:iron_block"
+    },
+    "minecraft:iron_chain": {
+      "rawStateId": 8249,
+      "state": "minecraft:iron_chain[axis=y,waterlogged=false]"
+    },
+    "minecraft:iron_door": {
+      "rawStateId": 6808,
+      "state": "minecraft:iron_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    "minecraft:iron_ore": {
+      "rawStateId": 131,
+      "state": "minecraft:iron_ore"
+    },
+    "minecraft:iron_trapdoor": {
+      "rawStateId": 12582,
+      "state": "minecraft:iron_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    "minecraft:jack_o_lantern": {
+      "rawStateId": 7023,
+      "state": "minecraft:jack_o_lantern[facing=north]"
+    },
+    "minecraft:jigsaw": {
+      "rawStateId": 21736,
+      "state": "minecraft:jigsaw[orientation=north_up]"
+    },
+    "minecraft:jukebox": {
+      "rawStateId": 6964,
+      "state": "minecraft:jukebox[has_record=false]"
+    },
+    "minecraft:jungle_button": {
+      "rawStateId": 10756,
+      "state": "minecraft:jungle_button[face=wall,facing=north,powered=false]"
+    },
+    "minecraft:jungle_door": {
+      "rawStateId": 14199,
+      "state": "minecraft:jungle_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    "minecraft:jungle_fence": {
+      "rawStateId": 13867,
+      "state": "minecraft:jungle_fence[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:jungle_fence_gate": {
+      "rawStateId": 13555,
+      "state": "minecraft:jungle_fence_gate[facing=north,in_wall=false,open=false,powered=false]"
+    },
+    "minecraft:jungle_hanging_sign": {
+      "rawStateId": 6276,
+      "state": "minecraft:jungle_hanging_sign[attached=false,rotation=8,waterlogged=false]"
+    },
+    "minecraft:jungle_leaves": {
+      "rawStateId": 363,
+      "state": "minecraft:jungle_leaves[distance=7,persistent=false,waterlogged=false]"
+    },
+    "minecraft:jungle_log": {
+      "rawStateId": 146,
+      "state": "minecraft:jungle_log[axis=y]"
+    },
+    "minecraft:jungle_planks": {
+      "rawStateId": 18,
+      "state": "minecraft:jungle_planks"
+    },
+    "minecraft:jungle_pressure_plate": {
+      "rawStateId": 6868,
+      "state": "minecraft:jungle_pressure_plate[powered=false]"
+    },
+    "minecraft:jungle_sapling": {
+      "rawStateId": 35,
+      "state": "minecraft:jungle_sapling[stage=0]"
+    },
+    "minecraft:jungle_shelf": {
+      "rawStateId": 2993,
+      "state": "minecraft:jungle_shelf[facing=north,powered=false,side_chain=unconnected,waterlogged=false]"
+    },
+    "minecraft:jungle_sign": {
+      "rawStateId": 5512,
+      "state": "minecraft:jungle_sign[rotation=8,waterlogged=false]"
+    },
+    "minecraft:jungle_slab": {
+      "rawStateId": 13351,
+      "state": "minecraft:jungle_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:jungle_stairs": {
+      "rawStateId": 9899,
+      "state": "minecraft:jungle_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:jungle_trapdoor": {
+      "rawStateId": 7321,
+      "state": "minecraft:jungle_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    "minecraft:jungle_wall_hanging_sign": {
+      "rawStateId": 6716,
+      "state": "minecraft:jungle_wall_hanging_sign[facing=north,waterlogged=false]"
+    },
+    "minecraft:jungle_wall_sign": {
+      "rawStateId": 5868,
+      "state": "minecraft:jungle_wall_sign[facing=north,waterlogged=false]"
+    },
+    "minecraft:jungle_wood": {
+      "rawStateId": 211,
+      "state": "minecraft:jungle_wood[axis=y]"
+    },
+    "minecraft:kelp": {
+      "rawStateId": 15062,
+      "state": "minecraft:kelp[age=0]"
+    },
+    "minecraft:kelp_plant": {
+      "rawStateId": 15088,
+      "state": "minecraft:kelp_plant"
+    },
+    "minecraft:ladder": {
+      "rawStateId": 5720,
+      "state": "minecraft:ladder[facing=north,waterlogged=false]"
+    },
+    "minecraft:lantern": {
+      "rawStateId": 20840,
+      "state": "minecraft:lantern[hanging=false,waterlogged=false]"
+    },
+    "minecraft:lapis_block": {
+      "rawStateId": 565,
+      "state": "minecraft:lapis_block"
+    },
+    "minecraft:lapis_ore": {
+      "rawStateId": 563,
+      "state": "minecraft:lapis_ore"
+    },
+    "minecraft:large_amethyst_bud": {
+      "rawStateId": 23425,
+      "state": "minecraft:large_amethyst_bud[facing=up,waterlogged=false]"
+    },
+    "minecraft:large_fern": {
+      "rawStateId": 12926,
+      "state": "minecraft:large_fern[half=lower]"
+    },
+    "minecraft:lava": {
+      "rawStateId": 102,
+      "state": "minecraft:lava[level=0]"
+    },
+    "minecraft:lava_cauldron": {
+      "rawStateId": 9464,
+      "state": "minecraft:lava_cauldron"
+    },
+    "minecraft:leaf_litter": {
+      "rawStateId": 30339,
+      "state": "minecraft:leaf_litter[facing=north,segment_amount=1]"
+    },
+    "minecraft:lectern": {
+      "rawStateId": 20787,
+      "state": "minecraft:lectern[facing=north,has_book=false,powered=false]"
+    },
+    "minecraft:lever": {
+      "rawStateId": 6780,
+      "state": "minecraft:lever[face=wall,facing=north,powered=false]"
+    },
+    "minecraft:light": {
+      "rawStateId": 12566,
+      "state": "minecraft:light[level=15,waterlogged=false]"
+    },
+    "minecraft:light_blue_banner": {
+      "rawStateId": 12983,
+      "state": "minecraft:light_blue_banner[rotation=8]"
+    },
+    "minecraft:light_blue_bed": {
+      "rawStateId": 1982,
+      "state": "minecraft:light_blue_bed[facing=north,occupied=false,part=foot]"
+    },
+    "minecraft:light_blue_candle": {
+      "rawStateId": 23163,
+      "state": "minecraft:light_blue_candle[candles=1,lit=false,waterlogged=false]"
+    },
+    "minecraft:light_blue_candle_cake": {
+      "rawStateId": 23377,
+      "state": "minecraft:light_blue_candle_cake[lit=false]"
+    },
+    "minecraft:light_blue_carpet": {
+      "rawStateId": 12899,
+      "state": "minecraft:light_blue_carpet"
+    },
+    "minecraft:light_blue_concrete": {
+      "rawStateId": 15033,
+      "state": "minecraft:light_blue_concrete"
+    },
+    "minecraft:light_blue_concrete_powder": {
+      "rawStateId": 15049,
+      "state": "minecraft:light_blue_concrete_powder"
+    },
+    "minecraft:light_blue_glazed_terracotta": {
+      "rawStateId": 14978,
+      "state": "minecraft:light_blue_glazed_terracotta[facing=north]"
+    },
+    "minecraft:light_blue_shulker_box": {
+      "rawStateId": 14892,
+      "state": "minecraft:light_blue_shulker_box[facing=up]"
+    },
+    "minecraft:light_blue_stained_glass": {
+      "rawStateId": 7101,
+      "state": "minecraft:light_blue_stained_glass"
+    },
+    "minecraft:light_blue_stained_glass_pane": {
+      "rawStateId": 11587,
+      "state": "minecraft:light_blue_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:light_blue_terracotta": {
+      "rawStateId": 11447,
+      "state": "minecraft:light_blue_terracotta"
+    },
+    "minecraft:light_blue_wall_banner": {
+      "rawStateId": 13195,
+      "state": "minecraft:light_blue_wall_banner[facing=north]"
+    },
+    "minecraft:light_blue_wool": {
+      "rawStateId": 2296,
+      "state": "minecraft:light_blue_wool"
+    },
+    "minecraft:light_gray_banner": {
+      "rawStateId": 13063,
+      "state": "minecraft:light_gray_banner[rotation=8]"
+    },
+    "minecraft:light_gray_bed": {
+      "rawStateId": 2062,
+      "state": "minecraft:light_gray_bed[facing=north,occupied=false,part=foot]"
+    },
+    "minecraft:light_gray_candle": {
+      "rawStateId": 23243,
+      "state": "minecraft:light_gray_candle[candles=1,lit=false,waterlogged=false]"
+    },
+    "minecraft:light_gray_candle_cake": {
+      "rawStateId": 23387,
+      "state": "minecraft:light_gray_candle_cake[lit=false]"
+    },
+    "minecraft:light_gray_carpet": {
+      "rawStateId": 12904,
+      "state": "minecraft:light_gray_carpet"
+    },
+    "minecraft:light_gray_concrete": {
+      "rawStateId": 15038,
+      "state": "minecraft:light_gray_concrete"
+    },
+    "minecraft:light_gray_concrete_powder": {
+      "rawStateId": 15054,
+      "state": "minecraft:light_gray_concrete_powder"
+    },
+    "minecraft:light_gray_glazed_terracotta": {
+      "rawStateId": 14998,
+      "state": "minecraft:light_gray_glazed_terracotta[facing=north]"
+    },
+    "minecraft:light_gray_shulker_box": {
+      "rawStateId": 14922,
+      "state": "minecraft:light_gray_shulker_box[facing=up]"
+    },
+    "minecraft:light_gray_stained_glass": {
+      "rawStateId": 7106,
+      "state": "minecraft:light_gray_stained_glass"
+    },
+    "minecraft:light_gray_stained_glass_pane": {
+      "rawStateId": 11747,
+      "state": "minecraft:light_gray_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:light_gray_terracotta": {
+      "rawStateId": 11452,
+      "state": "minecraft:light_gray_terracotta"
+    },
+    "minecraft:light_gray_wall_banner": {
+      "rawStateId": 13215,
+      "state": "minecraft:light_gray_wall_banner[facing=north]"
+    },
+    "minecraft:light_gray_wool": {
+      "rawStateId": 2301,
+      "state": "minecraft:light_gray_wool"
+    },
+    "minecraft:light_weighted_pressure_plate": {
+      "rawStateId": 11231,
+      "state": "minecraft:light_weighted_pressure_plate[power=0]"
+    },
+    "minecraft:lightning_rod": {
+      "rawStateId": 30035,
+      "state": "minecraft:lightning_rod[facing=up,powered=false,waterlogged=false]"
+    },
+    "minecraft:lilac": {
+      "rawStateId": 12918,
+      "state": "minecraft:lilac[half=lower]"
+    },
+    "minecraft:lily_of_the_valley": {
+      "rawStateId": 2335,
+      "state": "minecraft:lily_of_the_valley"
+    },
+    "minecraft:lily_pad": {
+      "rawStateId": 8920,
+      "state": "minecraft:lily_pad"
+    },
+    "minecraft:lime_banner": {
+      "rawStateId": 13015,
+      "state": "minecraft:lime_banner[rotation=8]"
+    },
+    "minecraft:lime_bed": {
+      "rawStateId": 2014,
+      "state": "minecraft:lime_bed[facing=north,occupied=false,part=foot]"
+    },
+    "minecraft:lime_candle": {
+      "rawStateId": 23195,
+      "state": "minecraft:lime_candle[candles=1,lit=false,waterlogged=false]"
+    },
+    "minecraft:lime_candle_cake": {
+      "rawStateId": 23381,
+      "state": "minecraft:lime_candle_cake[lit=false]"
+    },
+    "minecraft:lime_carpet": {
+      "rawStateId": 12901,
+      "state": "minecraft:lime_carpet"
+    },
+    "minecraft:lime_concrete": {
+      "rawStateId": 15035,
+      "state": "minecraft:lime_concrete"
+    },
+    "minecraft:lime_concrete_powder": {
+      "rawStateId": 15051,
+      "state": "minecraft:lime_concrete_powder"
+    },
+    "minecraft:lime_glazed_terracotta": {
+      "rawStateId": 14986,
+      "state": "minecraft:lime_glazed_terracotta[facing=north]"
+    },
+    "minecraft:lime_shulker_box": {
+      "rawStateId": 14904,
+      "state": "minecraft:lime_shulker_box[facing=up]"
+    },
+    "minecraft:lime_stained_glass": {
+      "rawStateId": 7103,
+      "state": "minecraft:lime_stained_glass"
+    },
+    "minecraft:lime_stained_glass_pane": {
+      "rawStateId": 11651,
+      "state": "minecraft:lime_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:lime_terracotta": {
+      "rawStateId": 11449,
+      "state": "minecraft:lime_terracotta"
+    },
+    "minecraft:lime_wall_banner": {
+      "rawStateId": 13203,
+      "state": "minecraft:lime_wall_banner[facing=north]"
+    },
+    "minecraft:lime_wool": {
+      "rawStateId": 2298,
+      "state": "minecraft:lime_wool"
+    },
+    "minecraft:lodestone": {
+      "rawStateId": 21830,
+      "state": "minecraft:lodestone"
+    },
+    "minecraft:loom": {
+      "rawStateId": 20738,
+      "state": "minecraft:loom[facing=north]"
+    },
+    "minecraft:magenta_banner": {
+      "rawStateId": 12967,
+      "state": "minecraft:magenta_banner[rotation=8]"
+    },
+    "minecraft:magenta_bed": {
+      "rawStateId": 1966,
+      "state": "minecraft:magenta_bed[facing=north,occupied=false,part=foot]"
+    },
+    "minecraft:magenta_candle": {
+      "rawStateId": 23147,
+      "state": "minecraft:magenta_candle[candles=1,lit=false,waterlogged=false]"
+    },
+    "minecraft:magenta_candle_cake": {
+      "rawStateId": 23375,
+      "state": "minecraft:magenta_candle_cake[lit=false]"
+    },
+    "minecraft:magenta_carpet": {
+      "rawStateId": 12898,
+      "state": "minecraft:magenta_carpet"
+    },
+    "minecraft:magenta_concrete": {
+      "rawStateId": 15032,
+      "state": "minecraft:magenta_concrete"
+    },
+    "minecraft:magenta_concrete_powder": {
+      "rawStateId": 15048,
+      "state": "minecraft:magenta_concrete_powder"
+    },
+    "minecraft:magenta_glazed_terracotta": {
+      "rawStateId": 14974,
+      "state": "minecraft:magenta_glazed_terracotta[facing=north]"
+    },
+    "minecraft:magenta_shulker_box": {
+      "rawStateId": 14886,
+      "state": "minecraft:magenta_shulker_box[facing=up]"
+    },
+    "minecraft:magenta_stained_glass": {
+      "rawStateId": 7100,
+      "state": "minecraft:magenta_stained_glass"
+    },
+    "minecraft:magenta_stained_glass_pane": {
+      "rawStateId": 11555,
+      "state": "minecraft:magenta_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:magenta_terracotta": {
+      "rawStateId": 11446,
+      "state": "minecraft:magenta_terracotta"
+    },
+    "minecraft:magenta_wall_banner": {
+      "rawStateId": 13191,
+      "state": "minecraft:magenta_wall_banner[facing=north]"
+    },
+    "minecraft:magenta_wool": {
+      "rawStateId": 2295,
+      "state": "minecraft:magenta_wool"
+    },
+    "minecraft:magma_block": {
+      "rawStateId": 14845,
+      "state": "minecraft:magma_block"
+    },
+    "minecraft:mangrove_button": {
+      "rawStateId": 10876,
+      "state": "minecraft:mangrove_button[face=wall,facing=north,powered=false]"
+    },
+    "minecraft:mangrove_door": {
+      "rawStateId": 14519,
+      "state": "minecraft:mangrove_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    "minecraft:mangrove_fence": {
+      "rawStateId": 14027,
+      "state": "minecraft:mangrove_fence[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:mangrove_fence_gate": {
+      "rawStateId": 13715,
+      "state": "minecraft:mangrove_fence_gate[facing=north,in_wall=false,open=false,powered=false]"
+    },
+    "minecraft:mangrove_hanging_sign": {
+      "rawStateId": 6596,
+      "state": "minecraft:mangrove_hanging_sign[attached=false,rotation=8,waterlogged=false]"
+    },
+    "minecraft:mangrove_leaves": {
+      "rawStateId": 503,
+      "state": "minecraft:mangrove_leaves[distance=7,persistent=false,waterlogged=false]"
+    },
+    "minecraft:mangrove_log": {
+      "rawStateId": 161,
+      "state": "minecraft:mangrove_log[axis=y]"
+    },
+    "minecraft:mangrove_planks": {
+      "rawStateId": 26,
+      "state": "minecraft:mangrove_planks"
+    },
+    "minecraft:mangrove_pressure_plate": {
+      "rawStateId": 6878,
+      "state": "minecraft:mangrove_pressure_plate[powered=false]"
+    },
+    "minecraft:mangrove_propagule": {
+      "rawStateId": 50,
+      "state": "minecraft:mangrove_propagule[age=0,hanging=false,stage=0,waterlogged=false]"
+    },
+    "minecraft:mangrove_roots": {
+      "rawStateId": 164,
+      "state": "minecraft:mangrove_roots[waterlogged=false]"
+    },
+    "minecraft:mangrove_shelf": {
+      "rawStateId": 3057,
+      "state": "minecraft:mangrove_shelf[facing=north,powered=false,side_chain=unconnected,waterlogged=false]"
+    },
+    "minecraft:mangrove_sign": {
+      "rawStateId": 5608,
+      "state": "minecraft:mangrove_sign[rotation=8,waterlogged=false]"
+    },
+    "minecraft:mangrove_slab": {
+      "rawStateId": 13381,
+      "state": "minecraft:mangrove_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:mangrove_stairs": {
+      "rawStateId": 12303,
+      "state": "minecraft:mangrove_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:mangrove_trapdoor": {
+      "rawStateId": 7641,
+      "state": "minecraft:mangrove_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    "minecraft:mangrove_wall_hanging_sign": {
+      "rawStateId": 6740,
+      "state": "minecraft:mangrove_wall_hanging_sign[facing=north,waterlogged=false]"
+    },
+    "minecraft:mangrove_wall_sign": {
+      "rawStateId": 5892,
+      "state": "minecraft:mangrove_wall_sign[facing=north,waterlogged=false]"
+    },
+    "minecraft:mangrove_wood": {
+      "rawStateId": 223,
+      "state": "minecraft:mangrove_wood[axis=y]"
+    },
+    "minecraft:medium_amethyst_bud": {
+      "rawStateId": 23437,
+      "state": "minecraft:medium_amethyst_bud[facing=up,waterlogged=false]"
+    },
+    "minecraft:melon": {
+      "rawStateId": 8333,
+      "state": "minecraft:melon"
+    },
+    "minecraft:melon_stem": {
+      "rawStateId": 8350,
+      "state": "minecraft:melon_stem[age=0]"
+    },
+    "minecraft:moss_block": {
+      "rawStateId": 30355,
+      "state": "minecraft:moss_block"
+    },
+    "minecraft:moss_carpet": {
+      "rawStateId": 30306,
+      "state": "minecraft:moss_carpet"
+    },
+    "minecraft:mossy_cobblestone": {
+      "rawStateId": 3368,
+      "state": "minecraft:mossy_cobblestone"
+    },
+    "minecraft:mossy_cobblestone_slab": {
+      "rawStateId": 16443,
+      "state": "minecraft:mossy_cobblestone_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:mossy_cobblestone_stairs": {
+      "rawStateId": 15627,
+      "state": "minecraft:mossy_cobblestone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:mossy_cobblestone_wall": {
+      "rawStateId": 10308,
+      "state": "minecraft:mossy_cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:mossy_stone_brick_slab": {
+      "rawStateId": 16431,
+      "state": "minecraft:mossy_stone_brick_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:mossy_stone_brick_stairs": {
+      "rawStateId": 15467,
+      "state": "minecraft:mossy_stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:mossy_stone_brick_wall": {
+      "rawStateId": 17469,
+      "state": "minecraft:mossy_stone_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:mossy_stone_bricks": {
+      "rawStateId": 7755,
+      "state": "minecraft:mossy_stone_bricks"
+    },
+    "minecraft:moving_piston": {
+      "rawStateId": 2309,
+      "state": "minecraft:moving_piston[facing=north,type=normal]"
+    },
+    "minecraft:mud": {
+      "rawStateId": 30415,
+      "state": "minecraft:mud"
+    },
+    "minecraft:mud_brick_slab": {
+      "rawStateId": 13447,
+      "state": "minecraft:mud_brick_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:mud_brick_stairs": {
+      "rawStateId": 8849,
+      "state": "minecraft:mud_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:mud_brick_wall": {
+      "rawStateId": 18441,
+      "state": "minecraft:mud_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:mud_bricks": {
+      "rawStateId": 7759,
+      "state": "minecraft:mud_bricks"
+    },
+    "minecraft:muddy_mangrove_roots": {
+      "rawStateId": 166,
+      "state": "minecraft:muddy_mangrove_roots[axis=y]"
+    },
+    "minecraft:mushroom_stem": {
+      "rawStateId": 7894,
+      "state": "minecraft:mushroom_stem[down=true,east=true,north=true,south=true,up=true,west=true]"
+    },
+    "minecraft:mycelium": {
+      "rawStateId": 8919,
+      "state": "minecraft:mycelium[snowy=false]"
+    },
+    "minecraft:nether_brick_fence": {
+      "rawStateId": 9366,
+      "state": "minecraft:nether_brick_fence[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:nether_brick_slab": {
+      "rawStateId": 13453,
+      "state": "minecraft:nether_brick_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:nether_brick_stairs": {
+      "rawStateId": 9378,
+      "state": "minecraft:nether_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:nether_brick_wall": {
+      "rawStateId": 18765,
+      "state": "minecraft:nether_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:nether_bricks": {
+      "rawStateId": 9334,
+      "state": "minecraft:nether_bricks"
+    },
+    "minecraft:nether_gold_ore": {
+      "rawStateId": 135,
+      "state": "minecraft:nether_gold_ore"
+    },
+    "minecraft:nether_portal": {
+      "rawStateId": 7017,
+      "state": "minecraft:nether_portal[axis=x]"
+    },
+    "minecraft:nether_quartz_ore": {
+      "rawStateId": 11312,
+      "state": "minecraft:nether_quartz_ore"
+    },
+    "minecraft:nether_sprouts": {
+      "rawStateId": 20961,
+      "state": "minecraft:nether_sprouts"
+    },
+    "minecraft:nether_wart": {
+      "rawStateId": 9447,
+      "state": "minecraft:nether_wart[age=0]"
+    },
+    "minecraft:nether_wart_block": {
+      "rawStateId": 14846,
+      "state": "minecraft:nether_wart_block"
+    },
+    "minecraft:netherite_block": {
+      "rawStateId": 21818,
+      "state": "minecraft:netherite_block"
+    },
+    "minecraft:netherrack": {
+      "rawStateId": 6997,
+      "state": "minecraft:netherrack"
+    },
+    "minecraft:note_block": {
+      "rawStateId": 582,
+      "state": "minecraft:note_block[instrument=harp,note=0,powered=false]"
+    },
+    "minecraft:oak_button": {
+      "rawStateId": 10684,
+      "state": "minecraft:oak_button[face=wall,facing=north,powered=false]"
+    },
+    "minecraft:oak_door": {
+      "rawStateId": 5666,
+      "state": "minecraft:oak_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    "minecraft:oak_fence": {
+      "rawStateId": 6996,
+      "state": "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:oak_fence_gate": {
+      "rawStateId": 8653,
+      "state": "minecraft:oak_fence_gate[facing=north,in_wall=false,open=false,powered=false]"
+    },
+    "minecraft:oak_hanging_sign": {
+      "rawStateId": 5956,
+      "state": "minecraft:oak_hanging_sign[attached=false,rotation=8,waterlogged=false]"
+    },
+    "minecraft:oak_leaves": {
+      "rawStateId": 279,
+      "state": "minecraft:oak_leaves[distance=7,persistent=false,waterlogged=false]"
+    },
+    "minecraft:oak_log": {
+      "rawStateId": 137,
+      "state": "minecraft:oak_log[axis=y]"
+    },
+    "minecraft:oak_planks": {
+      "rawStateId": 15,
+      "state": "minecraft:oak_planks"
+    },
+    "minecraft:oak_pressure_plate": {
+      "rawStateId": 6862,
+      "state": "minecraft:oak_pressure_plate[powered=false]"
+    },
+    "minecraft:oak_sapling": {
+      "rawStateId": 29,
+      "state": "minecraft:oak_sapling[stage=0]"
+    },
+    "minecraft:oak_shelf": {
+      "rawStateId": 3121,
+      "state": "minecraft:oak_shelf[facing=north,powered=false,side_chain=unconnected,waterlogged=false]"
+    },
+    "minecraft:oak_sign": {
+      "rawStateId": 5352,
+      "state": "minecraft:oak_sign[rotation=8,waterlogged=false]"
+    },
+    "minecraft:oak_slab": {
+      "rawStateId": 13333,
+      "state": "minecraft:oak_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:oak_stairs": {
+      "rawStateId": 3918,
+      "state": "minecraft:oak_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:oak_trapdoor": {
+      "rawStateId": 7129,
+      "state": "minecraft:oak_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    "minecraft:oak_wall_hanging_sign": {
+      "rawStateId": 6676,
+      "state": "minecraft:oak_wall_hanging_sign[facing=north,waterlogged=false]"
+    },
+    "minecraft:oak_wall_sign": {
+      "rawStateId": 5828,
+      "state": "minecraft:oak_wall_sign[facing=north,waterlogged=false]"
+    },
+    "minecraft:oak_wood": {
+      "rawStateId": 202,
+      "state": "minecraft:oak_wood[axis=y]"
+    },
+    "minecraft:observer": {
+      "rawStateId": 14857,
+      "state": "minecraft:observer[facing=south,powered=false]"
+    },
+    "minecraft:obsidian": {
+      "rawStateId": 3369,
+      "state": "minecraft:obsidian"
+    },
+    "minecraft:ochre_froglight": {
+      "rawStateId": 32076,
+      "state": "minecraft:ochre_froglight[axis=y]"
+    },
+    "minecraft:open_eyeblossom": {
+      "rawStateId": 32361,
+      "state": "minecraft:open_eyeblossom"
+    },
+    "minecraft:orange_banner": {
+      "rawStateId": 12951,
+      "state": "minecraft:orange_banner[rotation=8]"
+    },
+    "minecraft:orange_bed": {
+      "rawStateId": 1950,
+      "state": "minecraft:orange_bed[facing=north,occupied=false,part=foot]"
+    },
+    "minecraft:orange_candle": {
+      "rawStateId": 23131,
+      "state": "minecraft:orange_candle[candles=1,lit=false,waterlogged=false]"
+    },
+    "minecraft:orange_candle_cake": {
+      "rawStateId": 23373,
+      "state": "minecraft:orange_candle_cake[lit=false]"
+    },
+    "minecraft:orange_carpet": {
+      "rawStateId": 12897,
+      "state": "minecraft:orange_carpet"
+    },
+    "minecraft:orange_concrete": {
+      "rawStateId": 15031,
+      "state": "minecraft:orange_concrete"
+    },
+    "minecraft:orange_concrete_powder": {
+      "rawStateId": 15047,
+      "state": "minecraft:orange_concrete_powder"
+    },
+    "minecraft:orange_glazed_terracotta": {
+      "rawStateId": 14970,
+      "state": "minecraft:orange_glazed_terracotta[facing=north]"
+    },
+    "minecraft:orange_shulker_box": {
+      "rawStateId": 14880,
+      "state": "minecraft:orange_shulker_box[facing=up]"
+    },
+    "minecraft:orange_stained_glass": {
+      "rawStateId": 7099,
+      "state": "minecraft:orange_stained_glass"
+    },
+    "minecraft:orange_stained_glass_pane": {
+      "rawStateId": 11523,
+      "state": "minecraft:orange_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:orange_terracotta": {
+      "rawStateId": 11445,
+      "state": "minecraft:orange_terracotta"
+    },
+    "minecraft:orange_tulip": {
+      "rawStateId": 2329,
+      "state": "minecraft:orange_tulip"
+    },
+    "minecraft:orange_wall_banner": {
+      "rawStateId": 13187,
+      "state": "minecraft:orange_wall_banner[facing=north]"
+    },
+    "minecraft:orange_wool": {
+      "rawStateId": 2294,
+      "state": "minecraft:orange_wool"
+    },
+    "minecraft:oxeye_daisy": {
+      "rawStateId": 2332,
+      "state": "minecraft:oxeye_daisy"
+    },
+    "minecraft:oxidized_chiseled_copper": {
+      "rawStateId": 27803,
+      "state": "minecraft:oxidized_chiseled_copper"
+    },
+    "minecraft:oxidized_copper": {
+      "rawStateId": 27785,
+      "state": "minecraft:oxidized_copper"
+    },
+    "minecraft:oxidized_copper_bars": {
+      "rawStateId": 8117,
+      "state": "minecraft:oxidized_copper_bars[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:oxidized_copper_bulb": {
+      "rawStateId": 29551,
+      "state": "minecraft:oxidized_copper_bulb[lit=false,powered=false]"
+    },
+    "minecraft:oxidized_copper_chain": {
+      "rawStateId": 8273,
+      "state": "minecraft:oxidized_copper_chain[axis=y,waterlogged=false]"
+    },
+    "minecraft:oxidized_copper_chest": {
+      "rawStateId": 29641,
+      "state": "minecraft:oxidized_copper_chest[facing=north,type=single,waterlogged=false]"
+    },
+    "minecraft:oxidized_copper_door": {
+      "rawStateId": 28699,
+      "state": "minecraft:oxidized_copper_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    "minecraft:oxidized_copper_golem_statue": {
+      "rawStateId": 29857,
+      "state": "minecraft:oxidized_copper_golem_statue[copper_golem_pose=standing,facing=north,waterlogged=false]"
+    },
+    "minecraft:oxidized_copper_grate": {
+      "rawStateId": 29527,
+      "state": "minecraft:oxidized_copper_grate[waterlogged=false]"
+    },
+    "minecraft:oxidized_copper_lantern": {
+      "rawStateId": 20860,
+      "state": "minecraft:oxidized_copper_lantern[hanging=false,waterlogged=false]"
+    },
+    "minecraft:oxidized_copper_trapdoor": {
+      "rawStateId": 29215,
+      "state": "minecraft:oxidized_copper_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    "minecraft:oxidized_cut_copper": {
+      "rawStateId": 27795,
+      "state": "minecraft:oxidized_cut_copper"
+    },
+    "minecraft:oxidized_cut_copper_slab": {
+      "rawStateId": 28469,
+      "state": "minecraft:oxidized_cut_copper_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:oxidized_cut_copper_stairs": {
+      "rawStateId": 28059,
+      "state": "minecraft:oxidized_cut_copper_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:oxidized_lightning_rod": {
+      "rawStateId": 30107,
+      "state": "minecraft:oxidized_lightning_rod[facing=up,powered=false,waterlogged=false]"
+    },
+    "minecraft:packed_ice": {
+      "rawStateId": 12914,
+      "state": "minecraft:packed_ice"
+    },
+    "minecraft:packed_mud": {
+      "rawStateId": 7758,
+      "state": "minecraft:packed_mud"
+    },
+    "minecraft:pale_hanging_moss": {
+      "rawStateId": 32359,
+      "state": "minecraft:pale_hanging_moss[tip=true]"
+    },
+    "minecraft:pale_moss_block": {
+      "rawStateId": 32196,
+      "state": "minecraft:pale_moss_block"
+    },
+    "minecraft:pale_moss_carpet": {
+      "rawStateId": 32197,
+      "state": "minecraft:pale_moss_carpet[bottom=true,east=none,north=none,south=none,west=none]"
+    },
+    "minecraft:pale_oak_button": {
+      "rawStateId": 10852,
+      "state": "minecraft:pale_oak_button[face=wall,facing=north,powered=false]"
+    },
+    "minecraft:pale_oak_door": {
+      "rawStateId": 14455,
+      "state": "minecraft:pale_oak_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    "minecraft:pale_oak_fence": {
+      "rawStateId": 13995,
+      "state": "minecraft:pale_oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:pale_oak_fence_gate": {
+      "rawStateId": 13683,
+      "state": "minecraft:pale_oak_fence_gate[facing=north,in_wall=false,open=false,powered=false]"
+    },
+    "minecraft:pale_oak_hanging_sign": {
+      "rawStateId": 6404,
+      "state": "minecraft:pale_oak_hanging_sign[attached=false,rotation=8,waterlogged=false]"
+    },
+    "minecraft:pale_oak_leaves": {
+      "rawStateId": 475,
+      "state": "minecraft:pale_oak_leaves[distance=7,persistent=false,waterlogged=false]"
+    },
+    "minecraft:pale_oak_log": {
+      "rawStateId": 158,
+      "state": "minecraft:pale_oak_log[axis=y]"
+    },
+    "minecraft:pale_oak_planks": {
+      "rawStateId": 25,
+      "state": "minecraft:pale_oak_planks"
+    },
+    "minecraft:pale_oak_pressure_plate": {
+      "rawStateId": 6876,
+      "state": "minecraft:pale_oak_pressure_plate[powered=false]"
+    },
+    "minecraft:pale_oak_sapling": {
+      "rawStateId": 43,
+      "state": "minecraft:pale_oak_sapling[stage=0]"
+    },
+    "minecraft:pale_oak_shelf": {
+      "rawStateId": 3185,
+      "state": "minecraft:pale_oak_shelf[facing=north,powered=false,side_chain=unconnected,waterlogged=false]"
+    },
+    "minecraft:pale_oak_sign": {
+      "rawStateId": 5576,
+      "state": "minecraft:pale_oak_sign[rotation=8,waterlogged=false]"
+    },
+    "minecraft:pale_oak_slab": {
+      "rawStateId": 13375,
+      "state": "minecraft:pale_oak_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:pale_oak_stairs": {
+      "rawStateId": 12223,
+      "state": "minecraft:pale_oak_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:pale_oak_trapdoor": {
+      "rawStateId": 7577,
+      "state": "minecraft:pale_oak_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    "minecraft:pale_oak_wall_hanging_sign": {
+      "rawStateId": 6732,
+      "state": "minecraft:pale_oak_wall_hanging_sign[facing=north,waterlogged=false]"
+    },
+    "minecraft:pale_oak_wall_sign": {
+      "rawStateId": 5884,
+      "state": "minecraft:pale_oak_wall_sign[facing=north,waterlogged=false]"
+    },
+    "minecraft:pale_oak_wood": {
+      "rawStateId": 23,
+      "state": "minecraft:pale_oak_wood[axis=y]"
+    },
+    "minecraft:pearlescent_froglight": {
+      "rawStateId": 32082,
+      "state": "minecraft:pearlescent_froglight[axis=y]"
+    },
+    "minecraft:peony": {
+      "rawStateId": 12922,
+      "state": "minecraft:peony[half=lower]"
+    },
+    "minecraft:petrified_oak_slab": {
+      "rawStateId": 13423,
+      "state": "minecraft:petrified_oak_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:piglin_head": {
+      "rawStateId": 11171,
+      "state": "minecraft:piglin_head[powered=false,rotation=0]"
+    },
+    "minecraft:piglin_wall_head": {
+      "rawStateId": 11188,
+      "state": "minecraft:piglin_wall_head[facing=north,powered=false]"
+    },
+    "minecraft:pink_banner": {
+      "rawStateId": 13031,
+      "state": "minecraft:pink_banner[rotation=8]"
+    },
+    "minecraft:pink_bed": {
+      "rawStateId": 2030,
+      "state": "minecraft:pink_bed[facing=north,occupied=false,part=foot]"
+    },
+    "minecraft:pink_candle": {
+      "rawStateId": 23211,
+      "state": "minecraft:pink_candle[candles=1,lit=false,waterlogged=false]"
+    },
+    "minecraft:pink_candle_cake": {
+      "rawStateId": 23383,
+      "state": "minecraft:pink_candle_cake[lit=false]"
+    },
+    "minecraft:pink_carpet": {
+      "rawStateId": 12902,
+      "state": "minecraft:pink_carpet"
+    },
+    "minecraft:pink_concrete": {
+      "rawStateId": 15036,
+      "state": "minecraft:pink_concrete"
+    },
+    "minecraft:pink_concrete_powder": {
+      "rawStateId": 15052,
+      "state": "minecraft:pink_concrete_powder"
+    },
+    "minecraft:pink_glazed_terracotta": {
+      "rawStateId": 14990,
+      "state": "minecraft:pink_glazed_terracotta[facing=north]"
+    },
+    "minecraft:pink_petals": {
+      "rawStateId": 30307,
+      "state": "minecraft:pink_petals[facing=north,flower_amount=1]"
+    },
+    "minecraft:pink_shulker_box": {
+      "rawStateId": 14910,
+      "state": "minecraft:pink_shulker_box[facing=up]"
+    },
+    "minecraft:pink_stained_glass": {
+      "rawStateId": 7104,
+      "state": "minecraft:pink_stained_glass"
+    },
+    "minecraft:pink_stained_glass_pane": {
+      "rawStateId": 11683,
+      "state": "minecraft:pink_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:pink_terracotta": {
+      "rawStateId": 11450,
+      "state": "minecraft:pink_terracotta"
+    },
+    "minecraft:pink_tulip": {
+      "rawStateId": 2331,
+      "state": "minecraft:pink_tulip"
+    },
+    "minecraft:pink_wall_banner": {
+      "rawStateId": 13207,
+      "state": "minecraft:pink_wall_banner[facing=north]"
+    },
+    "minecraft:pink_wool": {
+      "rawStateId": 2299,
+      "state": "minecraft:pink_wool"
+    },
+    "minecraft:piston": {
+      "rawStateId": 2263,
+      "state": "minecraft:piston[extended=false,facing=north]"
+    },
+    "minecraft:piston_head": {
+      "rawStateId": 2271,
+      "state": "minecraft:piston_head[facing=north,short=false,type=normal]"
+    },
+    "minecraft:pitcher_crop": {
+      "rawStateId": 14800,
+      "state": "minecraft:pitcher_crop[age=0,half=lower]"
+    },
+    "minecraft:pitcher_plant": {
+      "rawStateId": 14810,
+      "state": "minecraft:pitcher_plant[half=lower]"
+    },
+    "minecraft:player_head": {
+      "rawStateId": 11051,
+      "state": "minecraft:player_head[powered=false,rotation=0]"
+    },
+    "minecraft:player_wall_head": {
+      "rawStateId": 11068,
+      "state": "minecraft:player_wall_head[facing=north,powered=false]"
+    },
+    "minecraft:podzol": {
+      "rawStateId": 13,
+      "state": "minecraft:podzol[snowy=false]"
+    },
+    "minecraft:pointed_dripstone": {
+      "rawStateId": 30214,
+      "state": "minecraft:pointed_dripstone[thickness=tip,vertical_direction=up,waterlogged=false]"
+    },
+    "minecraft:polished_andesite": {
+      "rawStateId": 7,
+      "state": "minecraft:polished_andesite"
+    },
+    "minecraft:polished_andesite_slab": {
+      "rawStateId": 16485,
+      "state": "minecraft:polished_andesite_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:polished_andesite_stairs": {
+      "rawStateId": 16267,
+      "state": "minecraft:polished_andesite_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:polished_basalt": {
+      "rawStateId": 7004,
+      "state": "minecraft:polished_basalt[axis=y]"
+    },
+    "minecraft:polished_blackstone": {
+      "rawStateId": 22242,
+      "state": "minecraft:polished_blackstone"
+    },
+    "minecraft:polished_blackstone_brick_slab": {
+      "rawStateId": 22249,
+      "state": "minecraft:polished_blackstone_brick_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:polished_blackstone_brick_stairs": {
+      "rawStateId": 22263,
+      "state": "minecraft:polished_blackstone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:polished_blackstone_brick_wall": {
+      "rawStateId": 22335,
+      "state": "minecraft:polished_blackstone_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:polished_blackstone_bricks": {
+      "rawStateId": 22243,
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    "minecraft:polished_blackstone_button": {
+      "rawStateId": 22754,
+      "state": "minecraft:polished_blackstone_button[face=wall,facing=north,powered=false]"
+    },
+    "minecraft:polished_blackstone_pressure_plate": {
+      "rawStateId": 22744,
+      "state": "minecraft:polished_blackstone_pressure_plate[powered=false]"
+    },
+    "minecraft:polished_blackstone_slab": {
+      "rawStateId": 22740,
+      "state": "minecraft:polished_blackstone_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:polished_blackstone_stairs": {
+      "rawStateId": 22668,
+      "state": "minecraft:polished_blackstone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:polished_blackstone_wall": {
+      "rawStateId": 22772,
+      "state": "minecraft:polished_blackstone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:polished_cinnabar": {
+      "rawStateId": 26337,
+      "state": "minecraft:polished_cinnabar"
+    },
+    "minecraft:polished_cinnabar_slab": {
+      "rawStateId": 26341,
+      "state": "minecraft:polished_cinnabar_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:polished_cinnabar_stairs": {
+      "rawStateId": 26355,
+      "state": "minecraft:polished_cinnabar_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:polished_cinnabar_wall": {
+      "rawStateId": 26427,
+      "state": "minecraft:polished_cinnabar_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:polished_deepslate": {
+      "rawStateId": 30830,
+      "state": "minecraft:polished_deepslate"
+    },
+    "minecraft:polished_deepslate_slab": {
+      "rawStateId": 30914,
+      "state": "minecraft:polished_deepslate_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:polished_deepslate_stairs": {
+      "rawStateId": 30842,
+      "state": "minecraft:polished_deepslate_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:polished_deepslate_wall": {
+      "rawStateId": 30920,
+      "state": "minecraft:polished_deepslate_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:polished_diorite": {
+      "rawStateId": 5,
+      "state": "minecraft:polished_diorite"
+    },
+    "minecraft:polished_diorite_slab": {
+      "rawStateId": 16437,
+      "state": "minecraft:polished_diorite_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:polished_diorite_stairs": {
+      "rawStateId": 15547,
+      "state": "minecraft:polished_diorite_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:polished_granite": {
+      "rawStateId": 3,
+      "state": "minecraft:polished_granite"
+    },
+    "minecraft:polished_granite_slab": {
+      "rawStateId": 16419,
+      "state": "minecraft:polished_granite_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:polished_granite_stairs": {
+      "rawStateId": 15307,
+      "state": "minecraft:polished_granite_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:polished_sulfur": {
+      "rawStateId": 25103,
+      "state": "minecraft:polished_sulfur"
+    },
+    "minecraft:polished_sulfur_slab": {
+      "rawStateId": 25107,
+      "state": "minecraft:polished_sulfur_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:polished_sulfur_stairs": {
+      "rawStateId": 25121,
+      "state": "minecraft:polished_sulfur_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:polished_sulfur_wall": {
+      "rawStateId": 25193,
+      "state": "minecraft:polished_sulfur_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:polished_tuff": {
+      "rawStateId": 23863,
+      "state": "minecraft:polished_tuff"
+    },
+    "minecraft:polished_tuff_slab": {
+      "rawStateId": 23867,
+      "state": "minecraft:polished_tuff_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:polished_tuff_stairs": {
+      "rawStateId": 23881,
+      "state": "minecraft:polished_tuff_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:polished_tuff_wall": {
+      "rawStateId": 23953,
+      "state": "minecraft:polished_tuff_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:poppy": {
+      "rawStateId": 2324,
+      "state": "minecraft:poppy"
+    },
+    "minecraft:potatoes": {
+      "rawStateId": 10667,
+      "state": "minecraft:potatoes[age=0]"
+    },
+    "minecraft:potent_sulfur": {
+      "rawStateId": 24688,
+      "state": "minecraft:potent_sulfur[potent_sulfur_state=dry]"
+    },
+    "minecraft:potted_acacia_sapling": {
+      "rawStateId": 10635,
+      "state": "minecraft:potted_acacia_sapling"
+    },
+    "minecraft:potted_allium": {
+      "rawStateId": 10645,
+      "state": "minecraft:potted_allium"
+    },
+    "minecraft:potted_azalea_bush": {
+      "rawStateId": 32073,
+      "state": "minecraft:potted_azalea_bush"
+    },
+    "minecraft:potted_azure_bluet": {
+      "rawStateId": 10646,
+      "state": "minecraft:potted_azure_bluet"
+    },
+    "minecraft:potted_bamboo": {
+      "rawStateId": 15291,
+      "state": "minecraft:potted_bamboo"
+    },
+    "minecraft:potted_birch_sapling": {
+      "rawStateId": 10633,
+      "state": "minecraft:potted_birch_sapling"
+    },
+    "minecraft:potted_blue_orchid": {
+      "rawStateId": 10644,
+      "state": "minecraft:potted_blue_orchid"
+    },
+    "minecraft:potted_brown_mushroom": {
+      "rawStateId": 10656,
+      "state": "minecraft:potted_brown_mushroom"
+    },
+    "minecraft:potted_cactus": {
+      "rawStateId": 10658,
+      "state": "minecraft:potted_cactus"
+    },
+    "minecraft:potted_cherry_sapling": {
+      "rawStateId": 10636,
+      "state": "minecraft:potted_cherry_sapling"
+    },
+    "minecraft:potted_closed_eyeblossom": {
+      "rawStateId": 32364,
+      "state": "minecraft:potted_closed_eyeblossom"
+    },
+    "minecraft:potted_cornflower": {
+      "rawStateId": 10652,
+      "state": "minecraft:potted_cornflower"
+    },
+    "minecraft:potted_crimson_fungus": {
+      "rawStateId": 21826,
+      "state": "minecraft:potted_crimson_fungus"
+    },
+    "minecraft:potted_crimson_roots": {
+      "rawStateId": 21828,
+      "state": "minecraft:potted_crimson_roots"
+    },
+    "minecraft:potted_dandelion": {
+      "rawStateId": 10641,
+      "state": "minecraft:potted_dandelion"
+    },
+    "minecraft:potted_dark_oak_sapling": {
+      "rawStateId": 10637,
+      "state": "minecraft:potted_dark_oak_sapling"
+    },
+    "minecraft:potted_dead_bush": {
+      "rawStateId": 10657,
+      "state": "minecraft:potted_dead_bush"
+    },
+    "minecraft:potted_fern": {
+      "rawStateId": 10640,
+      "state": "minecraft:potted_fern"
+    },
+    "minecraft:potted_flowering_azalea_bush": {
+      "rawStateId": 32074,
+      "state": "minecraft:potted_flowering_azalea_bush"
+    },
+    "minecraft:potted_golden_dandelion": {
+      "rawStateId": 10642,
+      "state": "minecraft:potted_golden_dandelion"
+    },
+    "minecraft:potted_jungle_sapling": {
+      "rawStateId": 10634,
+      "state": "minecraft:potted_jungle_sapling"
+    },
+    "minecraft:potted_lily_of_the_valley": {
+      "rawStateId": 10653,
+      "state": "minecraft:potted_lily_of_the_valley"
+    },
+    "minecraft:potted_mangrove_propagule": {
+      "rawStateId": 10639,
+      "state": "minecraft:potted_mangrove_propagule"
+    },
+    "minecraft:potted_oak_sapling": {
+      "rawStateId": 10631,
+      "state": "minecraft:potted_oak_sapling"
+    },
+    "minecraft:potted_open_eyeblossom": {
+      "rawStateId": 32363,
+      "state": "minecraft:potted_open_eyeblossom"
+    },
+    "minecraft:potted_orange_tulip": {
+      "rawStateId": 10648,
+      "state": "minecraft:potted_orange_tulip"
+    },
+    "minecraft:potted_oxeye_daisy": {
+      "rawStateId": 10651,
+      "state": "minecraft:potted_oxeye_daisy"
+    },
+    "minecraft:potted_pale_oak_sapling": {
+      "rawStateId": 10638,
+      "state": "minecraft:potted_pale_oak_sapling"
+    },
+    "minecraft:potted_pink_tulip": {
+      "rawStateId": 10650,
+      "state": "minecraft:potted_pink_tulip"
+    },
+    "minecraft:potted_poppy": {
+      "rawStateId": 10643,
+      "state": "minecraft:potted_poppy"
+    },
+    "minecraft:potted_red_mushroom": {
+      "rawStateId": 10655,
+      "state": "minecraft:potted_red_mushroom"
+    },
+    "minecraft:potted_red_tulip": {
+      "rawStateId": 10647,
+      "state": "minecraft:potted_red_tulip"
+    },
+    "minecraft:potted_spruce_sapling": {
+      "rawStateId": 10632,
+      "state": "minecraft:potted_spruce_sapling"
+    },
+    "minecraft:potted_torchflower": {
+      "rawStateId": 10630,
+      "state": "minecraft:potted_torchflower"
+    },
+    "minecraft:potted_warped_fungus": {
+      "rawStateId": 21827,
+      "state": "minecraft:potted_warped_fungus"
+    },
+    "minecraft:potted_warped_roots": {
+      "rawStateId": 21829,
+      "state": "minecraft:potted_warped_roots"
+    },
+    "minecraft:potted_white_tulip": {
+      "rawStateId": 10649,
+      "state": "minecraft:potted_white_tulip"
+    },
+    "minecraft:potted_wither_rose": {
+      "rawStateId": 10654,
+      "state": "minecraft:potted_wither_rose"
+    },
+    "minecraft:powder_snow": {
+      "rawStateId": 27162,
+      "state": "minecraft:powder_snow"
+    },
+    "minecraft:powder_snow_cauldron": {
+      "rawStateId": 9465,
+      "state": "minecraft:powder_snow_cauldron[level=1]"
+    },
+    "minecraft:powered_rail": {
+      "rawStateId": 2200,
+      "state": "minecraft:powered_rail[powered=false,shape=north_south,waterlogged=false]"
+    },
+    "minecraft:prismarine": {
+      "rawStateId": 12631,
+      "state": "minecraft:prismarine"
+    },
+    "minecraft:prismarine_brick_slab": {
+      "rawStateId": 12883,
+      "state": "minecraft:prismarine_brick_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:prismarine_brick_stairs": {
+      "rawStateId": 12725,
+      "state": "minecraft:prismarine_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:prismarine_bricks": {
+      "rawStateId": 12632,
+      "state": "minecraft:prismarine_bricks"
+    },
+    "minecraft:prismarine_slab": {
+      "rawStateId": 12877,
+      "state": "minecraft:prismarine_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:prismarine_stairs": {
+      "rawStateId": 12645,
+      "state": "minecraft:prismarine_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:prismarine_wall": {
+      "rawStateId": 16821,
+      "state": "minecraft:prismarine_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:pumpkin": {
+      "rawStateId": 8332,
+      "state": "minecraft:pumpkin"
+    },
+    "minecraft:pumpkin_stem": {
+      "rawStateId": 8342,
+      "state": "minecraft:pumpkin_stem[age=0]"
+    },
+    "minecraft:purple_banner": {
+      "rawStateId": 13095,
+      "state": "minecraft:purple_banner[rotation=8]"
+    },
+    "minecraft:purple_bed": {
+      "rawStateId": 2094,
+      "state": "minecraft:purple_bed[facing=north,occupied=false,part=foot]"
+    },
+    "minecraft:purple_candle": {
+      "rawStateId": 23275,
+      "state": "minecraft:purple_candle[candles=1,lit=false,waterlogged=false]"
+    },
+    "minecraft:purple_candle_cake": {
+      "rawStateId": 23391,
+      "state": "minecraft:purple_candle_cake[lit=false]"
+    },
+    "minecraft:purple_carpet": {
+      "rawStateId": 12906,
+      "state": "minecraft:purple_carpet"
+    },
+    "minecraft:purple_concrete": {
+      "rawStateId": 15040,
+      "state": "minecraft:purple_concrete"
+    },
+    "minecraft:purple_concrete_powder": {
+      "rawStateId": 15056,
+      "state": "minecraft:purple_concrete_powder"
+    },
+    "minecraft:purple_glazed_terracotta": {
+      "rawStateId": 15006,
+      "state": "minecraft:purple_glazed_terracotta[facing=north]"
+    },
+    "minecraft:purple_shulker_box": {
+      "rawStateId": 14934,
+      "state": "minecraft:purple_shulker_box[facing=up]"
+    },
+    "minecraft:purple_stained_glass": {
+      "rawStateId": 7108,
+      "state": "minecraft:purple_stained_glass"
+    },
+    "minecraft:purple_stained_glass_pane": {
+      "rawStateId": 11811,
+      "state": "minecraft:purple_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:purple_terracotta": {
+      "rawStateId": 11454,
+      "state": "minecraft:purple_terracotta"
+    },
+    "minecraft:purple_wall_banner": {
+      "rawStateId": 13223,
+      "state": "minecraft:purple_wall_banner[facing=north]"
+    },
+    "minecraft:purple_wool": {
+      "rawStateId": 2303,
+      "state": "minecraft:purple_wool"
+    },
+    "minecraft:purpur_block": {
+      "rawStateId": 14712,
+      "state": "minecraft:purpur_block"
+    },
+    "minecraft:purpur_pillar": {
+      "rawStateId": 14714,
+      "state": "minecraft:purpur_pillar[axis=y]"
+    },
+    "minecraft:purpur_slab": {
+      "rawStateId": 13477,
+      "state": "minecraft:purpur_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:purpur_stairs": {
+      "rawStateId": 14727,
+      "state": "minecraft:purpur_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:quartz_block": {
+      "rawStateId": 11323,
+      "state": "minecraft:quartz_block"
+    },
+    "minecraft:quartz_bricks": {
+      "rawStateId": 23095,
+      "state": "minecraft:quartz_bricks"
+    },
+    "minecraft:quartz_pillar": {
+      "rawStateId": 11326,
+      "state": "minecraft:quartz_pillar[axis=y]"
+    },
+    "minecraft:quartz_slab": {
+      "rawStateId": 13459,
+      "state": "minecraft:quartz_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:quartz_stairs": {
+      "rawStateId": 11339,
+      "state": "minecraft:quartz_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:rail": {
+      "rawStateId": 5728,
+      "state": "minecraft:rail[shape=north_south,waterlogged=false]"
+    },
+    "minecraft:raw_copper_block": {
+      "rawStateId": 32071,
+      "state": "minecraft:raw_copper_block"
+    },
+    "minecraft:raw_gold_block": {
+      "rawStateId": 32072,
+      "state": "minecraft:raw_gold_block"
+    },
+    "minecraft:raw_iron_block": {
+      "rawStateId": 32070,
+      "state": "minecraft:raw_iron_block"
+    },
+    "minecraft:red_banner": {
+      "rawStateId": 13159,
+      "state": "minecraft:red_banner[rotation=8]"
+    },
+    "minecraft:red_bed": {
+      "rawStateId": 2158,
+      "state": "minecraft:red_bed[facing=north,occupied=false,part=foot]"
+    },
+    "minecraft:red_candle": {
+      "rawStateId": 23339,
+      "state": "minecraft:red_candle[candles=1,lit=false,waterlogged=false]"
+    },
+    "minecraft:red_candle_cake": {
+      "rawStateId": 23399,
+      "state": "minecraft:red_candle_cake[lit=false]"
+    },
+    "minecraft:red_carpet": {
+      "rawStateId": 12910,
+      "state": "minecraft:red_carpet"
+    },
+    "minecraft:red_concrete": {
+      "rawStateId": 15044,
+      "state": "minecraft:red_concrete"
+    },
+    "minecraft:red_concrete_powder": {
+      "rawStateId": 15060,
+      "state": "minecraft:red_concrete_powder"
+    },
+    "minecraft:red_glazed_terracotta": {
+      "rawStateId": 15022,
+      "state": "minecraft:red_glazed_terracotta[facing=north]"
+    },
+    "minecraft:red_mushroom": {
+      "rawStateId": 2337,
+      "state": "minecraft:red_mushroom"
+    },
+    "minecraft:red_mushroom_block": {
+      "rawStateId": 7830,
+      "state": "minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=true]"
+    },
+    "minecraft:red_nether_brick_slab": {
+      "rawStateId": 16479,
+      "state": "minecraft:red_nether_brick_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:red_nether_brick_stairs": {
+      "rawStateId": 16187,
+      "state": "minecraft:red_nether_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:red_nether_brick_wall": {
+      "rawStateId": 19413,
+      "state": "minecraft:red_nether_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:red_nether_bricks": {
+      "rawStateId": 14847,
+      "state": "minecraft:red_nether_bricks"
+    },
+    "minecraft:red_sand": {
+      "rawStateId": 123,
+      "state": "minecraft:red_sand"
+    },
+    "minecraft:red_sandstone": {
+      "rawStateId": 13247,
+      "state": "minecraft:red_sandstone"
+    },
+    "minecraft:red_sandstone_slab": {
+      "rawStateId": 13465,
+      "state": "minecraft:red_sandstone_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:red_sandstone_stairs": {
+      "rawStateId": 13261,
+      "state": "minecraft:red_sandstone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:red_sandstone_wall": {
+      "rawStateId": 17145,
+      "state": "minecraft:red_sandstone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:red_shulker_box": {
+      "rawStateId": 14958,
+      "state": "minecraft:red_shulker_box[facing=up]"
+    },
+    "minecraft:red_stained_glass": {
+      "rawStateId": 7112,
+      "state": "minecraft:red_stained_glass"
+    },
+    "minecraft:red_stained_glass_pane": {
+      "rawStateId": 11939,
+      "state": "minecraft:red_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:red_terracotta": {
+      "rawStateId": 11458,
+      "state": "minecraft:red_terracotta"
+    },
+    "minecraft:red_tulip": {
+      "rawStateId": 2328,
+      "state": "minecraft:red_tulip"
+    },
+    "minecraft:red_wall_banner": {
+      "rawStateId": 13239,
+      "state": "minecraft:red_wall_banner[facing=north]"
+    },
+    "minecraft:red_wool": {
+      "rawStateId": 2307,
+      "state": "minecraft:red_wool"
+    },
+    "minecraft:redstone_block": {
+      "rawStateId": 11311,
+      "state": "minecraft:redstone_block"
+    },
+    "minecraft:redstone_lamp": {
+      "rawStateId": 9480,
+      "state": "minecraft:redstone_lamp[lit=false]"
+    },
+    "minecraft:redstone_ore": {
+      "rawStateId": 6882,
+      "state": "minecraft:redstone_ore[lit=false]"
+    },
+    "minecraft:redstone_torch": {
+      "rawStateId": 6885,
+      "state": "minecraft:redstone_torch[lit=true]"
+    },
+    "minecraft:redstone_wall_torch": {
+      "rawStateId": 6887,
+      "state": "minecraft:redstone_wall_torch[facing=north,lit=true]"
+    },
+    "minecraft:redstone_wire": {
+      "rawStateId": 5171,
+      "state": "minecraft:redstone_wire[east=none,north=none,power=0,south=none,west=none]"
+    },
+    "minecraft:reinforced_deepslate": {
+      "rawStateId": 32085,
+      "state": "minecraft:reinforced_deepslate"
+    },
+    "minecraft:repeater": {
+      "rawStateId": 7037,
+      "state": "minecraft:repeater[delay=1,facing=north,locked=false,powered=false]"
+    },
+    "minecraft:repeating_command_block": {
+      "rawStateId": 14823,
+      "state": "minecraft:repeating_command_block[conditional=false,facing=north]"
+    },
+    "minecraft:resin_block": {
+      "rawStateId": 8921,
+      "state": "minecraft:resin_block"
+    },
+    "minecraft:resin_brick_slab": {
+      "rawStateId": 9006,
+      "state": "minecraft:resin_brick_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:resin_brick_stairs": {
+      "rawStateId": 8934,
+      "state": "minecraft:resin_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:resin_brick_wall": {
+      "rawStateId": 9012,
+      "state": "minecraft:resin_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:resin_bricks": {
+      "rawStateId": 8922,
+      "state": "minecraft:resin_bricks"
+    },
+    "minecraft:resin_clump": {
+      "rawStateId": 8645,
+      "state": "minecraft:resin_clump[down=false,east=false,north=false,south=false,up=false,waterlogged=false,west=false]"
+    },
+    "minecraft:respawn_anchor": {
+      "rawStateId": 21821,
+      "state": "minecraft:respawn_anchor[charges=0]"
+    },
+    "minecraft:rooted_dirt": {
+      "rawStateId": 30414,
+      "state": "minecraft:rooted_dirt"
+    },
+    "minecraft:rose_bush": {
+      "rawStateId": 12920,
+      "state": "minecraft:rose_bush[half=lower]"
+    },
+    "minecraft:sand": {
+      "rawStateId": 118,
+      "state": "minecraft:sand"
+    },
+    "minecraft:sandstone": {
+      "rawStateId": 578,
+      "state": "minecraft:sandstone"
+    },
+    "minecraft:sandstone_slab": {
+      "rawStateId": 13411,
+      "state": "minecraft:sandstone_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:sandstone_stairs": {
+      "rawStateId": 9504,
+      "state": "minecraft:sandstone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:sandstone_wall": {
+      "rawStateId": 19737,
+      "state": "minecraft:sandstone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:scaffolding": {
+      "rawStateId": 20737,
+      "state": "minecraft:scaffolding[bottom=false,distance=7,waterlogged=false]"
+    },
+    "minecraft:sculk": {
+      "rawStateId": 27643,
+      "state": "minecraft:sculk"
+    },
+    "minecraft:sculk_catalyst": {
+      "rawStateId": 27773,
+      "state": "minecraft:sculk_catalyst[bloom=false]"
+    },
+    "minecraft:sculk_sensor": {
+      "rawStateId": 27164,
+      "state": "minecraft:sculk_sensor[power=0,sculk_sensor_phase=inactive,waterlogged=false]"
+    },
+    "minecraft:sculk_shrieker": {
+      "rawStateId": 27781,
+      "state": "minecraft:sculk_shrieker[can_summon=false,shrieking=false,waterlogged=false]"
+    },
+    "minecraft:sculk_vein": {
+      "rawStateId": 27771,
+      "state": "minecraft:sculk_vein[down=false,east=false,north=false,south=false,up=false,waterlogged=false,west=false]"
+    },
+    "minecraft:sea_lantern": {
+      "rawStateId": 12892,
+      "state": "minecraft:sea_lantern"
+    },
+    "minecraft:sea_pickle": {
+      "rawStateId": 15267,
+      "state": "minecraft:sea_pickle[pickles=1,waterlogged=true]"
+    },
+    "minecraft:seagrass": {
+      "rawStateId": 2254,
+      "state": "minecraft:seagrass"
+    },
+    "minecraft:short_dry_grass": {
+      "rawStateId": 2252,
+      "state": "minecraft:short_dry_grass"
+    },
+    "minecraft:short_grass": {
+      "rawStateId": 2248,
+      "state": "minecraft:short_grass"
+    },
+    "minecraft:shroomlight": {
+      "rawStateId": 20976,
+      "state": "minecraft:shroomlight"
+    },
+    "minecraft:shulker_box": {
+      "rawStateId": 14868,
+      "state": "minecraft:shulker_box[facing=up]"
+    },
+    "minecraft:skeleton_skull": {
+      "rawStateId": 10931,
+      "state": "minecraft:skeleton_skull[powered=false,rotation=0]"
+    },
+    "minecraft:skeleton_wall_skull": {
+      "rawStateId": 10948,
+      "state": "minecraft:skeleton_wall_skull[facing=north,powered=false]"
+    },
+    "minecraft:slime_block": {
+      "rawStateId": 12532,
+      "state": "minecraft:slime_block"
+    },
+    "minecraft:small_amethyst_bud": {
+      "rawStateId": 23449,
+      "state": "minecraft:small_amethyst_bud[facing=up,waterlogged=false]"
+    },
+    "minecraft:small_dripleaf": {
+      "rawStateId": 30399,
+      "state": "minecraft:small_dripleaf[facing=north,half=lower,waterlogged=false]"
+    },
+    "minecraft:smithing_table": {
+      "rawStateId": 20800,
+      "state": "minecraft:smithing_table"
+    },
+    "minecraft:smoker": {
+      "rawStateId": 20755,
+      "state": "minecraft:smoker[facing=north,lit=false]"
+    },
+    "minecraft:smooth_basalt": {
+      "rawStateId": 32069,
+      "state": "minecraft:smooth_basalt"
+    },
+    "minecraft:smooth_quartz": {
+      "rawStateId": 13482,
+      "state": "minecraft:smooth_quartz"
+    },
+    "minecraft:smooth_quartz_slab": {
+      "rawStateId": 16461,
+      "state": "minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:smooth_quartz_stairs": {
+      "rawStateId": 15947,
+      "state": "minecraft:smooth_quartz_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:smooth_red_sandstone": {
+      "rawStateId": 13483,
+      "state": "minecraft:smooth_red_sandstone"
+    },
+    "minecraft:smooth_red_sandstone_slab": {
+      "rawStateId": 16425,
+      "state": "minecraft:smooth_red_sandstone_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:smooth_red_sandstone_stairs": {
+      "rawStateId": 15387,
+      "state": "minecraft:smooth_red_sandstone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:smooth_sandstone": {
+      "rawStateId": 13481,
+      "state": "minecraft:smooth_sandstone"
+    },
+    "minecraft:smooth_sandstone_slab": {
+      "rawStateId": 16455,
+      "state": "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:smooth_sandstone_stairs": {
+      "rawStateId": 15867,
+      "state": "minecraft:smooth_sandstone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:smooth_stone": {
+      "rawStateId": 13480,
+      "state": "minecraft:smooth_stone"
+    },
+    "minecraft:smooth_stone_slab": {
+      "rawStateId": 13405,
+      "state": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:sniffer_egg": {
+      "rawStateId": 15102,
+      "state": "minecraft:sniffer_egg[hatch=0]"
+    },
+    "minecraft:snow": {
+      "rawStateId": 6919,
+      "state": "minecraft:snow[layers=1]"
+    },
+    "minecraft:snow_block": {
+      "rawStateId": 6928,
+      "state": "minecraft:snow_block"
+    },
+    "minecraft:soul_campfire": {
+      "rawStateId": 20912,
+      "state": "minecraft:soul_campfire[facing=north,lit=true,signal_fire=false,waterlogged=false]"
+    },
+    "minecraft:soul_fire": {
+      "rawStateId": 3887,
+      "state": "minecraft:soul_fire"
+    },
+    "minecraft:soul_lantern": {
+      "rawStateId": 20844,
+      "state": "minecraft:soul_lantern[hanging=false,waterlogged=false]"
+    },
+    "minecraft:soul_sand": {
+      "rawStateId": 6998,
+      "state": "minecraft:soul_sand"
+    },
+    "minecraft:soul_soil": {
+      "rawStateId": 6999,
+      "state": "minecraft:soul_soil"
+    },
+    "minecraft:soul_torch": {
+      "rawStateId": 7006,
+      "state": "minecraft:soul_torch"
+    },
+    "minecraft:soul_wall_torch": {
+      "rawStateId": 7007,
+      "state": "minecraft:soul_wall_torch[facing=north]"
+    },
+    "minecraft:spawner": {
+      "rawStateId": 3888,
+      "state": "minecraft:spawner"
+    },
+    "minecraft:sponge": {
+      "rawStateId": 560,
+      "state": "minecraft:sponge"
+    },
+    "minecraft:spore_blossom": {
+      "rawStateId": 30303,
+      "state": "minecraft:spore_blossom"
+    },
+    "minecraft:spruce_button": {
+      "rawStateId": 10708,
+      "state": "minecraft:spruce_button[face=wall,facing=north,powered=false]"
+    },
+    "minecraft:spruce_door": {
+      "rawStateId": 14071,
+      "state": "minecraft:spruce_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    "minecraft:spruce_fence": {
+      "rawStateId": 13803,
+      "state": "minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:spruce_fence_gate": {
+      "rawStateId": 13491,
+      "state": "minecraft:spruce_fence_gate[facing=north,in_wall=false,open=false,powered=false]"
+    },
+    "minecraft:spruce_hanging_sign": {
+      "rawStateId": 6020,
+      "state": "minecraft:spruce_hanging_sign[attached=false,rotation=8,waterlogged=false]"
+    },
+    "minecraft:spruce_leaves": {
+      "rawStateId": 307,
+      "state": "minecraft:spruce_leaves[distance=7,persistent=false,waterlogged=false]"
+    },
+    "minecraft:spruce_log": {
+      "rawStateId": 140,
+      "state": "minecraft:spruce_log[axis=y]"
+    },
+    "minecraft:spruce_planks": {
+      "rawStateId": 16,
+      "state": "minecraft:spruce_planks"
+    },
+    "minecraft:spruce_pressure_plate": {
+      "rawStateId": 6864,
+      "state": "minecraft:spruce_pressure_plate[powered=false]"
+    },
+    "minecraft:spruce_sapling": {
+      "rawStateId": 31,
+      "state": "minecraft:spruce_sapling[stage=0]"
+    },
+    "minecraft:spruce_shelf": {
+      "rawStateId": 3249,
+      "state": "minecraft:spruce_shelf[facing=north,powered=false,side_chain=unconnected,waterlogged=false]"
+    },
+    "minecraft:spruce_sign": {
+      "rawStateId": 5384,
+      "state": "minecraft:spruce_sign[rotation=8,waterlogged=false]"
+    },
+    "minecraft:spruce_slab": {
+      "rawStateId": 13339,
+      "state": "minecraft:spruce_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:spruce_stairs": {
+      "rawStateId": 9739,
+      "state": "minecraft:spruce_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:spruce_trapdoor": {
+      "rawStateId": 7193,
+      "state": "minecraft:spruce_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    "minecraft:spruce_wall_hanging_sign": {
+      "rawStateId": 6684,
+      "state": "minecraft:spruce_wall_hanging_sign[facing=north,waterlogged=false]"
+    },
+    "minecraft:spruce_wall_sign": {
+      "rawStateId": 5836,
+      "state": "minecraft:spruce_wall_sign[facing=north,waterlogged=false]"
+    },
+    "minecraft:spruce_wood": {
+      "rawStateId": 205,
+      "state": "minecraft:spruce_wood[axis=y]"
+    },
+    "minecraft:sticky_piston": {
+      "rawStateId": 2241,
+      "state": "minecraft:sticky_piston[extended=false,facing=north]"
+    },
+    "minecraft:stone": {
+      "rawStateId": 1,
+      "state": "minecraft:stone"
+    },
+    "minecraft:stone_brick_slab": {
+      "rawStateId": 13441,
+      "state": "minecraft:stone_brick_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:stone_brick_stairs": {
+      "rawStateId": 8769,
+      "state": "minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:stone_brick_wall": {
+      "rawStateId": 18117,
+      "state": "minecraft:stone_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:stone_bricks": {
+      "rawStateId": 7754,
+      "state": "minecraft:stone_bricks"
+    },
+    "minecraft:stone_button": {
+      "rawStateId": 6904,
+      "state": "minecraft:stone_button[face=wall,facing=north,powered=false]"
+    },
+    "minecraft:stone_pressure_plate": {
+      "rawStateId": 6796,
+      "state": "minecraft:stone_pressure_plate[powered=false]"
+    },
+    "minecraft:stone_slab": {
+      "rawStateId": 13399,
+      "state": "minecraft:stone_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:stone_stairs": {
+      "rawStateId": 15787,
+      "state": "minecraft:stone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:stonecutter": {
+      "rawStateId": 20801,
+      "state": "minecraft:stonecutter[facing=north]"
+    },
+    "minecraft:stripped_acacia_log": {
+      "rawStateId": 181,
+      "state": "minecraft:stripped_acacia_log[axis=y]"
+    },
+    "minecraft:stripped_acacia_wood": {
+      "rawStateId": 238,
+      "state": "minecraft:stripped_acacia_wood[axis=y]"
+    },
+    "minecraft:stripped_bamboo_block": {
+      "rawStateId": 199,
+      "state": "minecraft:stripped_bamboo_block[axis=y]"
+    },
+    "minecraft:stripped_birch_log": {
+      "rawStateId": 175,
+      "state": "minecraft:stripped_birch_log[axis=y]"
+    },
+    "minecraft:stripped_birch_wood": {
+      "rawStateId": 232,
+      "state": "minecraft:stripped_birch_wood[axis=y]"
+    },
+    "minecraft:stripped_cherry_log": {
+      "rawStateId": 184,
+      "state": "minecraft:stripped_cherry_log[axis=y]"
+    },
+    "minecraft:stripped_cherry_wood": {
+      "rawStateId": 241,
+      "state": "minecraft:stripped_cherry_wood[axis=y]"
+    },
+    "minecraft:stripped_crimson_hyphae": {
+      "rawStateId": 20972,
+      "state": "minecraft:stripped_crimson_hyphae[axis=y]"
+    },
+    "minecraft:stripped_crimson_stem": {
+      "rawStateId": 20966,
+      "state": "minecraft:stripped_crimson_stem[axis=y]"
+    },
+    "minecraft:stripped_dark_oak_log": {
+      "rawStateId": 187,
+      "state": "minecraft:stripped_dark_oak_log[axis=y]"
+    },
+    "minecraft:stripped_dark_oak_wood": {
+      "rawStateId": 244,
+      "state": "minecraft:stripped_dark_oak_wood[axis=y]"
+    },
+    "minecraft:stripped_jungle_log": {
+      "rawStateId": 178,
+      "state": "minecraft:stripped_jungle_log[axis=y]"
+    },
+    "minecraft:stripped_jungle_wood": {
+      "rawStateId": 235,
+      "state": "minecraft:stripped_jungle_wood[axis=y]"
+    },
+    "minecraft:stripped_mangrove_log": {
+      "rawStateId": 196,
+      "state": "minecraft:stripped_mangrove_log[axis=y]"
+    },
+    "minecraft:stripped_mangrove_wood": {
+      "rawStateId": 250,
+      "state": "minecraft:stripped_mangrove_wood[axis=y]"
+    },
+    "minecraft:stripped_oak_log": {
+      "rawStateId": 193,
+      "state": "minecraft:stripped_oak_log[axis=y]"
+    },
+    "minecraft:stripped_oak_wood": {
+      "rawStateId": 226,
+      "state": "minecraft:stripped_oak_wood[axis=y]"
+    },
+    "minecraft:stripped_pale_oak_log": {
+      "rawStateId": 190,
+      "state": "minecraft:stripped_pale_oak_log[axis=y]"
+    },
+    "minecraft:stripped_pale_oak_wood": {
+      "rawStateId": 247,
+      "state": "minecraft:stripped_pale_oak_wood[axis=y]"
+    },
+    "minecraft:stripped_spruce_log": {
+      "rawStateId": 172,
+      "state": "minecraft:stripped_spruce_log[axis=y]"
+    },
+    "minecraft:stripped_spruce_wood": {
+      "rawStateId": 229,
+      "state": "minecraft:stripped_spruce_wood[axis=y]"
+    },
+    "minecraft:stripped_warped_hyphae": {
+      "rawStateId": 20955,
+      "state": "minecraft:stripped_warped_hyphae[axis=y]"
+    },
+    "minecraft:stripped_warped_stem": {
+      "rawStateId": 20949,
+      "state": "minecraft:stripped_warped_stem[axis=y]"
+    },
+    "minecraft:structure_block": {
+      "rawStateId": 21723,
+      "state": "minecraft:structure_block[mode=load]"
+    },
+    "minecraft:structure_void": {
+      "rawStateId": 14851,
+      "state": "minecraft:structure_void"
+    },
+    "minecraft:sugar_cane": {
+      "rawStateId": 6947,
+      "state": "minecraft:sugar_cane[age=0]"
+    },
+    "minecraft:sulfur": {
+      "rawStateId": 24687,
+      "state": "minecraft:sulfur"
+    },
+    "minecraft:sulfur_brick_slab": {
+      "rawStateId": 25518,
+      "state": "minecraft:sulfur_brick_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:sulfur_brick_stairs": {
+      "rawStateId": 25532,
+      "state": "minecraft:sulfur_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:sulfur_brick_wall": {
+      "rawStateId": 25604,
+      "state": "minecraft:sulfur_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:sulfur_bricks": {
+      "rawStateId": 25514,
+      "state": "minecraft:sulfur_bricks"
+    },
+    "minecraft:sulfur_slab": {
+      "rawStateId": 24696,
+      "state": "minecraft:sulfur_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:sulfur_spike": {
+      "rawStateId": 30234,
+      "state": "minecraft:sulfur_spike[thickness=tip,vertical_direction=up,waterlogged=false]"
+    },
+    "minecraft:sulfur_stairs": {
+      "rawStateId": 24710,
+      "state": "minecraft:sulfur_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:sulfur_wall": {
+      "rawStateId": 24782,
+      "state": "minecraft:sulfur_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:sunflower": {
+      "rawStateId": 12916,
+      "state": "minecraft:sunflower[half=lower]"
+    },
+    "minecraft:suspicious_gravel": {
+      "rawStateId": 125,
+      "state": "minecraft:suspicious_gravel[dusted=0]"
+    },
+    "minecraft:suspicious_sand": {
+      "rawStateId": 119,
+      "state": "minecraft:suspicious_sand[dusted=0]"
+    },
+    "minecraft:sweet_berry_bush": {
+      "rawStateId": 20941,
+      "state": "minecraft:sweet_berry_bush[age=0]"
+    },
+    "minecraft:tall_dry_grass": {
+      "rawStateId": 2253,
+      "state": "minecraft:tall_dry_grass"
+    },
+    "minecraft:tall_grass": {
+      "rawStateId": 12924,
+      "state": "minecraft:tall_grass[half=lower]"
+    },
+    "minecraft:tall_seagrass": {
+      "rawStateId": 2256,
+      "state": "minecraft:tall_seagrass[half=lower]"
+    },
+    "minecraft:target": {
+      "rawStateId": 21752,
+      "state": "minecraft:target[power=0]"
+    },
+    "minecraft:terracotta": {
+      "rawStateId": 12912,
+      "state": "minecraft:terracotta"
+    },
+    "minecraft:test_block": {
+      "rawStateId": 21738,
+      "state": "minecraft:test_block[mode=start]"
+    },
+    "minecraft:test_instance_block": {
+      "rawStateId": 21742,
+      "state": "minecraft:test_instance_block"
+    },
+    "minecraft:tinted_glass": {
+      "rawStateId": 27161,
+      "state": "minecraft:tinted_glass"
+    },
+    "minecraft:tnt": {
+      "rawStateId": 2342,
+      "state": "minecraft:tnt[unstable=false]"
+    },
+    "minecraft:torch": {
+      "rawStateId": 3370,
+      "state": "minecraft:torch"
+    },
+    "minecraft:torchflower": {
+      "rawStateId": 2323,
+      "state": "minecraft:torchflower"
+    },
+    "minecraft:torchflower_crop": {
+      "rawStateId": 14797,
+      "state": "minecraft:torchflower_crop[age=0]"
+    },
+    "minecraft:trapped_chest": {
+      "rawStateId": 11208,
+      "state": "minecraft:trapped_chest[facing=north,type=single,waterlogged=false]"
+    },
+    "minecraft:trial_spawner": {
+      "rawStateId": 32156,
+      "state": "minecraft:trial_spawner[ominous=false,trial_spawner_state=inactive]"
+    },
+    "minecraft:tripwire": {
+      "rawStateId": 9726,
+      "state": "minecraft:tripwire[attached=false,disarmed=false,east=false,north=false,powered=false,south=false,west=false]"
+    },
+    "minecraft:tripwire_hook": {
+      "rawStateId": 9592,
+      "state": "minecraft:tripwire_hook[attached=false,facing=north,powered=false]"
+    },
+    "minecraft:tube_coral": {
+      "rawStateId": 15157,
+      "state": "minecraft:tube_coral[waterlogged=true]"
+    },
+    "minecraft:tube_coral_block": {
+      "rawStateId": 15142,
+      "state": "minecraft:tube_coral_block"
+    },
+    "minecraft:tube_coral_fan": {
+      "rawStateId": 15177,
+      "state": "minecraft:tube_coral_fan[waterlogged=true]"
+    },
+    "minecraft:tube_coral_wall_fan": {
+      "rawStateId": 15227,
+      "state": "minecraft:tube_coral_wall_fan[facing=north,waterlogged=true]"
+    },
+    "minecraft:tuff": {
+      "rawStateId": 23452,
+      "state": "minecraft:tuff"
+    },
+    "minecraft:tuff_brick_slab": {
+      "rawStateId": 24279,
+      "state": "minecraft:tuff_brick_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:tuff_brick_stairs": {
+      "rawStateId": 24293,
+      "state": "minecraft:tuff_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:tuff_brick_wall": {
+      "rawStateId": 24365,
+      "state": "minecraft:tuff_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:tuff_bricks": {
+      "rawStateId": 24275,
+      "state": "minecraft:tuff_bricks"
+    },
+    "minecraft:tuff_slab": {
+      "rawStateId": 23456,
+      "state": "minecraft:tuff_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:tuff_stairs": {
+      "rawStateId": 23470,
+      "state": "minecraft:tuff_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:tuff_wall": {
+      "rawStateId": 23542,
+      "state": "minecraft:tuff_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+    },
+    "minecraft:turtle_egg": {
+      "rawStateId": 15090,
+      "state": "minecraft:turtle_egg[eggs=1,hatch=0]"
+    },
+    "minecraft:twisting_vines": {
+      "rawStateId": 21004,
+      "state": "minecraft:twisting_vines[age=0]"
+    },
+    "minecraft:twisting_vines_plant": {
+      "rawStateId": 21030,
+      "state": "minecraft:twisting_vines_plant"
+    },
+    "minecraft:vault": {
+      "rawStateId": 32166,
+      "state": "minecraft:vault[facing=north,ominous=false,vault_state=inactive]"
+    },
+    "minecraft:verdant_froglight": {
+      "rawStateId": 32079,
+      "state": "minecraft:verdant_froglight[axis=y]"
+    },
+    "minecraft:vine": {
+      "rawStateId": 8389,
+      "state": "minecraft:vine[east=false,north=false,south=false,up=false,west=false]"
+    },
+    "minecraft:void_air": {
+      "rawStateId": 15292,
+      "state": "minecraft:void_air"
+    },
+    "minecraft:wall_torch": {
+      "rawStateId": 3371,
+      "state": "minecraft:wall_torch[facing=north]"
+    },
+    "minecraft:warped_button": {
+      "rawStateId": 21499,
+      "state": "minecraft:warped_button[face=wall,facing=north,powered=false]"
+    },
+    "minecraft:warped_door": {
+      "rawStateId": 21589,
+      "state": "minecraft:warped_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    "minecraft:warped_fence": {
+      "rawStateId": 21113,
+      "state": "minecraft:warped_fence[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:warped_fence_gate": {
+      "rawStateId": 21281,
+      "state": "minecraft:warped_fence_gate[facing=north,in_wall=false,open=false,powered=false]"
+    },
+    "minecraft:warped_fungus": {
+      "rawStateId": 20958,
+      "state": "minecraft:warped_fungus"
+    },
+    "minecraft:warped_hanging_sign": {
+      "rawStateId": 6532,
+      "state": "minecraft:warped_hanging_sign[attached=false,rotation=8,waterlogged=false]"
+    },
+    "minecraft:warped_hyphae": {
+      "rawStateId": 20952,
+      "state": "minecraft:warped_hyphae[axis=y]"
+    },
+    "minecraft:warped_nylium": {
+      "rawStateId": 20957,
+      "state": "minecraft:warped_nylium"
+    },
+    "minecraft:warped_planks": {
+      "rawStateId": 21033,
+      "state": "minecraft:warped_planks"
+    },
+    "minecraft:warped_pressure_plate": {
+      "rawStateId": 21049,
+      "state": "minecraft:warped_pressure_plate[powered=false]"
+    },
+    "minecraft:warped_roots": {
+      "rawStateId": 20960,
+      "state": "minecraft:warped_roots"
+    },
+    "minecraft:warped_shelf": {
+      "rawStateId": 3313,
+      "state": "minecraft:warped_shelf[facing=north,powered=false,side_chain=unconnected,waterlogged=false]"
+    },
+    "minecraft:warped_sign": {
+      "rawStateId": 21691,
+      "state": "minecraft:warped_sign[rotation=8,waterlogged=false]"
+    },
+    "minecraft:warped_slab": {
+      "rawStateId": 21043,
+      "state": "minecraft:warped_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:warped_stairs": {
+      "rawStateId": 21397,
+      "state": "minecraft:warped_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:warped_stem": {
+      "rawStateId": 20946,
+      "state": "minecraft:warped_stem[axis=y]"
+    },
+    "minecraft:warped_trapdoor": {
+      "rawStateId": 21193,
+      "state": "minecraft:warped_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    "minecraft:warped_wall_hanging_sign": {
+      "rawStateId": 6756,
+      "state": "minecraft:warped_wall_hanging_sign[facing=north,waterlogged=false]"
+    },
+    "minecraft:warped_wall_sign": {
+      "rawStateId": 21715,
+      "state": "minecraft:warped_wall_sign[facing=north,waterlogged=false]"
+    },
+    "minecraft:warped_wart_block": {
+      "rawStateId": 20959,
+      "state": "minecraft:warped_wart_block"
+    },
+    "minecraft:water": {
+      "rawStateId": 86,
+      "state": "minecraft:water[level=0]"
+    },
+    "minecraft:water_cauldron": {
+      "rawStateId": 9461,
+      "state": "minecraft:water_cauldron[level=1]"
+    },
+    "minecraft:waxed_chiseled_copper": {
+      "rawStateId": 27804,
+      "state": "minecraft:waxed_chiseled_copper"
+    },
+    "minecraft:waxed_copper_bars": {
+      "rawStateId": 8149,
+      "state": "minecraft:waxed_copper_bars[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:waxed_copper_block": {
+      "rawStateId": 27786,
+      "state": "minecraft:waxed_copper_block"
+    },
+    "minecraft:waxed_copper_bulb": {
+      "rawStateId": 29555,
+      "state": "minecraft:waxed_copper_bulb[lit=false,powered=false]"
+    },
+    "minecraft:waxed_copper_chain": {
+      "rawStateId": 8279,
+      "state": "minecraft:waxed_copper_chain[axis=y,waterlogged=false]"
+    },
+    "minecraft:waxed_copper_chest": {
+      "rawStateId": 29665,
+      "state": "minecraft:waxed_copper_chest[facing=north,type=single,waterlogged=false]"
+    },
+    "minecraft:waxed_copper_door": {
+      "rawStateId": 28763,
+      "state": "minecraft:waxed_copper_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    "minecraft:waxed_copper_golem_statue": {
+      "rawStateId": 29889,
+      "state": "minecraft:waxed_copper_golem_statue[copper_golem_pose=standing,facing=north,waterlogged=false]"
+    },
+    "minecraft:waxed_copper_grate": {
+      "rawStateId": 29529,
+      "state": "minecraft:waxed_copper_grate[waterlogged=false]"
+    },
+    "minecraft:waxed_copper_lantern": {
+      "rawStateId": 20864,
+      "state": "minecraft:waxed_copper_lantern[hanging=false,waterlogged=false]"
+    },
+    "minecraft:waxed_copper_trapdoor": {
+      "rawStateId": 29279,
+      "state": "minecraft:waxed_copper_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    "minecraft:waxed_cut_copper": {
+      "rawStateId": 27796,
+      "state": "minecraft:waxed_cut_copper"
+    },
+    "minecraft:waxed_cut_copper_slab": {
+      "rawStateId": 28475,
+      "state": "minecraft:waxed_cut_copper_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:waxed_cut_copper_stairs": {
+      "rawStateId": 28139,
+      "state": "minecraft:waxed_cut_copper_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:waxed_exposed_chiseled_copper": {
+      "rawStateId": 27805,
+      "state": "minecraft:waxed_exposed_chiseled_copper"
+    },
+    "minecraft:waxed_exposed_copper": {
+      "rawStateId": 27787,
+      "state": "minecraft:waxed_exposed_copper"
+    },
+    "minecraft:waxed_exposed_copper_bars": {
+      "rawStateId": 8181,
+      "state": "minecraft:waxed_exposed_copper_bars[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:waxed_exposed_copper_bulb": {
+      "rawStateId": 29559,
+      "state": "minecraft:waxed_exposed_copper_bulb[lit=false,powered=false]"
+    },
+    "minecraft:waxed_exposed_copper_chain": {
+      "rawStateId": 8285,
+      "state": "minecraft:waxed_exposed_copper_chain[axis=y,waterlogged=false]"
+    },
+    "minecraft:waxed_exposed_copper_chest": {
+      "rawStateId": 29689,
+      "state": "minecraft:waxed_exposed_copper_chest[facing=north,type=single,waterlogged=false]"
+    },
+    "minecraft:waxed_exposed_copper_door": {
+      "rawStateId": 28827,
+      "state": "minecraft:waxed_exposed_copper_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    "minecraft:waxed_exposed_copper_golem_statue": {
+      "rawStateId": 29921,
+      "state": "minecraft:waxed_exposed_copper_golem_statue[copper_golem_pose=standing,facing=north,waterlogged=false]"
+    },
+    "minecraft:waxed_exposed_copper_grate": {
+      "rawStateId": 29531,
+      "state": "minecraft:waxed_exposed_copper_grate[waterlogged=false]"
+    },
+    "minecraft:waxed_exposed_copper_lantern": {
+      "rawStateId": 20868,
+      "state": "minecraft:waxed_exposed_copper_lantern[hanging=false,waterlogged=false]"
+    },
+    "minecraft:waxed_exposed_copper_trapdoor": {
+      "rawStateId": 29343,
+      "state": "minecraft:waxed_exposed_copper_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    "minecraft:waxed_exposed_cut_copper": {
+      "rawStateId": 27797,
+      "state": "minecraft:waxed_exposed_cut_copper"
+    },
+    "minecraft:waxed_exposed_cut_copper_slab": {
+      "rawStateId": 28481,
+      "state": "minecraft:waxed_exposed_cut_copper_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:waxed_exposed_cut_copper_stairs": {
+      "rawStateId": 28219,
+      "state": "minecraft:waxed_exposed_cut_copper_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:waxed_exposed_lightning_rod": {
+      "rawStateId": 30155,
+      "state": "minecraft:waxed_exposed_lightning_rod[facing=up,powered=false,waterlogged=false]"
+    },
+    "minecraft:waxed_lightning_rod": {
+      "rawStateId": 30131,
+      "state": "minecraft:waxed_lightning_rod[facing=up,powered=false,waterlogged=false]"
+    },
+    "minecraft:waxed_oxidized_chiseled_copper": {
+      "rawStateId": 27807,
+      "state": "minecraft:waxed_oxidized_chiseled_copper"
+    },
+    "minecraft:waxed_oxidized_copper": {
+      "rawStateId": 27789,
+      "state": "minecraft:waxed_oxidized_copper"
+    },
+    "minecraft:waxed_oxidized_copper_bars": {
+      "rawStateId": 8245,
+      "state": "minecraft:waxed_oxidized_copper_bars[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:waxed_oxidized_copper_bulb": {
+      "rawStateId": 29567,
+      "state": "minecraft:waxed_oxidized_copper_bulb[lit=false,powered=false]"
+    },
+    "minecraft:waxed_oxidized_copper_chain": {
+      "rawStateId": 8297,
+      "state": "minecraft:waxed_oxidized_copper_chain[axis=y,waterlogged=false]"
+    },
+    "minecraft:waxed_oxidized_copper_chest": {
+      "rawStateId": 29737,
+      "state": "minecraft:waxed_oxidized_copper_chest[facing=north,type=single,waterlogged=false]"
+    },
+    "minecraft:waxed_oxidized_copper_door": {
+      "rawStateId": 28955,
+      "state": "minecraft:waxed_oxidized_copper_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    "minecraft:waxed_oxidized_copper_golem_statue": {
+      "rawStateId": 29985,
+      "state": "minecraft:waxed_oxidized_copper_golem_statue[copper_golem_pose=standing,facing=north,waterlogged=false]"
+    },
+    "minecraft:waxed_oxidized_copper_grate": {
+      "rawStateId": 29535,
+      "state": "minecraft:waxed_oxidized_copper_grate[waterlogged=false]"
+    },
+    "minecraft:waxed_oxidized_copper_lantern": {
+      "rawStateId": 20876,
+      "state": "minecraft:waxed_oxidized_copper_lantern[hanging=false,waterlogged=false]"
+    },
+    "minecraft:waxed_oxidized_copper_trapdoor": {
+      "rawStateId": 29471,
+      "state": "minecraft:waxed_oxidized_copper_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    "minecraft:waxed_oxidized_cut_copper": {
+      "rawStateId": 27799,
+      "state": "minecraft:waxed_oxidized_cut_copper"
+    },
+    "minecraft:waxed_oxidized_cut_copper_slab": {
+      "rawStateId": 28493,
+      "state": "minecraft:waxed_oxidized_cut_copper_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:waxed_oxidized_cut_copper_stairs": {
+      "rawStateId": 28379,
+      "state": "minecraft:waxed_oxidized_cut_copper_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:waxed_oxidized_lightning_rod": {
+      "rawStateId": 30203,
+      "state": "minecraft:waxed_oxidized_lightning_rod[facing=up,powered=false,waterlogged=false]"
+    },
+    "minecraft:waxed_weathered_chiseled_copper": {
+      "rawStateId": 27806,
+      "state": "minecraft:waxed_weathered_chiseled_copper"
+    },
+    "minecraft:waxed_weathered_copper": {
+      "rawStateId": 27788,
+      "state": "minecraft:waxed_weathered_copper"
+    },
+    "minecraft:waxed_weathered_copper_bars": {
+      "rawStateId": 8213,
+      "state": "minecraft:waxed_weathered_copper_bars[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:waxed_weathered_copper_bulb": {
+      "rawStateId": 29563,
+      "state": "minecraft:waxed_weathered_copper_bulb[lit=false,powered=false]"
+    },
+    "minecraft:waxed_weathered_copper_chain": {
+      "rawStateId": 8291,
+      "state": "minecraft:waxed_weathered_copper_chain[axis=y,waterlogged=false]"
+    },
+    "minecraft:waxed_weathered_copper_chest": {
+      "rawStateId": 29713,
+      "state": "minecraft:waxed_weathered_copper_chest[facing=north,type=single,waterlogged=false]"
+    },
+    "minecraft:waxed_weathered_copper_door": {
+      "rawStateId": 28891,
+      "state": "minecraft:waxed_weathered_copper_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    "minecraft:waxed_weathered_copper_golem_statue": {
+      "rawStateId": 29953,
+      "state": "minecraft:waxed_weathered_copper_golem_statue[copper_golem_pose=standing,facing=north,waterlogged=false]"
+    },
+    "minecraft:waxed_weathered_copper_grate": {
+      "rawStateId": 29533,
+      "state": "minecraft:waxed_weathered_copper_grate[waterlogged=false]"
+    },
+    "minecraft:waxed_weathered_copper_lantern": {
+      "rawStateId": 20872,
+      "state": "minecraft:waxed_weathered_copper_lantern[hanging=false,waterlogged=false]"
+    },
+    "minecraft:waxed_weathered_copper_trapdoor": {
+      "rawStateId": 29407,
+      "state": "minecraft:waxed_weathered_copper_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    "minecraft:waxed_weathered_cut_copper": {
+      "rawStateId": 27798,
+      "state": "minecraft:waxed_weathered_cut_copper"
+    },
+    "minecraft:waxed_weathered_cut_copper_slab": {
+      "rawStateId": 28487,
+      "state": "minecraft:waxed_weathered_cut_copper_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:waxed_weathered_cut_copper_stairs": {
+      "rawStateId": 28299,
+      "state": "minecraft:waxed_weathered_cut_copper_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:waxed_weathered_lightning_rod": {
+      "rawStateId": 30179,
+      "state": "minecraft:waxed_weathered_lightning_rod[facing=up,powered=false,waterlogged=false]"
+    },
+    "minecraft:weathered_chiseled_copper": {
+      "rawStateId": 27802,
+      "state": "minecraft:weathered_chiseled_copper"
+    },
+    "minecraft:weathered_copper": {
+      "rawStateId": 27784,
+      "state": "minecraft:weathered_copper"
+    },
+    "minecraft:weathered_copper_bars": {
+      "rawStateId": 8085,
+      "state": "minecraft:weathered_copper_bars[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:weathered_copper_bulb": {
+      "rawStateId": 29547,
+      "state": "minecraft:weathered_copper_bulb[lit=false,powered=false]"
+    },
+    "minecraft:weathered_copper_chain": {
+      "rawStateId": 8267,
+      "state": "minecraft:weathered_copper_chain[axis=y,waterlogged=false]"
+    },
+    "minecraft:weathered_copper_chest": {
+      "rawStateId": 29617,
+      "state": "minecraft:weathered_copper_chest[facing=north,type=single,waterlogged=false]"
+    },
+    "minecraft:weathered_copper_door": {
+      "rawStateId": 28635,
+      "state": "minecraft:weathered_copper_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    "minecraft:weathered_copper_golem_statue": {
+      "rawStateId": 29825,
+      "state": "minecraft:weathered_copper_golem_statue[copper_golem_pose=standing,facing=north,waterlogged=false]"
+    },
+    "minecraft:weathered_copper_grate": {
+      "rawStateId": 29525,
+      "state": "minecraft:weathered_copper_grate[waterlogged=false]"
+    },
+    "minecraft:weathered_copper_lantern": {
+      "rawStateId": 20856,
+      "state": "minecraft:weathered_copper_lantern[hanging=false,waterlogged=false]"
+    },
+    "minecraft:weathered_copper_trapdoor": {
+      "rawStateId": 29151,
+      "state": "minecraft:weathered_copper_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]"
+    },
+    "minecraft:weathered_cut_copper": {
+      "rawStateId": 27794,
+      "state": "minecraft:weathered_cut_copper"
+    },
+    "minecraft:weathered_cut_copper_slab": {
+      "rawStateId": 28463,
+      "state": "minecraft:weathered_cut_copper_slab[type=bottom,waterlogged=false]"
+    },
+    "minecraft:weathered_cut_copper_stairs": {
+      "rawStateId": 27979,
+      "state": "minecraft:weathered_cut_copper_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    "minecraft:weathered_lightning_rod": {
+      "rawStateId": 30083,
+      "state": "minecraft:weathered_lightning_rod[facing=up,powered=false,waterlogged=false]"
+    },
+    "minecraft:weeping_vines": {
+      "rawStateId": 20977,
+      "state": "minecraft:weeping_vines[age=0]"
+    },
+    "minecraft:weeping_vines_plant": {
+      "rawStateId": 21003,
+      "state": "minecraft:weeping_vines_plant"
+    },
+    "minecraft:wet_sponge": {
+      "rawStateId": 561,
+      "state": "minecraft:wet_sponge"
+    },
+    "minecraft:wheat": {
+      "rawStateId": 5311,
+      "state": "minecraft:wheat[age=0]"
+    },
+    "minecraft:white_banner": {
+      "rawStateId": 12935,
+      "state": "minecraft:white_banner[rotation=8]"
+    },
+    "minecraft:white_bed": {
+      "rawStateId": 1934,
+      "state": "minecraft:white_bed[facing=north,occupied=false,part=foot]"
+    },
+    "minecraft:white_candle": {
+      "rawStateId": 23115,
+      "state": "minecraft:white_candle[candles=1,lit=false,waterlogged=false]"
+    },
+    "minecraft:white_candle_cake": {
+      "rawStateId": 23371,
+      "state": "minecraft:white_candle_cake[lit=false]"
+    },
+    "minecraft:white_carpet": {
+      "rawStateId": 12896,
+      "state": "minecraft:white_carpet"
+    },
+    "minecraft:white_concrete": {
+      "rawStateId": 15030,
+      "state": "minecraft:white_concrete"
+    },
+    "minecraft:white_concrete_powder": {
+      "rawStateId": 15046,
+      "state": "minecraft:white_concrete_powder"
+    },
+    "minecraft:white_glazed_terracotta": {
+      "rawStateId": 14966,
+      "state": "minecraft:white_glazed_terracotta[facing=north]"
+    },
+    "minecraft:white_shulker_box": {
+      "rawStateId": 14874,
+      "state": "minecraft:white_shulker_box[facing=up]"
+    },
+    "minecraft:white_stained_glass": {
+      "rawStateId": 7098,
+      "state": "minecraft:white_stained_glass"
+    },
+    "minecraft:white_stained_glass_pane": {
+      "rawStateId": 11491,
+      "state": "minecraft:white_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:white_terracotta": {
+      "rawStateId": 11444,
+      "state": "minecraft:white_terracotta"
+    },
+    "minecraft:white_tulip": {
+      "rawStateId": 2330,
+      "state": "minecraft:white_tulip"
+    },
+    "minecraft:white_wall_banner": {
+      "rawStateId": 13183,
+      "state": "minecraft:white_wall_banner[facing=north]"
+    },
+    "minecraft:white_wool": {
+      "rawStateId": 2293,
+      "state": "minecraft:white_wool"
+    },
+    "minecraft:wildflowers": {
+      "rawStateId": 30323,
+      "state": "minecraft:wildflowers[facing=north,flower_amount=1]"
+    },
+    "minecraft:wither_rose": {
+      "rawStateId": 2334,
+      "state": "minecraft:wither_rose"
+    },
+    "minecraft:wither_skeleton_skull": {
+      "rawStateId": 10971,
+      "state": "minecraft:wither_skeleton_skull[powered=false,rotation=0]"
+    },
+    "minecraft:wither_skeleton_wall_skull": {
+      "rawStateId": 10988,
+      "state": "minecraft:wither_skeleton_wall_skull[facing=north,powered=false]"
+    },
+    "minecraft:yellow_banner": {
+      "rawStateId": 12999,
+      "state": "minecraft:yellow_banner[rotation=8]"
+    },
+    "minecraft:yellow_bed": {
+      "rawStateId": 1998,
+      "state": "minecraft:yellow_bed[facing=north,occupied=false,part=foot]"
+    },
+    "minecraft:yellow_candle": {
+      "rawStateId": 23179,
+      "state": "minecraft:yellow_candle[candles=1,lit=false,waterlogged=false]"
+    },
+    "minecraft:yellow_candle_cake": {
+      "rawStateId": 23379,
+      "state": "minecraft:yellow_candle_cake[lit=false]"
+    },
+    "minecraft:yellow_carpet": {
+      "rawStateId": 12900,
+      "state": "minecraft:yellow_carpet"
+    },
+    "minecraft:yellow_concrete": {
+      "rawStateId": 15034,
+      "state": "minecraft:yellow_concrete"
+    },
+    "minecraft:yellow_concrete_powder": {
+      "rawStateId": 15050,
+      "state": "minecraft:yellow_concrete_powder"
+    },
+    "minecraft:yellow_glazed_terracotta": {
+      "rawStateId": 14982,
+      "state": "minecraft:yellow_glazed_terracotta[facing=north]"
+    },
+    "minecraft:yellow_shulker_box": {
+      "rawStateId": 14898,
+      "state": "minecraft:yellow_shulker_box[facing=up]"
+    },
+    "minecraft:yellow_stained_glass": {
+      "rawStateId": 7102,
+      "state": "minecraft:yellow_stained_glass"
+    },
+    "minecraft:yellow_stained_glass_pane": {
+      "rawStateId": 11619,
+      "state": "minecraft:yellow_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]"
+    },
+    "minecraft:yellow_terracotta": {
+      "rawStateId": 11448,
+      "state": "minecraft:yellow_terracotta"
+    },
+    "minecraft:yellow_wall_banner": {
+      "rawStateId": 13199,
+      "state": "minecraft:yellow_wall_banner[facing=north]"
+    },
+    "minecraft:yellow_wool": {
+      "rawStateId": 2297,
+      "state": "minecraft:yellow_wool"
+    },
+    "minecraft:zombie_head": {
+      "rawStateId": 11011,
+      "state": "minecraft:zombie_head[powered=false,rotation=0]"
+    },
+    "minecraft:zombie_wall_head": {
+      "rawStateId": 11028,
+      "state": "minecraft:zombie_wall_head[facing=north,powered=false]"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+# GPU variant. Render with envsubst before use (see deploy/README.md):
+#   envsubst '${SV_DATA_DIR} ${SV_OUT_DIR}' < kind-config.gpu.yaml > rendered.yaml
+# SV_DATA_DIR : read-only host directory holding weights and data; mounted at the same absolute path
+#               in the node (and in the Pod) so symlinks that point into it keep resolving.
+# SV_OUT_DIR  : writable host directory for run outputs, mounted at /mnt/sv-out in the node.
+# The node container must be created from an image that sets NVIDIA_VISIBLE_DEVICES to the one
+# allowed GPU, given by UUID (build-arg GPU, see deploy/kind/gpu-node.Dockerfile); the host Docker nvidia runtime then injects
+# that GPU's device nodes and driver libraries into the node container. No other /dev/nvidia*
+# mount is added here. Inside the node, containerd uses CDI (see deploy/kind/gpu-setup.sh).
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+networking:
+  apiServerAddress: "127.0.0.1"
+  apiServerPort: 36443
+nodes:
+  - role: control-plane
+    extraMounts:
+      - hostPath: ${SV_DATA_DIR}
+        containerPath: ${SV_DATA_DIR}
+        readOnly: true
+      - hostPath: ${SV_OUT_DIR}
+        containerPath: /mnt/sv-out

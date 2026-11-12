@@ -1,0 +1,29 @@
+# Stage 1: time-conditioned AdaLN DiT, i.i.d. random MD4 mask (46k steps in the original run).
+# Defaults for `python -m streamvoxel.train.train_base`; command-line flags win.
+# Source: the original 4-GPU run (first segment as in docs/training.md; later
+# segments resumed at lr 1e-5, ema 0.9, microbatch 32). Segment-by-segment lr history is not recorded here.
+data_dir: <unconditional_tile16_index_dir>
+tile_cache_dir: <compact304_tile_cache_dir>
+read_backend: compact_cache
+batch_prefetch: 4
+loader_prefetch: 8
+workers: 4
+time_conditioned: true
+depth: 25
+hidden_dim: 768
+heads: 8
+patch_size: 4
+mlp_ratio: 4.0
+global_batch: 512
+microbatch: 32        # 8 on 4090s; accumulation = global_batch / (microbatch * gpus)
+lr: 1.0e-4            # initial segment; the 38k->46k segments used 1.0e-5
+ema_decay: 0.99       # later segments used 0.9
+ema_update_every: 10
+seed: 20261009
+steps: 46000
+save_every: 1000
+eval_every: 1000
+eval_batch_size: 32
+eval_worlds: 16
+first_validation_step: 1
+sample_steps: 8

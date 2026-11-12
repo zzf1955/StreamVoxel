@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sv-smoke-cpu
+spec:
+  restartPolicy: Never
+  containers:
+    - name: smoke
+      image: busybox:latest
+      imagePullPolicy: IfNotPresent
+      command: ["sh", "-c", "echo hostname=$(hostname); sleep 3600"]

@@ -1,0 +1,97 @@
+# Elastic streaming: the coordinator of one world (CPU only, no GPU). Render with envsubst (deploy/kind/elastic-up.sh does it):
+#   envsubst '${SV_WORLD} ${SV_RUN_NAME} ${SV_IMAGE} ${SV_DATA_DIR} ${SV_UID} ${SV_GID}' < elastic-coordinator.yaml | kubectl apply -f -
+# SV_WORLD    : name of the world deployment (DNS label); one coordinator Deployment + Service + worker Deployment per world.
+# SV_RUN_NAME : run folder /mnt/sv-out/runs/<SV_RUN_NAME> on the output volume; must not exist (prepare creates it).
+# Needs ConfigMap sv-config-<world> (key config.json, with "listen": ["0.0.0.0", 7788]) and Secret sv-authkey-<world>
+# (key authkey, >= 16 bytes). The workers reach this Pod through the Service sv-coord-<world>:7788.
+# The Pod is ready while the session runs (metrics.json is refreshed); after the session ends it stays up, not ready,
+# so the run folder can still be read (kubectl exec / the viewer transport). A coordinator restart in the middle of a
+# session is not supported: the new container finds the run folder and fails.
+apiVersion: v1
+kind: Service
+metadata:
+  name: sv-coord-${SV_WORLD}
+  labels: {app: sv-coordinator, world: "${SV_WORLD}"}
+spec:
+  type: ClusterIP
+  selector: {app: sv-coordinator, world: "${SV_WORLD}"}
+  ports:
+    - {name: workers, port: 7788, targetPort: 7788, protocol: TCP}
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sv-coord-${SV_WORLD}
+  labels: {app: sv-coordinator, world: "${SV_WORLD}"}
+spec:
+  replicas: 1
+  strategy: {type: Recreate}   # never two coordinators of one world
+  selector:
+    matchLabels: {app: sv-coordinator, world: "${SV_WORLD}"}
+  template:
+    metadata:
+      labels: {app: sv-coordinator, world: "${SV_WORLD}"}
+    spec:
+      terminationGracePeriodSeconds: 90
+      securityContext:
+        runAsUser: ${SV_UID}
+        runAsGroup: ${SV_GID}
+        fsGroup: ${SV_GID}
+      containers:
+        - name: coordinator
+          image: ${SV_IMAGE}
+          imagePullPolicy: IfNotPresent
+          workingDir: /workspace
+          env:
+            - {name: SV_RUN, value: /mnt/sv-out/runs/${SV_RUN_NAME}}
+            - {name: SV_AUTHKEY_FILE, value: /etc/sv-auth/authkey}
+            - {name: HOME, value: /tmp}
+            - {name: USER, value: streamvoxel}
+            - {name: LOGNAME, value: streamvoxel}
+            - {name: CUDA_VISIBLE_DEVICES, value: ""}
+          ports:
+            - {name: workers, containerPort: 7788}
+          command: ["bash", "-c"]
+          args:
+            - |
+              set -u
+              if [ -e "$SV_RUN/results/summary.json" ] || [ -e "$SV_RUN/error.json" ]; then
+                echo "session in $SV_RUN has ended; idling (not ready)"
+                trap 'exit 0' TERM INT; while :; do sleep 3600 & wait $!; done
+              fi
+              if [ -e "$SV_RUN" ]; then
+                echo "$SV_RUN exists: a coordinator restart is not supported; use a new SV_RUN_NAME" >&2; exit 1
+              fi
+              mkdir -p "$SV_RUN" && cp /etc/sv-config/config.json "$SV_RUN/config.json" || exit 1
+              echo "START_EPOCH $(date +%s.%N)"
+              python -m streamvoxel.stream.session prepare --run "$SV_RUN" || exit 1
+              python -m streamvoxel.stream.session fresh --run "$SV_RUN" || exit 1
+              echo "PREPARED_EPOCH $(date +%s.%N)"
+              python -m streamvoxel.stream.session run --run "$SV_RUN" &
+              child=$!; term=0; rc=0
+              trap 'term=1; kill -TERM $child 2>/dev/null' TERM INT
+              while :; do wait $child; rc=$?; kill -0 $child 2>/dev/null || break; done   # a trapped signal interrupts wait
+              echo "END_EPOCH $(date +%s.%N) rc=$rc"
+              [ $term = 1 ] && exit $rc
+              trap 'exit 0' TERM INT; while :; do sleep 3600 & wait $!; done   # idle (not ready) so the run folder stays readable
+          readinessProbe:   # ready = the session loop is alive (metrics.json refreshed every 0.5 s) and not finished
+            exec:
+              command: ["sh", "-c", "f=$SV_RUN/metrics.json; [ -f $f ] && [ ! -e $SV_RUN/results/summary.json ] && [ ! -e $SV_RUN/error.json ] && [ $(( $(date +%s) - $(stat -c %Y $f) )) -lt 15 ]"]
+            periodSeconds: 2
+            failureThreshold: 3
+          resources:
+            requests: {cpu: "2", memory: 4Gi}
+          volumeMounts:
+            - {name: config, mountPath: /etc/sv-config, readOnly: true}
+            - {name: authkey, mountPath: /etc/sv-auth, readOnly: true}
+            - {name: data, mountPath: ${SV_DATA_DIR}, readOnly: true}
+            - {name: out, mountPath: /mnt/sv-out}
+      volumes:
+        - name: config
+          configMap: {name: sv-config-${SV_WORLD}}
+        - name: authkey
+          secret: {secretName: sv-authkey-${SV_WORLD}, defaultMode: 0440}
+        - name: data
+          hostPath: {path: ${SV_DATA_DIR}}
+        - name: out   # run folder (wire packets for the viewer, results, metrics.json); an emptyDir or PVC works the same way
+          hostPath: {path: /mnt/sv-out}

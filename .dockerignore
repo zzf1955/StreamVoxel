@@ -1,0 +1,10 @@
+.dev
+.git
+__pycache__
+*.pyc
+runs/
+data/
+**/*.pt
+**/*.safetensors
+.pytest_cache
+**/__pycache__

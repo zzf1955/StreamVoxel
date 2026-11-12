@@ -1,0 +1,35 @@
+# Stage 2: time-free base. Starts from the stage-1 step-46000 weights; the time MLP at t=0.5 is written into
+# constant_time and the MLP is frozen. Half the ranks use random MD4 masks, half use height-strata masks
+# (bands of 8 layers, independent t per band). Best step in the original run: 11000.
+# Original run chain: g1 (1 GPU, lr 1e-4, init+freeze) -> g2 -> g4 (4 GPUs, lr 1e-4, to step 10532)
+# -> g5 (resume, lr 1e-5 via --override-resume-lr, step 11000). Steps count from 0 after init.
+data_dir: <unconditional_tile16_index_dir>
+tile_cache_dir: <compact304_tile_cache_dir>
+read_backend: zstd_cache
+init_weights: <stage1_checkpoint_step046000.pt>
+timefree_arch: true
+freeze_time_at: 0.5
+half_mask: true
+strata_band: 8
+batch_prefetch: 4     # must be 0 on a single GPU (that rank alternates mask roles per step)
+loader_prefetch: 8
+workers: 6
+depth: 25
+hidden_dim: 768
+heads: 8
+patch_size: 4
+mlp_ratio: 4.0
+global_batch: 512
+microbatch: 8
+lr: 1.0e-4            # 1.0e-5 for the last segment (resume + override_resume_lr: true)
+ema_decay: 0.99
+ema_update_every: 10
+seed: 20261009
+steps: 0              # 0: run until stop_request.json / signal
+save_every: 1000
+eval_every: 1000
+first_validation_step: 1000
+eval_batch_size: 16
+eval_worlds: 2
+eval_include_test: true
+sample_steps: 8

@@ -1,0 +1,9 @@
+# Single-node kind cluster (kind removes the control-plane taint itself for a single node). CPU only.
+# apiServerPort: any free high port; override by editing this file.
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+networking:
+  apiServerAddress: "127.0.0.1"
+  apiServerPort: 36443   # change if occupied (check with `ss -ltn`)
+nodes:
+  - role: control-plane

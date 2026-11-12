@@ -1,0 +1,18 @@
+# Requires the GPU kind node (deploy/kind/gpu-setup.sh) and the NVIDIA device plugin.
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: sv-smoke-gpu
+spec:
+  backoffLimit: 0
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: smoke
+          image: nvidia/cuda:12.4.1-base-ubuntu22.04
+          imagePullPolicy: IfNotPresent
+          command: ["sh", "-c", "nvidia-smi -L; ls /dev/nvidia*"]
+          resources:
+            limits:
+              nvidia.com/gpu: 1

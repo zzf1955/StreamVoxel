@@ -1,0 +1,14 @@
+# Code-only refresh: put the current repository on top of an image built from deploy/docker/Dockerfile.
+# Build context = repository root. Use it when only the code changed (the full build downloads CUDA wheels and system
+# packages again whenever the layer cache is gone):
+#   docker build -f deploy/docker/Dockerfile.code --build-arg RUNTIME=sv-stream:<full-build tag> -t sv-stream:<new tag> .
+# The old /workspace is removed first, so files deleted from the repository do not linger (the code digest that the
+# coordinator compares covers every Python file of the package). Dependencies are not reinstalled (--no-deps): if
+# pyproject.toml changed its dependencies, do a full build instead.
+ARG RUNTIME
+FROM ${RUNTIME}
+RUN test -d /opt/venv && find /workspace -mindepth 1 -delete
+WORKDIR /workspace
+COPY . /workspace
+RUN pip install --no-cache-dir --no-deps . && python -c "import streamvoxel.stream.worker_main"
+ENV PYTHONPATH=/workspace

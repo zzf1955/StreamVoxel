@@ -1,0 +1,76 @@
+# Elastic streaming: GPU workers of one world, one GPU per Pod. Scale with `kubectl scale deployment sv-worker-<world> --replicas=N`.
+# Render with envsubst (deploy/kind/elastic-up.sh does it):
+#   envsubst '${SV_WORLD} ${SV_WORKER_NAME} ${SV_AUTH_SECRET} ${SV_IMAGE} ${SV_DATA_DIR} ${SV_UID} ${SV_GID} ${SV_CAPACITY} ${SV_WORKERS}' \
+#     < elastic-worker.yaml | kubectl apply -f -
+# SV_WORKER_NAME : Deployment name (normally sv-worker-<world>); SV_AUTH_SECRET: Secret with key `authkey` (normally sv-authkey-<world>).
+# SV_CAPACITY    : slots per GPU of the card type this Deployment runs on (see deploy/README.md); SV_WORKERS: initial replicas.
+# The worker finds the coordinator by the Service name, retries while it is not listening yet (Pods may start in any order),
+# loads the checkpoints from the read-only data volume (the paths in the coordinator's config; their hashes are checked
+# after loading), runs the numerical gate, and becomes ready (file /scratch/ready). The image must be the same as the
+# coordinator's: the coordinator refuses a worker whose code digest differs.
+# SIGTERM (scale down, rollout, pod delete) starts a drain: the worker finishes the windows it owns and exits 0.
+# terminationGracePeriodSeconds must be longer than the coordinator's drain_timeout_s (60 s by default).
+# No runtimeClassName: the GPU comes from the device plugin through CDI (the svgpu class would add every allowed card).
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ${SV_WORKER_NAME}
+  labels: {app: sv-worker, world: "${SV_WORLD}"}
+spec:
+  replicas: ${SV_WORKERS}
+  strategy:
+    type: RollingUpdate
+    rollingUpdate: {maxSurge: 0, maxUnavailable: 1}   # no extra Pod waiting for a GPU during an update
+  selector:
+    matchLabels: {app: sv-worker, world: "${SV_WORLD}", deployment: "${SV_WORKER_NAME}"}
+  template:
+    metadata:
+      labels: {app: sv-worker, world: "${SV_WORLD}", deployment: "${SV_WORKER_NAME}"}
+    spec:
+      terminationGracePeriodSeconds: 120
+      securityContext:
+        runAsUser: ${SV_UID}
+        runAsGroup: ${SV_GID}
+        fsGroup: ${SV_GID}
+      # nodeSelector: {nvidia.com/gpu.product: <product>}   # one Deployment per GPU type, each with its own SV_CAPACITY
+      containers:
+        - name: worker
+          image: ${SV_IMAGE}
+          imagePullPolicy: IfNotPresent
+          workingDir: /workspace
+          # exec form: python is PID 1 and receives SIGTERM itself (a shell in between would not forward it)
+          command: ["python", "-m", "streamvoxel.stream.worker_main"]
+          env:
+            - {name: SV_CONNECT, value: "sv-coord-${SV_WORLD}:7788"}
+            - {name: SV_CAPACITY, value: "${SV_CAPACITY}"}
+            - {name: SV_CONNECT_TIMEOUT, value: "600"}
+            - {name: SV_AUTHKEY_FILE, value: /etc/sv-auth/authkey}
+            - {name: SV_READY_FILE, value: /scratch/ready}
+            - {name: SV_WORKER_RUN, value: /scratch/run}
+            - {name: SV_NVSMI_INDEX, value: "0"}   # the Pod sees only its own card, as index 0
+            - {name: HOME, value: /tmp}
+            - {name: USER, value: streamvoxel}
+            - {name: LOGNAME, value: streamvoxel}
+            - {name: TRITON_CACHE_DIR, value: /cache/triton}
+            - {name: TORCHINDUCTOR_CACHE_DIR, value: /cache/inductor}
+          readinessProbe:
+            exec: {command: ["test", "-f", "/scratch/ready"]}
+            periodSeconds: 2
+            failureThreshold: 1
+          resources:
+            requests: {cpu: "4", memory: 8Gi}
+            limits: {nvidia.com/gpu: 1}
+          volumeMounts:
+            - {name: authkey, mountPath: /etc/sv-auth, readOnly: true}
+            - {name: data, mountPath: ${SV_DATA_DIR}, readOnly: true}
+            - {name: scratch, mountPath: /scratch}
+            - {name: cache, mountPath: /cache}
+      volumes:
+        - name: authkey
+          secret: {secretName: ${SV_AUTH_SECRET}, defaultMode: 0440}
+        - name: data
+          hostPath: {path: ${SV_DATA_DIR}}
+        - name: scratch   # slot logs, timing, trace npz of this worker (lost with the Pod)
+          emptyDir: {}
+        - name: cache     # torch.compile / Triton kernel cache: many small files, kept in memory (counts as Pod memory)
+          emptyDir: {medium: Memory, sizeLimit: 4Gi}
